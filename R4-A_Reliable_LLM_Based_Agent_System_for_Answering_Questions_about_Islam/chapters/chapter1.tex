@@ -1,0 +1,62 @@
+% Title (draft) - Enhancing Dar-ul-Ifta Efficiency with LLM-based Automated Islamic Query Systems
+
+\chapter{Introduction}
+\label{chap:intro}
+\chaptermark{Optional running chapter heading}
+\section{Research context}
+\label{sec:section}
+% \textcolor{red}{we should here leave full section for Fatwa to explain what is it and }
+
+% Muslims ask questions to know and follow their religion. Internet can be misleading.
+Muslims around the world often face numerous questions about Islamic practices, beliefs, and laws in their daily lives. These questions require accurate and reliable answers grounded in authoritative Islamic sources such as \textit{Quran}, \textit{Hadith} (a text containing things said by the Prophet Muhammad(May God's peace be upon him and his household) and descriptions of his daily life,used by Muslims as a spiritual guide) \cite{oxford-hadith} and established scholarly interpretations \cite{alghazali}.  Answers to such questions are termed \textit{fatwa} (plural fatawa), meaning an Islamic legal opinion issued by a qualified scholar in response to questions concerning Islamic Jurisprudence \cite{skovgaard1997defining}.
+ 
+While many individuals turn to the Internet for quick responses, the reliability and authenticity of online information can be questionable. Since there is no centralized system designed to monitor and control Islamic websites, there is a risk of disinformation and distortion of Islamic teachings on the internet \cite{wan2015information}. This creates a significant challenge, as Muslims need answers that are both trustworthy and accessible in the time of need.
+
+% Darul-ifta asnwers questions, but there are specific challenges.
+There are special organizations worldwide usually called Darul-Ifta, that answer general questions about Islam and issue fatawa.
+% (fatwa a religious ruling to a specific life situation \cite{coughlin1999encyclopedia}). 
+The goal of such an organization is to provide authentic and timely answers \cite{coughlin1999encyclopedia}.
+% not sure about last citation
+
+% Assumption is that there are two types of questions, the first type we can answer automatically, and second type we can redirect to a human specialist. Some questions can be targeted easily as they have been asked many times before and have a ready answer, we'll refer to them as FAQs, while other questions require a more thorough investigation and study of religious sources, as they can be about new unprecedented situations or have many specific factors that need to be taken into account.
+However, processing such questions require significant resources from an organization. On one hand, there are routine recurring questions that cause fatigue and still take time to reply. On another hand, there are new questions that necessitate a more thorough study of religious sources to answer and provide a justification. 
+
+It would be good to have a system that simplifies the work of organizations, so that they can do their job more effectively and efficiently.
+% One such organization is NamazApp. Within this paper, we collaborated with them to create a question answering system.
+The absence of a system that can provide immediate, authoritative responses increases the risk of relying on incorrect or misleading information. It highlights the need for an efficient solution to deliver accurate answers while ensuring that the information comes from reputable sources.
+     
+\section{Research problem}
+We need an effective and efficient solution that can handle questions automatically while preserving authenticity. There exist databases with questions and reliable answers from scholars and other tools that allow to search for similar or typical questions. Therefore, we suggest an autonomous LLM-based agent that could partially automate the answering process. 
+
+Our assumption is that we can divide all questions into two general kinds:
+standardized questions and complex questions. Standardized questions – easily answerable questions with pre-existing, universally accepted rulings that can be automated. Complex questions – questions dependent on variables like time, place, or individual circumstances, necessitating human expertise to analyze novel scenarios. 
+
+Our research goal is to create a system that would classify an incoming question as either standardized or complex, then answer standardized questions fully autonomously and assist experts handle complex questions more efficiently.
+
+% There are databases with answers [cite] and other tools that allow to do X [cite], but we suggest an autonomous agent that could handle at least a fraction of questions fully autonomously.
+
+% Given that some questions are easily answerable and some require further investigation, we could automate the former and possibly simplify the latter. 
+
+% Research goal or research question (emphasized).
+
+
+\section{Novelty and contributions}
+\label{sec:section}
+% Specificity of the field.
+Fully autonomous solutions are not easy in high-stakes situations \cite{budler2023review}. We target this challenge by integrating advanced reasoning, source referencing, and human oversight. 
+% To target the easily answerable questions and resolve them by itself with only the need of human monitoring.
+
+% We need to be able to differentiate between answerable and complex questions. This can be done by consulting the knowledge base (i.e. RAG).
+A key innovative aspect is the system's ability to distinguish between questions that can be answered automatically and those requiring human review. Simple, frequently asked questions will be addressed by the agent, while complex or \ignore{non-trivial} nuanced \ignore{maybe profound}questions will be flagged for human scholars to monitor and refine. This hybrid approach ensures efficiency in handling routine queries while preserving authenticity for more intricate issues.
+
+% Human monitoring: An authentic answer is an answer with clear reasoning and reference to the authoritative sources. Therefore agent should make it clear how the answer was arrived at.
+
+By integrating LLM-based Agent, and reasoning with source referencing and human oversight, this research advances automated religious query systems without compromising the reliability and trustworthiness essential in this domain.
+
+\section{Applications}
+\label{sec:section}
+This agent-based system is currently integrated into NamazApp e-learning mobile application, where users can submit questions and receive answers supported by our AI agent. The app enables religious mentors to efficiently address inquiries by leveraging the agent’s assistance, ensuring responses are both accurate and aligned with authentic sources.
+
+Moving forward, this system has the potential to be adapted for broader platforms like Darul-Ifta. By automating routine queries and prioritizing complex cases, it will allow scholars to focus on academic research and nuanced challenges. We believe this approach will significantly reduce response times while maintaining high-quality, reliable answers—both within NamazApp and in future implementations.
+
+% end of Introduction

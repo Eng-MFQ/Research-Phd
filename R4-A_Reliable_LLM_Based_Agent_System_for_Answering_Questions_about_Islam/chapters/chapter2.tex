@@ -1,0 +1,65 @@
+\chapter{Literature Review}
+\label{chap:lr}
+\chaptermark{Second Chapter Heading}
+
+\section{Navigation}
+
+The main goal of our work is to develop such a system that will enhance the efficiency of Dar-ul-ifta 
+organizations, preserving the authenticity. In this chapter, we investigate different approaches to creating question-answering systems in general and particularly in a field of Islamic fatwas. In Section 2.2 we describe the existing approaches of using AI in fatwa issuance. In Section 2.3 we analyze what LLM-based agent systems are, what their advantages and weaknesses are, and how they can be utilized to create a question-answering system in different domains. Section 2.4 explores Retrieval-Augmented Generation (RAG) and its integration with vector databases for production-ready systems, including recent Islamic implementations. Section 2.5 examines human-AI collaboration paradigms (HITL vs. AI-in-the-Loop) to frame operational workflows
+
+\section{AI in Islamic fatwa issuance}
+
+Question answering systems for Islam have been developed for over two decades.
+Hamdelsayed and Atwell \cite{hamdelsayed2016islamic} present a question answering system that outputs relevant verses of Quran. They also cite general theory on question answering systems stating that they usually consist of three parts: question classification, information retrieval, and answer extraction. Interestingly, in our case the step can be same but in a different sequence.
+% Add glossary
+Also, Abdi et.al \cite{abdi2020question} did the same with Hadiths but they used semantic and syntactic similarity of the sentence-to-sentence and sentence-to-query to avoid retrieving texts with superficial lexical overlap but divergent meanings. In a parallel technical approach, Wiharja et al. \cite{wiharja2022questions} pioneered a knowledge graph approach for Hadith QA, achieving 95 percentage top-1 accuracy through semantic matching techniques.
+
+Malhas et al. \cite{malhas2023qur}  later organized a Quran QA shared task, creating datasets to benchmark retrieval and reading comprehension systems. Although their work improved handling of complex cases like detecting unanswerable questions and extracting fragmented answers across verses. Munshi et al. \cite{munshi2021towards} highlight the crucial role of data in developing AI-based answering system. They introduce baseline models for topic classification, topic modeling, and retrieval-based question-answering, setting a benchmark for future research. The proposed system is task-oriented and closed-domain, designed to function in a context-free manner using both retrieval-based and generative AI approaches. They collected a dataset of 850k fatwas from trusted sources (e.g. the Egyptian Dar al-Ifta resources) and sources that might contain unverified fatwas (e.g. popular Islamic websites, social media pages). They pay attention to data preparation, such as classification by topic and authenticity. In addition, they cluster data by time and region. However, their work has limitations, such as relying on older models and focusing only on Arabic. Additionally, since the paper was written in 2022, they lacked access to the powerful LLMs available today and acknowledged the absence of a generative system to synthesize answers.
+
+Most recently, Rizqullah et al. \cite{rizqullah2023qasina} revealed critical theological limitations when applying LLMs to Islamic QA through their Indonesian Sirah Nabawiyah dataset (QASiNa), showing generative models inherently violate principles of \textit{Tafseer} (tafsiir - Explaining the meaning of Quranic text) \cite{saleh2011dictionary}.
+Concurrently, Latif et al. \cite{qamar2024benchmark} established one of the largest Islamic QA benchmark to date - 73k+ context-rich question-answer pairs for Quranic Tafsir and Hadith explanations. Their benchmark revealed a critical evaluation gap: automatic metrics like ROUGE showed poor alignment (11-20 percentage consistency) with scholarly assessments of answer quality, highlighting the need for domain-sensitive evaluation methods.
+
+Our paper aims to fill these gaps by integrating modern LLMs and RAG methods to develop an agent-based question answering system that respects Islamic theological constraints while leveraging state-of-the-art AI techniques.
+
+\section{LLM-based Agent Systems}
+
+According to Huang et al. \cite{xi2023rise}, LLM-based agent systems are AI tools that use large language models to understand natural language, provide responses, and help with tasks such as customer support, knowledge retrieval, and automated decision making. These systems take advantage of their capacity to handle complex conversations, generate, and process text from large datasets, which makes them adaptable to a variety of applications. Their primary benefits also include creating human-like interactions and scaling well for large user bases.
+
+However, the authors noted several limitations. These include a tendency to produce incorrect or misleading information, known as hallucination, and difficulty with domain-specific tasks that require fine-tuning. They also require significant computational resources and face challenges in ensuring privacy and updating real-time knowledge. Despite these challenges, LLM-based systems are increasingly being used in customer support, with ongoing research focused on improving their accuracy and adaptability.
+
+The relevant article by Omar et al. \cite{zong2024triad} discusses a framework called Triad, which uses multiple LLM-based agents to answer questions by interacting with knowledge bases like DBpedia and YAGO. The framework relies on three key agents: the Generation Agent, which generates the SPARQL query templates; the Decision-Making Agent, which filters and selects the relevant entities, relations, and queries; and the Advisory Agent, which provides comprehensive answers by either using the knowledge base or the LLM's internal knowledge. Nevertheless, the authors highlighted several limitations, including the high computational cost of the framework and the challenges in handling ambiguities or missing information from knowledge bases. 
+
+
+
+\section{Product-ready RAG}
+
+Building on the strengths of large language models (LLMs), Retrieval-Augmented Generation (RAG) offers a complementary paradigm that addresses key challenges of LLM-based systems. Although LLMs can handle complex conversations and generate text from large datasets, they have problems with outdated knowledge, long-tail queries, and the computational cost of training and inference. As described in \cite{zhao2024retrieval}, RAG enhances the generative process by integrating an information retrieval component that dynamically retrieves relevant data from external sources.  
+
+Vector databases (VecDBs) form a critical infrastructure for operational RAG implementations. As noted by Zhou et al. \cite{jing2025large}, these systems enable optimized storage and intelligent retrieval of specialized knowledge to minimize factual errors in AI outputs. They also incorporate semantic caching mechanisms, like GPT-Cache, which significantly decrease expenses by eliminating redundant language-model API requests while improving response speed. By systematically organizing historical question-answer interactions, VecDBs anchor generated content in current real-world context rather than relying solely on a model's original training data. This allows RAG systems to produce more accurate, contextually relevant, and up-to-date responses without the need to retrain the entire model.
+
+Recent domain-specific implementations demonstrate the efficacy of RAGs for sensitive applications. MufassirQAS \cite{yusuf2024rag} deployed a RAG system for Islamic question answering using FAISS vector storage of religious texts (Quran translations, hadith collections, and catechisms). Their pipeline featured dual semantic/keyword retrieval and response generation with source citation. The results showed superior reliability versus ChatGPT: reduced ambiguity, explicit sourcing of rulings, and definitive answers to contentious questions (e.g., evolution in Islam). Limitations included occasional fragmented responses from chunked retrieval and challenges connecting multi-source contexts. This validates the capacity of the RAG to ground theological responses in authoritative sources while maintaining transparency.
+\section{Human-AI collaboration paradigms}
+
+Recent human-AI collaboration frameworks diverge into two paradigms: Human-in-the-loop (HITL) systems position humans as primary decision-makers with AI assistance, while AI-in-the-loop (AITL) systems prioritize AI automation with human validation for complex cases \cite{natarajan2025human}. While both systems incorporate human expertise, HITL prioritizes human control (e.g., scholars directing fatwa issuance), whereas AI2L optimizes processes under AI governance (e.g., automated responses with human oversight). Critically, evaluating these systems requires different metrics: HITL focuses on human effectiveness, while AI2L emphasizes AI accuracy.
+
+\section{Conclusion}
+
+This chapter reviewed various approaches to question-answering systems, particularly their application in Islamic fatwa issuance. Some of the observed systems have demonstrated the importance of data classification, information retrieval, and answer extraction, while others that are using large language models (LLMs) have introduced powerful generative capabilities. However, LLMs face challenges with domain-specific accuracy, outdated knowledge, hallucination, and computational costs.
+
+Retrieval-Augmented Generation (RAG) emerged as a robust solution, augmented by vector databases for efficient domain-knowledge storage and semantic retrieval. Human-AI collaboration paradigms further clarified operational designs, balancing automation with scholarly oversight. 
+
+
+% How we will do it
+
+
+% Related work
+
+
+
+
+% Structure
+
+% Some introductiory paragraph describing what is being discussed in the chapter
+% Should be some investigation of rq
+
+% Sections about different RQs
