@@ -1,0 +1,19 @@
+{
+   "sources" : [
+      {
+         "usage" : "toplevel",
+         "filename" : "aaai25.tex"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "aaai25.bib"
+      },
+      {
+         "usage" : "ignore",
+         "filename" : "aaai25.bst"
+      }
+   ],
+   "process" : {
+      "compiler" : "pdflatex"
+   }
+}

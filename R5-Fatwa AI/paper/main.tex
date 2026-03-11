@@ -1,0 +1,118 @@
+%File: main.tex
+\documentclass[letterpaper]{article}
+\usepackage{aaai25}
+\usepackage{times}  
+\usepackage{helvet}  
+\usepackage{courier}  
+\usepackage[hyphens]{url}  
+\usepackage{graphicx} 
+\usepackage{tabularx} 
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+
+\urlstyle{rm} 
+\def\UrlFont{\rm}  
+\usepackage{natbib}  
+\usepackage{caption} 
+\frenchspacing  
+\setlength{\pdfpagewidth}{8.5in} 
+\setlength{\pdfpageheight}{11in} 
+\pdfinfo{
+/Title (Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries)
+/Author (Muwaffaq Imam)
+/TemplateVersion (2025.1)
+}
+
+\setcounter{secnumdepth}{2}
+
+\title{Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries}
+\author {
+    Muwaffaq Imam\textsuperscript{\rm 1}
+}
+\affiliations {
+    \textsuperscript{\rm 1}Innopolis University\\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Large Language Models (LLMs) are increasingly being used to generate religious advice. However, their reliability in delivering authoritative Fiqh rulings needs rigorous evaluation. We present an evaluation of state-of-the-art LLMs (Gemini 2.5 Flash and GPT-5.1) on a validated dataset of 10,000 Questions and Answers (Q\&A) based on the Hanafi school of jurisprudence. Our study aims to establish a baseline for LLM reliability and precision in answering Fiqh questions.
+\end{abstract}
+
+\section{Introduction}
+
+The application of Artificial Intelligence and Large Language Models (LLMs) in Islamic Studies presents both opportunities and challenges. While previously explored in the context of Hadith authentication and semantic search (Ahadeeth.AI), there is a pressing need to evaluate their capabilities in generating religious rulings (Fatwas) according to specific schools of thought, particularly the Hanafi school. Our study evaluates if LLMs can be trusted to provide reliable and accurate Fatawa.
+
+\section{Ahadeeth.AI: Context and Prior Work}
+Riyadh al-Salihin is a cornerstone of Hadith literature comprising 1,896 authenticated narrations. Traditional search is lexical and often misses intent or context. By leveraging LLMs and semantic search, we allow users to search by meaning. We used Generative AI (GPT-4) to create descriptive titles and applied OpenAI text-embedding-3-large combined with Vector Databases (FAISS, Chroma, Qdrant) and Cohere rerank-multilingual-v2.0 to significantly modernize accessibility.
+
+\section{Fatawa AI: Dataset and Methodology}
+We focus on Islamic Jurisprudence (Fiqh) rulings, specifically from the Hanafi school of thought. 
+\subsection{Dataset Construction}
+Our dataset consists of 10,000 Q\&A pairs from the Hanafi school, with answers authenticated by a domain expert. We scraped and collected raw Q\&A data into a JSON format. The domain expert prepared a thematic structure for categorization across 10 main categories and 92 sub-categories. 
+We used Cosine Similarity on Q\&A text embeddings to categorize each pair, and the domain expert manually checked and validated the categorization. We confirmed 100\% accuracy in categorization and 100\% correctness in answers based on expert evaluation.
+
+\subsection{Evaluation Methodology}
+We aim to check if LLMs can answer Hanafi School questions based solely on their internal knowledge. We extracted a sample of 300 questions from the top 5 most popular categories (60 questions each).
+The evaluated LLMs are Gemini 2.5 Flash and GPT-5.1. 
+
+We employed Claude as an LLM-as-a-judge to determine if the generated answers were semantically identical to the domain expert's ground-truth answers. Responses were scored as:
+\begin{itemize}
+    \item \textbf{-1}: Contradictory or opposite (wrong answer).
+    \item \textbf{0}: Agree and disagree in some aspects (partially correct).
+    \item \textbf{1}: Identical meaning (correct).
+\end{itemize}
+
+\section{Results}
+We evaluate Simple Accuracy, calculated as the percentage of results scored +1 (identical meaning) by the judge.
+
+\begin{equation}
+Accuracy=\frac{\text{Count of +1 Scores}}{\text{Total Number of Results}} \times 100\%
+\end{equation}
+
+\subsection{Overall Accuracy}
+Table \ref{tab:overall} shows the overall performance of the models. Gemini-2.5-Flash achieved a 46.49\% accuracy, outperforming GPT-5.1 by 2.97 percentage points. This suggests a slight but notable difference in the models' ability to replicate precise, authoritative rulings.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{LLM Model} & \textbf{Evaluated (N)} & \textbf{Correct (+1)} & \textbf{Accuracy} \\
+\midrule
+GPT-5.1 & 301 & 131 & 43.52\% \\
+Gemini-2.5-Flash & 299 & 139 & 46.49\% \\
+\bottomrule
+\end{tabular}
+\caption{Total Evaluation and Simple Accuracy}
+\label{tab:overall}
+\end{table}
+
+\subsection{Cross-Category Performance}
+We further analyzed performance across the 5 categories (see Table \ref{tab:categories}). The context heavily influences model reliability. Gemini-2.5-Flash shows marked superiority in handling rulings related to Ethics/Purification and Acts of Worship. Conversely, GPT-5.1 demonstrates a stronger grasp of Family Law (Marriage/Divorce) and Dress/Adornment, which involve detailed, specific conditions.
+
+\begin{table*}[h!]
+\centering
+\begin{tabular}{p{3cm} p{4cm} p{2cm} p{3.5cm} p{2cm}}
+\toprule
+\textbf{Category (Arabic)} & \textbf{Category (English)} & \textbf{GPT-5.1 Accuracy} & \textbf{Gemini-2.5-Flash Accuracy} & \textbf{Winner} \\
+\midrule
+Mu'amalat & Transactions and Trusts & 41.67\% (25/60) & 42.37\% (25/59) & Gemini-2.5-Flash \\
+Hazr & Prohibition, Dress, Adornment & 46.67\% (28/60) & 43.33\% (26/60) & GPT-5.1 \\
+Dhikr & Remembrance, Purification, Ethics & 39.34\% (24/61) & \textbf{51.67\%} (31/60) & Gemini-2.5-Flash \\
+Zawaj & Marriage, Divorce, Expenditures & \textbf{55.00\%} (33/60) & 51.67\% (31/60) & GPT-5.1 \\
+Ibadat & Acts of Worship & 35.00\% (21/60) & 43.33\% (26/60) & Gemini-2.5-Flash \\
+\bottomrule
+\end{tabular}
+\caption{Cross-Category Performance Comparison}
+\label{tab:categories}
+\end{table*}
+
+\section{Conclusion and Future Work}
+Our findings demonstrate that LLMs have the potential to answer Jurisprudence questions but still struggle to consistently match expert-level reliability, with peak accuracies hovering around 55\%. Future work involves verifying the LLM judge using Krippendorff's Alpha, expanding to new Arabic LLMs, comparing base models with RAG-LLM systems, and incorporating less popular Fiqh categories. Ultimately, an AI Agent for Fatwas based on a Retrieval-Augmented Generation approach shows great potential, as demonstrated by early adoption that successfully answered over 4,000 questions and assisted domain experts.
+
+\bibliography{main}
+
+\end{document}

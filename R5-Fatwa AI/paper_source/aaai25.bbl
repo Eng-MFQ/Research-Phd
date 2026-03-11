@@ -1,0 +1,164 @@
+\begin{thebibliography}{32}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Abdelnasser et~al.(2014)Abdelnasser, Ragab, Mohamed, Mohamed, Farouk, El-Makky, and Torki}]{abdelnasser2014bayan}
+Abdelnasser, H.; Ragab, M.; Mohamed, R.; Mohamed, A.; Farouk, B.; El-Makky, N.~M.; and Torki, M. 2014.
+\newblock Al-Bayan: an Arabic question answering system for the Holy Quran.
+\newblock In \emph{Proceedings of the EMNLP 2014 Workshop on Arabic Natural Language Processing (ANLP)}, 57--64.
+
+\bibitem[{Ahdritz et~al.(2024)Ahdritz, Qin, Vyas, Barak, and Edelman}]{ahdritz2024distinguishing}
+Ahdritz, G.; Qin, T.; Vyas, N.; Barak, B.; and Edelman, B.~L. 2024.
+\newblock Distinguishing the knowable from the unknowable with language models.
+\newblock \emph{arXiv preprint arXiv:2402.03563}.
+
+\bibitem[{Alqahtani and Atwell(2018)}]{alqahtani2018annotated}
+Alqahtani, M.; and Atwell, E. 2018.
+\newblock Annotated corpus of arabic al-quran question and answer.
+
+\bibitem[{Bai et~al.(2024)Bai, Liu, Bu, He, Liu, Zhou, Lin, Su, Ge, Zheng et~al.}]{bai2024mt}
+Bai, G.; Liu, J.; Bu, X.; He, Y.; Liu, J.; Zhou, Z.; Lin, Z.; Su, W.; Ge, T.; Zheng, B.; et~al. 2024.
+\newblock Mt-bench-101: A fine-grained benchmark for evaluating large language models in multi-turn dialogues.
+\newblock \emph{arXiv preprint arXiv:2402.14762}.
+
+\bibitem[{Bari et~al.(2024)Bari, Alnumay, Alzahrani, Alotaibi, Alyahya, AlRashed, Mirza, Alsubaie, Alahmed, Alabduljabbar et~al.}]{bari2024allam}
+Bari, M.~S.; Alnumay, Y.; Alzahrani, N.~A.; Alotaibi, N.~M.; Alyahya, H.~A.; AlRashed, S.; Mirza, F.~A.; Alsubaie, S.~Z.; Alahmed, H.~A.; Alabduljabbar, G.; et~al. 2024.
+\newblock Allam: Large language models for arabic and english.
+\newblock \emph{arXiv preprint arXiv:2407.15390}.
+
+\bibitem[{Dang et~al.(2024)Dang, Singh, D'souza, Ahmadian, Salamanca, Smith, Peppin, Hong, Govindassamy, Zhao et~al.}]{dang2024aya}
+Dang, J.; Singh, S.; D'souza, D.; Ahmadian, A.; Salamanca, A.; Smith, M.; Peppin, A.; Hong, S.; Govindassamy, M.; Zhao, T.; et~al. 2024.
+\newblock Aya expanse: Combining research breakthroughs for a new multilingual frontier.
+\newblock \emph{arXiv preprint arXiv:2412.04261}.
+
+\bibitem[{Fernández et~al.(2025)Fernández, de~Mendonça, Matteo, and Tighe}]{antiquaetnova2025}
+Fernández, V. M.~C.; de~Mendonça, J. C.~T.; Matteo, M.~A.; and Tighe, M. R.~P. 2025.
+\newblock Antiqua et Nova: Note on the Relationship Between Artificial Intelligence and Human Intelligence.
+\newblock Official note by the Dicastery for the Doctrine of the Faith and the Dicastery for Culture and Education.
+\newblock Issued in Rome on the Liturgical Memorial of Saint Thomas Aquinas, Doctor of the Church.
+
+\bibitem[{Hurst et~al.(2024)Hurst, Lerer, Goucher, Perelman, Ramesh, Clark, Ostrow, Welihinda, Hayes, Radford et~al.}]{hurst2024gpt}
+Hurst, A.; Lerer, A.; Goucher, A.~P.; Perelman, A.; Ramesh, A.; Clark, A.; Ostrow, A.; Welihinda, A.; Hayes, A.; Radford, A.; et~al. 2024.
+\newblock Gpt-4o system card.
+\newblock \emph{arXiv preprint arXiv:2410.21276}.
+
+\bibitem[{Kasai et~al.(2023)Kasai, Sakaguchi, Le~Bras, Asai, Yu, Radev, Smith, Choi, Inui et~al.}]{kasai2023realtime}
+Kasai, J.; Sakaguchi, K.; Le~Bras, R.; Asai, A.; Yu, X.; Radev, D.; Smith, N.~A.; Choi, Y.; Inui, K.; et~al. 2023.
+\newblock Realtime qa: What's the answer right now?
+\newblock \emph{Advances in neural information processing systems}, 36: 49025--49043.
+
+\bibitem[{Kim and Thorne(2024)}]{kim2024epistemology}
+Kim, M.; and Thorne, J. 2024.
+\newblock Epistemology of Language Models: Do Language Models Have Holistic Knowledge?
+\newblock \emph{arXiv preprint arXiv:2403.12862}.
+
+\bibitem[{Kojima et~al.(2022)Kojima, Gu, Reid, Matsuo, and Iwasawa}]{kojima2022large}
+Kojima, T.; Gu, S.~S.; Reid, M.; Matsuo, Y.; and Iwasawa, Y. 2022.
+\newblock Large language models are zero-shot reasoners.
+\newblock \emph{Advances in neural information processing systems}, 35: 22199--22213.
+
+\bibitem[{Koto et~al.(2024)Koto, Li, Shatnawi, Doughman, Sadallah, Alraeesi, Almubarak, Alyafeai, Sengupta, Shehata et~al.}]{koto2024arabicmmlu}
+Koto, F.; Li, H.; Shatnawi, S.; Doughman, J.; Sadallah, A.~B.; Alraeesi, A.; Almubarak, K.; Alyafeai, Z.; Sengupta, N.; Shehata, S.; et~al. 2024.
+\newblock Arabicmmlu: Assessing massive multitask language understanding in arabic.
+\newblock \emph{arXiv preprint arXiv:2402.12840}.
+
+\bibitem[{Lin, Hilton, and Evans(2021)}]{lin2021truthfulqa}
+Lin, S.; Hilton, J.; and Evans, O. 2021.
+\newblock Truthfulqa: Measuring how models mimic human falsehoods.
+\newblock \emph{arXiv preprint arXiv:2109.07958}.
+
+\bibitem[{Liu et~al.(2023)Liu, Iter, Xu, Wang, Xu, and Zhu}]{liu2023g}
+Liu, Y.; Iter, D.; Xu, Y.; Wang, S.; Xu, R.; and Zhu, C. 2023.
+\newblock G-eval: NLG evaluation using gpt-4 with better human alignment.
+\newblock \emph{arXiv preprint arXiv:2303.16634}.
+
+\bibitem[{Madhusudhan et~al.(2024)Madhusudhan, Madhusudhan, Yadav, and Hashemi}]{madhusudhan2024llms}
+Madhusudhan, N.; Madhusudhan, S.~T.; Yadav, V.; and Hashemi, M. 2024.
+\newblock Do llms know when to not answer? investigating abstention abilities of large language models.
+\newblock \emph{arXiv preprint arXiv:2407.16221}.
+
+\bibitem[{Malhas and Elsayed(2020)}]{malhas2020ayatec}
+Malhas, R.; and Elsayed, T. 2020.
+\newblock Ayatec: building a reusable verse-based test collection for arabic question answering on the holy qur’an.
+\newblock \emph{ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)}, 19(6): 1--21.
+
+\bibitem[{Malhas, Mansour, and Elsayed(2023)}]{malhas-etal-2023-quran}
+Malhas, R.; Mansour, W.; and Elsayed, T. 2023.
+\newblock Qur`an {QA} 2023 Shared Task: Overview of Passage Retrieval and Reading Comprehension Tasks over the Holy Qur`an.
+\newblock In Sawaf, H.; El-Beltagy, S.; Zaghouani, W.; Magdy, W.; Abdelali, A.; Tomeh, N.; Abu~Farha, I.; Habash, N.; Khalifa, S.; Keleg, A.; Haddad, H.; Zitouni, I.; Mrini, K.; and Almatham, R., eds., \emph{Proceedings of ArabicNLP 2023}, 690--701. Singapore (Hybrid): Association for Computational Linguistics.
+
+\bibitem[{Mohammed, Amin, and Aref(2022)}]{mohammed2022english}
+Mohammed, M.; Amin, S.; and Aref, M.~M. 2022.
+\newblock An english islamic articles dataset (eiad) for developing an islambot question answering chatbot.
+\newblock In \emph{2022 5th International Conference on Computing and Informatics (ICCI)}, 303--309. IEEE.
+
+\bibitem[{Niu et~al.(2023)Niu, Wu, Zhu, Xu, Shum, Zhong, Song, and Zhang}]{niu2023ragtruth}
+Niu, C.; Wu, Y.; Zhu, J.; Xu, S.; Shum, K.; Zhong, R.; Song, J.; and Zhang, T. 2023.
+\newblock Ragtruth: A hallucination corpus for developing trustworthy retrieval-augmented language models.
+\newblock \emph{arXiv preprint arXiv:2401.00396}.
+
+\bibitem[{Patel, Kane, and Patel(2023)}]{patel2023building}
+Patel, S.; Kane, H.; and Patel, R. 2023.
+\newblock Building Domain-Specific LLMs Faithful To The Islamic Worldview: Mirage or Technical Possibility?
+\newblock \emph{arXiv preprint arXiv:2312.06652}.
+
+\bibitem[{Qamar, Latif, and Latif(2024)}]{qamar2024benchmark}
+Qamar, F.; Latif, S.; and Latif, R. 2024.
+\newblock A Benchmark Dataset with Larger Context for Non-Factoid Question Answering over Islamic Text.
+\newblock \emph{arXiv preprint arXiv:2409.09844}.
+
+\bibitem[{Rajpurkar et~al.(2016)Rajpurkar, Zhang, Lopyrev, and Liang}]{rajpurkar2016squad}
+Rajpurkar, P.; Zhang, J.; Lopyrev, K.; and Liang, P. 2016.
+\newblock Squad: 100,000+ questions for machine comprehension of text.
+\newblock \emph{arXiv preprint arXiv:1606.05250}.
+
+\bibitem[{Rizqullah, Purwarianti, and Aji(2023)}]{rizqullah2023qasina}
+Rizqullah, M.~R.; Purwarianti, A.; and Aji, A.~F. 2023.
+\newblock QASiNa: Religious Domain Question Answering Using Sirah Nabawiyah.
+\newblock In \emph{2023 10th International Conference on Advanced Informatics: Concept, Theory and Application (ICAICTA)}, 1--6. IEEE.
+
+\bibitem[{R{\"o}ttger et~al.(2024)R{\"o}ttger, Kirk, Vidgen, Attanasio, Bianchi, and Hovy}]{rottger-etal-2024-xstest}
+R{\"o}ttger, P.; Kirk, H.; Vidgen, B.; Attanasio, G.; Bianchi, F.; and Hovy, D. 2024.
+\newblock {XST}est: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models.
+\newblock In Duh, K.; Gomez, H.; and Bethard, S., eds., \emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)}, 5377--5400. Mexico City, Mexico: Association for Computational Linguistics.
+
+\bibitem[{Song et~al.(2024)Song, Wang, Zhu, Wu, Cheng, Zhong, and Niu}]{song2024rag}
+Song, J.; Wang, X.; Zhu, J.; Wu, Y.; Cheng, X.; Zhong, R.; and Niu, C. 2024.
+\newblock RAG-HAT: A Hallucination-Aware Tuning Pipeline for LLM in Retrieval-Augmented Generation.
+\newblock In \emph{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track}, 1548--1558.
+
+\bibitem[{Team et~al.(2025)Team, Abbas, Ahmad, Alam, Altinisik, Asgari, Boshmaf, Boughorbel, Chawla, Chowdhury et~al.}]{team2025fanar}
+Team, F.; Abbas, U.; Ahmad, M.~S.; Alam, F.; Altinisik, E.; Asgari, E.; Boshmaf, Y.; Boughorbel, S.; Chawla, S.; Chowdhury, S.; et~al. 2025.
+\newblock Fanar: An Arabic-Centric Multimodal Generative AI Platform.
+\newblock \emph{arXiv preprint arXiv:2501.13944}.
+
+\bibitem[{Team et~al.(2023)Team, Anil, Borgeaud, Alayrac, Yu, Soricut, Schalkwyk, Dai, Hauth, Millican et~al.}]{team2023gemini}
+Team, G.; Anil, R.; Borgeaud, S.; Alayrac, J.-B.; Yu, J.; Soricut, R.; Schalkwyk, J.; Dai, A.~M.; Hauth, A.; Millican, K.; et~al. 2023.
+\newblock Gemini: a family of highly capable multimodal models.
+\newblock \emph{arXiv preprint arXiv:2312.11805}.
+
+\bibitem[{Team et~al.(2024)Team, Riviere, Pathak, Sessa, Hardin, Bhupatiraju, Hussenot, Mesnard, Shahriari, Ram{\'e} et~al.}]{team2024gemma}
+Team, G.; Riviere, M.; Pathak, S.; Sessa, P.~G.; Hardin, C.; Bhupatiraju, S.; Hussenot, L.; Mesnard, T.; Shahriari, B.; Ram{\'e}, A.; et~al. 2024.
+\newblock Gemma 2: Improving open language models at a practical size.
+\newblock \emph{arXiv preprint arXiv:2408.00118}.
+
+\bibitem[{Wiharja et~al.(2022)Wiharja, Murdiansyah, Romdlony, Ramdhani, and Gandidi}]{wiharja2022questions}
+Wiharja, K. R.~S.; Murdiansyah, D.~T.; Romdlony, M.~Z.; Ramdhani, T.; and Gandidi, M.~R. 2022.
+\newblock A Questions Answering System on Hadith Knowledge Graph.
+\newblock \emph{Journal of ICT Research \& Applications}, 16(2).
+
+\bibitem[{Yuan, Neubig, and Liu(2021)}]{yuan2021bartscore}
+Yuan, W.; Neubig, G.; and Liu, P. 2021.
+\newblock Bartscore: Evaluating generated text as text generation.
+\newblock \emph{Advances in neural information processing systems}, 34: 27263--27277.
+
+\bibitem[{Zhang et~al.(2019)Zhang, Kishore, Wu, Weinberger, and Artzi}]{zhang2019bertscore}
+Zhang, T.; Kishore, V.; Wu, F.; Weinberger, K.~Q.; and Artzi, Y. 2019.
+\newblock Bertscore: Evaluating text generation with bert.
+\newblock \emph{arXiv preprint arXiv:1904.09675}.
+
+\bibitem[{Zhong et~al.(2022)Zhong, Liu, Yin, Mao, Jiao, Liu, Zhu, Ji, and Han}]{zhong2022towards}
+Zhong, M.; Liu, Y.; Yin, D.; Mao, Y.; Jiao, Y.; Liu, P.; Zhu, C.; Ji, H.; and Han, J. 2022.
+\newblock Towards a unified multi-dimensional evaluator for text generation.
+\newblock \emph{arXiv preprint arXiv:2210.07197}.
+
+\end{thebibliography}
