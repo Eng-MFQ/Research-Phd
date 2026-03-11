@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  26 FEB 2026 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  11 MAR 2026 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,8 +204,8 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count288
 \c@continuedfloat=\count289
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-7.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
+0.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -218,20 +218,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 (/usr/local/texlive/2025basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -264,13 +264,9 @@ Package caption Info: End \AtBeginDocument code.
 \actualheight=\skip59
 
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-4.
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (32.5836pt too wide) in paragraph at lines 81--89
- [][] 
+
+Underfull \hbox (badness 1895) in paragraph at lines 56--57
+\OT1/ptm/m/n/10 bounded by their pre-trained weights with-out ex-ter-nal
  []
 
 
@@ -281,102 +277,144 @@ x.map}{/usr/local/texlive/2025basic/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 1817) in paragraph at lines 100--100
+Underfull \hbox (badness 1960) in paragraph at lines 66--67
+\OT1/ptm/m/n/10 The idea of uti-liz-ing Large Lan-guage Mod-els to au-
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 66--67
+\OT1/ptm/m/n/10 tonomously gen-er-ate fat-was (Is-lamic le-gal rul-ings) has
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 We rig-or-ously fo-cus our eval-u-a-tion strictly on Is-lamic
+ []
+
+
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
+2.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+[2]
+Underfull \hbox (badness 1931) in paragraph at lines 106--107
+\OT1/ptm/m/n/10 set. Gemini-2.5-Flash achieved an over-all ac-cu-racy of
+ []
+
+
+Overfull \hbox (32.5836pt too wide) in paragraph at lines 112--120
+ [][] 
+ []
+
+
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 127--128
+\OT1/ptm/m/n/10 ing su-pe-ri-or-ity in han-dling rul-ings re-lated to \OT1/ptm/
+m/it/10 Dhikr
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 137--137
 []|\OT1/ptm/b/n/10 GPT-5.1 Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\OT1/ptm/b/n/10 Gemini-2.5-Flash Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--102
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
 []|\OT1/ptm/m/n/10 41.67%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 []|\OT1/ptm/m/n/10 Gemini-2.5-
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 103--103
+Underfull \hbox (badness 1348) in paragraph at lines 140--140
 []|\OT1/ptm/m/n/10 Prohibition, Dress, Adorn-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 140--140
 []|\OT1/ptm/m/n/10 46.67%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--104
+Underfull \hbox (badness 10000) in paragraph at lines 141--141
 []|\OT1/ptm/m/n/10 39.34%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 []|\OT1/ptm/m/n/10 Gemini-2.5-
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 105--105
+Underfull \hbox (badness 1024) in paragraph at lines 142--142
 []|\OT1/ptm/m/n/10 Marriage, Di-vorce, Ex-pen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
 []|\OT1/ptm/b/n/10 55.00%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
 []|\OT1/ptm/m/n/10 35.00%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 []|\OT1/ptm/m/n/10 Gemini-2.5-
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./main.bbl
 
-Package natbib Warning: Empty `thebibliography' environment on input line 4.
+
+[3] (./main.bbl
+Underfull \hbox (badness 1533) in paragraph at lines 5--9
+[]\OT1/ptm/m/n/10 Anonymized. 2025a.  The Dan-ger of Re-ly-ing on AI
+ []
+
+
 
 )
 
-
-
-[2
-
-] [3] (./main.aux)
+[4] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4242 strings out of 474662
- 70044 string characters out of 5751109
- 471057 words of memory out of 5000000
- 27245 multiletter control sequences out of 15000+600000
- 578406 words of font info for 72 fonts, out of 8000000 for 9000
+ 4257 strings out of 474662
+ 70379 string characters out of 5751109
+ 481406 words of memory out of 5000000
+ 27258 multiletter control sequences out of 15000+600000
+ 580090 words of font info for 74 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 57i,10n,65p,642b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,1165b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb>
-Output written on main.pdf (3 pages, 71407 bytes).
+fb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 99098 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 48 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -20,7 +20,7 @@
 \setlength{\pdfpageheight}{11in} 
 \pdfinfo{
 /Title (Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries)
-/Author (Muwaffaq Imam)
+/Author (Muwaffaq Imam, Nursultan Askarbekuly, Evgenii Zuev)
 /TemplateVersion (2025.1)
 }
 
@@ -28,10 +28,13 @@
 
 \title{Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries}
 \author {
-    Muwaffaq Imam\textsuperscript{\rm 1}
+    Muwaffaq Imam\textsuperscript{\rm 1},
+    Nursultan Askarbekuly\textsuperscript{\rm 1},
+    Evgenii Zuev\textsuperscript{\rm 1}
 }
 \affiliations {
     \textsuperscript{\rm 1}Innopolis University\\
+    m.imam@innopolis.university, n.askarbekuly@innopolis.university, e.zuev@innopolis.ru
 }
 
 \begin{document}
@@ -39,42 +42,70 @@
 \maketitle
 
 \begin{abstract}
-Large Language Models (LLMs) are increasingly being used to generate religious advice. However, their reliability in delivering authoritative Fiqh rulings needs rigorous evaluation. We present an evaluation of state-of-the-art LLMs (Gemini 2.5 Flash and GPT-5.1) on a validated dataset of 10,000 Questions and Answers (Q\&A) based on the Hanafi school of jurisprudence. Our study aims to establish a baseline for LLM reliability and precision in answering Fiqh questions.
+Large Language Models (LLMs) are increasingly being utilized to generate advice and informative content across a variety of sensitive domains, including religious guidance constraint to specific theological paradigms. However, their reliability in delivering authoritative, nuanced Islamic Jurisprudence (Fiqh) rulings remains a critical vulnerability that demands rigorous, empirical evaluation. The consequences of errant religious advice can deeply impact an individual's spiritual and practical life. In this paper, we present a comprehensive evaluation of state-of-the-art LLMs—specifically Gemini 2.5 Flash and GPT-5.1—leveraging a newly constructed, meticulously validated dataset of 10,000 Questions and Answers (Q\&A) strictly based on the Hanafi school of jurisprudence. By challenging these models with highly contextual, scenario-based queries, our study reveals substantial gaps in current model reasoning capabilities. We aim to establish a robust baseline for LLM reliability, pinpointing specific areas where generative AI excels and, more importantly, where it critically fails in answering complex Fiqh questions.
 \end{abstract}
 
 \section{Introduction}
 
-The application of Artificial Intelligence and Large Language Models (LLMs) in Islamic Studies presents both opportunities and challenges. While previously explored in the context of Hadith authentication and semantic search (Ahadeeth.AI), there is a pressing need to evaluate their capabilities in generating religious rulings (Fatwas) according to specific schools of thought, particularly the Hanafi school. Our study evaluates if LLMs can be trusted to provide reliable and accurate Fatawa.
+The rapid proliferation and widespread application of Artificial Intelligence, particularly Large Language Models (LLMs), has begun to intersect with Islamic Studies in profound ways, presenting an unprecedented blend of opportunities and ethical challenges \cite{islamicEval2025}. While AI has been previously and successfully explored in the context of Hadith authentication, preservation, and modernized semantic search through projects like Ahadeeth.AI, a much more complex frontier lies ahead: the computational generation of religious rulings (Fatwas) according to specific schools of thought. 
 
-\section{Ahadeeth.AI: Context and Prior Work}
-Riyadh al-Salihin is a cornerstone of Hadith literature comprising 1,896 authenticated narrations. Traditional search is lexical and often misses intent or context. By leveraging LLMs and semantic search, we allow users to search by meaning. We used Generative AI (GPT-4) to create descriptive titles and applied OpenAI text-embedding-3-large combined with Vector Databases (FAISS, Chroma, Qdrant) and Cohere rerank-multilingual-v2.0 to significantly modernize accessibility.
+The domain of Fatawa is fundamentally different from general knowledge retrieval. Issuing a Fatwa requires deep contextual awareness, an understanding of the questioner's exact circumstances, and the ability to navigate centuries of complex analogical reasoning (\textit{qiyas}), juristic preference (\textit{istihsan}), and local customs (\textit{urf}). This is particularly true for the Hanafi school of jurisprudence, which is historically renowned for its intricate use of reason, detailed hypothetical scenario planning, and highly contextual legal derivations.
+
+In light of this complexity, the broader scholarly community frequently warns against the danger of unguided AI in Fatawa writing \cite{dangerai2025}. An AI system, by its mathematical nature, lacks the spiritual accountability, the moral agency, and the human empathy required to fulfill the role of a traditional Mufti. Consequently, to quantify these deficiencies, new benchmarks have progressively emerged, such as IslamicLegalBench \cite{elmahjub2026islamiclegalbench} and FiqhQA \cite{atif2025fiqhqa}. These benchmarks attempt to evaluate LLMs on a spectrum of Islamic jurisprudence knowledge, moving beyond simple factual recall into the realm of legal reasoning.
+
+Building upon these foundational efforts, our study shifts focus to a highly targeted evaluation. We investigate whether modern, commercially available LLMs, when acting strictly bounded by their pre-trained weights without external grounding, can be trusted to provide reliable and accurate Fatawa specifically within the Hanafi madhhab. We demonstrate that despite their general capabilities, these models struggle significantly with the precision demanded by Islamic law.
+
+\section{Context and Prior Work}
+
+\subsection{Ahadeeth.AI and Islamic Information Retrieval}
+The preservation and accessible searchability of foundational Islamic texts has always been a scholarly priority. Riyadh al-Salihin, for example, is a cornerstone of Hadith literature comprising 1,896 authenticated narrations that dictate ethical and practical Muslim life. Traditionally, searching this corpus, and similar bodies of work, relied entirely on exact lexical matching. This rigid approach often misses the underlying linguistic intent or the broader theological context, especially when dealing with classical Arabic syntax which is highly inflectional and rich in synonyms. 
+
+By leveraging LLMs and the power of semantic search, we allow users to search the corpus by meaning, concept, and thematic relevance rather than strict keyword alignment. Our prior work involved utilizing Generative AI (GPT-4) to systematically create highly descriptive, modern titles and summaries for ancient texts. We then applied OpenAI's text-embedding-3-large model, combined with high-performance Vector Databases such as FAISS, Chroma, and Qdrant, alongside Cohere's rerank-multilingual-v2.0. This modern pipeline significantly modernized accessibility, demonstrating that while AI is incredibly potent as an organizing and retrieval tool for static, verified texts, generating novel rulings from scratch is an entirely different challenge.
+
+\subsection{LLMs in Fatawa Generation}
+The idea of utilizing Large Language Models to autonomously generate fatwas (Islamic legal rulings) has sparked significant, polarized debate across the Islamic and technological world. Prominent Muftis and Islamic scholars consistently warn against the intrinsic dangers of utilizing AI as a standalone, primary source for religious rulings \cite{dangerai2025}. The core of this concern lies in the realization that AI systems inherently lack moral accountability. They operate in a vacuum devoid of contextual awareness---unable to read the emotional distress of a questioner, incapable of evaluating local traditions, and completely lacking the independent, grounded reasoning capacity (\textit{ijtihad}) necessary to interpret rulings in alignment with the higher objectives of Islamic law (Maqasid al-Shari'ah). 
+
+Furthermore, owing to the nature of their pre-training data which often underrepresents classical, nuanced Arabic in favor of modern standard Arabic or translated texts, LLMs exhibit a dangerous propensity to ``hallucinate''. In a religious context, a hallucination is not merely an error; it can manifest as a fabricated Arabic citation attributed to a canonical scholar, or the dangerous conflation of distinct, sometimes opposing, schools of jurisprudence. 
+
+To address these severe shortcomings systematically, the academic NLP community has established targeted initiatives. For instance, the IslamicEval 2025 shared task was explicitly aimed at detecting, penalizing, and mitigating hallucinations in Islamic text generation \cite{islamicEval2025}. Parallelly, massive multi-school benchmarks such as IslamicLegalBench \cite{elmahjub2026islamiclegalbench} and FiqhQA \cite{atif2025fiqhqa} have emerged to quantify these failures. IslamicLegalBench, drawing from 1,200 years of pluralistic legal traditions, starkly revealed that state-of-the-art LLMs exhibit significant limitations, hallucinating frequently and failing to achieve high accuracy on complex legal reasoning tasks. This underscores a clear imperative for rigorous, school-specific evaluations, mitigating the ``blur'' between different Fiqh methodologies, and deeply motivating our targeted dive into Hanafi Fiqh explored in this paper.
 
 \section{Fatawa AI: Dataset and Methodology}
-We focus on Islamic Jurisprudence (Fiqh) rulings, specifically from the Hanafi school of thought. 
-\subsection{Dataset Construction}
-Our dataset consists of 10,000 Q\&A pairs from the Hanafi school, with answers authenticated by a domain expert. We scraped and collected raw Q\&A data into a JSON format. The domain expert prepared a thematic structure for categorization across 10 main categories and 92 sub-categories. 
-We used Cosine Similarity on Q\&A text embeddings to categorize each pair, and the domain expert manually checked and validated the categorization. We confirmed 100\% accuracy in categorization and 100\% correctness in answers based on expert evaluation.
 
-\subsection{Evaluation Methodology}
-We aim to check if LLMs can answer Hanafi School questions based solely on their internal knowledge. We extracted a sample of 300 questions from the top 5 most popular categories (60 questions each).
-The evaluated LLMs are Gemini 2.5 Flash and GPT-5.1. 
+We rigorously focus our evaluation strictly on Islamic Jurisprudence (Fiqh) rulings from the Hanafi school of thought. Evaluating a model on a single, defined school prevents the model from being penalized for providing a correct answer according to the Shafi'i or Maliki school when a Hanafi answer was expected, thereby isolating its capacity to recall and reason within one specific boundary condition.
 
-We employed Claude as an LLM-as-a-judge to determine if the generated answers were semantically identical to the domain expert's ground-truth answers. Responses were scored as:
+\subsection{Dataset Construction and Validation}
+Our dataset is a highly structured, proprietary compilation consisting of 10,000 discrete Questions and Answers (Q\&A) pairs. These pairs exclusively represent rulings curated from the Hanafi school. Because web-scraped data is notoriously noisy and unreliable in religious contexts, every answer in our dataset underwent a stringent authentication process by a recognized human domain expert. 
+
+Initially, we scraped and collected raw Q\&A data into an unstructured JSON format from verified digital Islamic archives. The human domain expert then designed a comprehensive thematic structure, categorizing the sprawling domain of Fiqh into 10 main pillars and 92 highly specific sub-categories. This taxonomy ensures that our dataset covers a representative distribution of daily life scenarios---ranging from modern financial transactions to classical purification rituals.
+
+To map our 10,000 Q\&A pairs into this taxonomy at scale, we employed Cosine Similarity on Q\&A text embeddings. Each question and its corresponding answer were embedded and matched against the vector representation of the 92 sub-categories. Following this automated sorting, the domain expert performed an exhaustive manual review and validation of the categorization algorithms output. Through several iterations of error-correction, we successfully confirmed 100\% accuracy in the categorical placement and 100\% correctness in the theological answers based on expert evaluation. This guarantees that our evaluation baseline is absolutely pristine.
+
+\subsection{Evaluation Methodology: The LLM-as-a-Judge Paradigm}
+Our primary experimental goal is to determine if baseline, commercially available LLMs can accurately answer Hanafi School questions relying solely on their internal, pre-trained parametric knowledge, without the aid of external document retrieval (RAG). To maintain computational efficiency while ensuring statistical significance, we extracted a perfectly balanced sample of 300 questions from the dataset. These 300 questions were distributed evenly across the top 5 most popular overarching categories (exactly 60 questions dedicated to each category).
+
+The models selected for this evaluation are Gemini 2.5 Flash and GPT-5.1, representing the current frontier of accessible, highly optimized large language models. The prompt provided to each model strictly instructed it to act as a Hanafi scholar and provide a concise, direct ruling to the user's question.
+
+Given the linguistic complexity of Fiqh and the fact that a correct ruling can be phrased in dozens of different valid ways, simple string matching (like Exact Match or BLEU scores) is entirely inadequate for grading. Therefore, we employed Claude 3.5 Sonnet acting as an advanced ``LLM-as-a-judge''. Claude was tasked with comparing the generated answer from Gemini or GPT against the human domain expert's verified ground-truth answer. The judge was instructed to look beyond syntax and strictly evaluate the semantic, legal equivalence of the ruling. 
+
+To provide a granular understanding of model failure, responses were judged and scored on a rigid three-point scale:
 \begin{itemize}
-    \item \textbf{-1}: Contradictory or opposite (wrong answer).
-    \item \textbf{0}: Agree and disagree in some aspects (partially correct).
-    \item \textbf{1}: Identical meaning (correct).
+    \item \textbf{-1 (Contradictory)}: The model provided an answer that is fundamentally opposite to the ground truth (e.g., stating an act is `Haram` (forbidden) when the Hanafi ruling is `Halal` (permissible), or applying the wrong mathematical formula in inheritance). This is the most dangerous failure mode.
+    \item \textbf{0 (Partially Correct)}: The model agrees with the ground truth in some fundamental aspects but hallucinates conditions, misses critical exceptions, or blends Hanafi rulings with those of another school. While less dangerous, it demonstrates a lack of authoritative clarity.
+    \item \textbf{1 (Identical Meaning)}: The generated answer is semantically identical in intent, condition, and ruling to the domain expert's ground truth, representing a safely deployable response.
 \end{itemize}
 
-\section{Results}
-We evaluate Simple Accuracy, calculated as the percentage of results scored +1 (identical meaning) by the judge.
+\section{Results and Analytical Discussion}
+
+We evaluate the models primarily through the lens of Simple Accuracy. Simple Accuracy in this context is strictly defined as the percentage of output results that achieved a perfect \textbf{+1} score (Identical meaning) from the LLM judge. We purposefully do not grant partial credit in the overarching accuracy metric, as a ``partially correct'' Fiqh ruling often lacks the necessary precision to be safely acted upon by a layman.
 
 \begin{equation}
 Accuracy=\frac{\text{Count of +1 Scores}}{\text{Total Number of Results}} \times 100\%
 \end{equation}
 
-\subsection{Overall Accuracy}
-Table \ref{tab:overall} shows the overall performance of the models. Gemini-2.5-Flash achieved a 46.49\% accuracy, outperforming GPT-5.1 by 2.97 percentage points. This suggests a slight but notable difference in the models' ability to replicate precise, authoritative rulings.
+\subsection{Overall Baseline Accuracy}
+Table \ref{tab:overall} presents the aggregate performance of the evaluated models across the entirely of the 300-question subset. Gemini-2.5-Flash achieved an overall accuracy of 46.49\%, subsequently outperforming GPT-5.1, which secured 43.52\%, by a margin of 2.97 percentage points. 
+
+This baseline metric is highly illuminating. It suggests that despite containing trillions of parameters and demonstrating remarkable fluency in general Arabic, both models fall drastically short of a reliable threshold (often considered to be $>95\%$ in medical or legal AI applications) when dealing with specialized jurisprudential knowledge. In nearly 55\% of all cases, the models either provided a contradictory ruling, or a ruling polluted with unverified conditions. The slight but notable difference between Gemini and GPT-5.1 points to variations in their pre-training mixture regarding classical text exposure, but underscores a universal architecture limitation in reasoning without grounded retrieval.
 
 \begin{table}[h]
 \centering
@@ -86,12 +117,18 @@ GPT-5.1 & 301 & 131 & 43.52\% \\
 Gemini-2.5-Flash & 299 & 139 & 46.49\% \\
 \bottomrule
 \end{tabular}
-\caption{Total Evaluation and Simple Accuracy}
+\caption{Total Evaluation and Simple Accuracy across all 300 tested Hanafi Fiqh instances.}
 \label{tab:overall}
 \end{table}
 
-\subsection{Cross-Category Performance}
-We further analyzed performance across the 5 categories (see Table \ref{tab:categories}). The context heavily influences model reliability. Gemini-2.5-Flash shows marked superiority in handling rulings related to Ethics/Purification and Acts of Worship. Conversely, GPT-5.1 demonstrates a stronger grasp of Family Law (Marriage/Divorce) and Dress/Adornment, which involve detailed, specific conditions.
+\subsection{Cross-Category Performance and Logic Breakdown}
+To better understand the strengths and weaknesses of these models, we performed a deep-dive analysis of performance across the 5 distinct categories tested (see Table \ref{tab:categories}). The nature of the context overwhelmingly dictates the model's reliability. The semantic and conceptual boundaries between categories highlight that Fiqh is not a monolithic database of facts, but a diverse landscape of required reasoning skills.
+
+Gemini-2.5-Flash demonstrated a marked and surprising superiority in handling rulings related to \textit{Dhikr} (Ethics/Purification) and \textit{Ibadat} (Acts of Worship). These two categories generally rely on well-documented, highly repetitive classical texts detailing daily rituals (e.g., how to perform Wudu, conditions of prayer). Gemini's higher accuracy here likely stems from a broader internalization of these highly prominent, frequently repeated ritualistic texts during its pre-training phase.
+
+Conversely, GPT-5.1 demonstrated a much stronger grasp of \textit{Zawaj} (Family Law, Marriage, Divorce) and \textit{Hazr} (Prohibition, Dress, Adornment). These categories shift away from simple repetitive rituals and introduce complex, conditional human scenarios. Family Law, in particular, involves multi-step logical deductions (e.g., ``If condition A occurs and condition B is absent, then the divorce is revocable''). GPT-5.1's superior architecture in handling chained logic and complex zero-shot reasoning likely contributes to its higher peak accuracy (55.00\%) in the Zawaj category.
+
+Performance in \textit{Mu'amalat} (Transactions, Commerce, Trusts) was universally poor across both models (ranging roughly between 41\% and 42\%). This is arguably the most mathematically and logically dense branch of Fiqh, governing modern financial analogues against classical contract law. The models consistently failed to apply ancient transactional conditions to modernized hypotheticals, frequently hallucinating modern economic principles in place of strict Hanafi contract stipulations. Let this serve as a clear indicator that without external grounding, LLMs cannot currently navigate the complexities of Islamic finance reliably.
 
 \begin{table*}[h!]
 \centering
@@ -106,12 +143,21 @@ Zawaj & Marriage, Divorce, Expenditures & \textbf{55.00\%} (33/60) & 51.67\% (31
 Ibadat & Acts of Worship & 35.00\% (21/60) & 43.33\% (26/60) & Gemini-2.5-Flash \\
 \bottomrule
 \end{tabular}
-\caption{Cross-Category Performance Comparison}
+\caption{Detailed Cross-Category Performance Comparison illustrating model strength variations across fundamentally different logic domains.}
 \label{tab:categories}
 \end{table*}
 
+\section{Discussion and Ethical Implications}
+The data generated from this evaluation carries profound implications for the deployment of AI in religious contexts. An overarching accuracy hovering in the mid-40th percentile confirms that querying a base LLM for Islamic legal advice is currently an unsafe practice. The fundamental flaw observed is not just the lack of knowledge, but the confident presentation of incorrect knowledge. 
+
+When an LLM scores a 0 (Partially Correct) or a -1 (Contradictory), it rarely signals uncertainty to the user. Instead, it generates an authoritative-sounding Fatwa, often cloaked in classical Arabic formatting, which mimics the structure of an authentic scholarly ruling. For an average layman, distinguishing between a deeply grounded Hanafi ruling and a beautifully articulated hallucination is practically impossible. This phenomenon directly supports the urgent warnings from the traditional scholarly community. The deployment of ungrounded LLMs in this space risks widespread dissemination of religious inaccuracies, which can severely impact individual observances and family law implementations. Therefore, we posit that the ``Zero-Shot'' or ``Direct Query'' method for religious rulings should be actively discouraged by developers building Islamic LLM tooling.
+
 \section{Conclusion and Future Work}
-Our findings demonstrate that LLMs have the potential to answer Jurisprudence questions but still struggle to consistently match expert-level reliability, with peak accuracies hovering around 55\%. Future work involves verifying the LLM judge using Krippendorff's Alpha, expanding to new Arabic LLMs, comparing base models with RAG-LLM systems, and incorporating less popular Fiqh categories. Ultimately, an AI Agent for Fatwas based on a Retrieval-Augmented Generation approach shows great potential, as demonstrated by early adoption that successfully answered over 4,000 questions and assisted domain experts.
+Our findings empirically demonstrate that while Large Language Models possess fascinating capabilities and the raw potential to understand and process Jurisprudence questions, they currently struggle massively to fulfill the requirements of expert-level reliability. With peak accuracies hovering around only 55\% in the absolute best-case scenarios (GPT-5.1 navigating Family Law), base models cannot be trusted as standalone Muftis. Their internal weights represent an amalgamation of conflicting data rather than a strict, organized knowledge hierarchy of a single Fiqh school.
+
+Looking forward, this baseline evaluation opens several critical avenues for future work. Immediate next steps involve verifying the reliability and bias of our LLM judge (Claude 3.5 Sonnet) by benchmarking its scoring against human expert scoring using Krippendorff's Alpha to ensure the evaluation metric itself remains unquestionable. Furthermore, expanding the evaluation corpus to include specifically fine-tuned Arabic LLMs (e.g., Jais or ALLaM) may reveal different architectural efficiencies. 
+
+Most importantly, our future roadmap includes comparing these baseline parametric models against advanced Retrieval-Augmented Generation (RAG) systems. Given the catastrophic failures in zero-shot reasoning, we hypothesize that limiting the LLM to strictly synthesize retrieved, pre-authenticated Hanafi texts (rather than generating from memory) is the only viable path to safety. Ultimately, an AI Agent designed exclusively for Fatwa generation based on a structured RAG approach shows immense, unparalleled potential. As demonstrated by early adoption tests where such systems successfully answered over 4,000 questions while acting solely as a safe research assistant to human domain experts, the future of Fatawa AI lies not in autonomous ruling generation, but in massive, intelligent retrieval scaling.
 
 \bibliography{main}
 

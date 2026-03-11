@@ -1,4 +1,29 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{4}
 \providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Anonymized(2025{\natexlab{a}})}]{dangerai2025}
+Anonymized. 2025{\natexlab{a}}.
+\newblock The Danger of Relying on AI for Fatwa Writing: A Caution for Scholars
+  and Muftis.
+\newblock \emph{Whitethread Institute}.
+
+\bibitem[{Anonymized(2025{\natexlab{b}})}]{islamicEval2025}
+Anonymized. 2025{\natexlab{b}}.
+\newblock IslamicEval 2025: The First Shared Task of Capturing LLMs
+  Hallucination in Islamic Content.
+\newblock \emph{ACL Anthology}.
+
+\bibitem[{Atif et~al.(2025)}]{atif2025fiqhqa}
+Atif; et~al. 2025.
+\newblock FiqhQA: A Benchmark for Evaluating LLMs on Islamic Jurisprudence.
+\newblock \emph{ResearchGate}.
+
+\bibitem[{Elmahjub et~al.(2026)Elmahjub, Qadir, Mushtaq, Naeem, Ghaznavi, and
+  Iqbal}]{elmahjub2026islamiclegalbench}
+Elmahjub, E.; Qadir, J.; Mushtaq, A.; Naeem, R.; Ghaznavi, I.; and Iqbal, W.
+  2026.
+\newblock IslamicLegalBench: Evaluating LLMs Knowledge and Reasoning of Islamic
+  Law Across 1,200 Years of Islamic Pluralist Legal Traditions.
+\newblock \emph{arXiv preprint}.
 
 \end{thebibliography}
