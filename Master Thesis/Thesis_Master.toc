@@ -1,0 +1,94 @@
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Relevance of the Topic}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Degree of Development in the Subject Area}{9}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Purpose and Objectives of the Research}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Scientific Novelty}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Theoretical and Practical Significance}{11}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Traditional AI Applications in Education: NLP and Transitional Words}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Literature review}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}NLP applications in software engineering}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}NLP applications in text analysis}{14}{subsection.2.2.2}%
+\contentsline {subsubsection}{Sentiment analysis}{14}{subsection.2.2.2}%
+\contentsline {subsubsection}{Extractive analysis}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Takeaways}{16}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Implementation}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}General project information}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Process transition words data}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Generating training data}{20}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Training the model}{21}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Running the model}{22}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Assessing produced results and relevant metrics}{23}{subsection.2.3.6}%
+\contentsline {section}{\numberline {2.4}Evaluation and Discussion}{24}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Conclusion}{27}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Systematic Literature Review: Generative AI in Specialized Educational Domains}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{30}{section.3.1}%
+\contentsline {section}{\numberline {3.2}REVIEW PROTOCOL}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}PRISMA Checklist}{33}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Research Questions}{33}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Search process}{34}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Inclusion and exclusion criteria}{36}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Primary Clustering}{38}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Results and Discussion}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}\textbf {RQ1. What are the use cases the AI is used to gain insight to how enhance the education? and what are the AI algorithms/techniques used for such purpose?}}{41}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}\textbf {RQ2. What are the metrics commonly used to assess the quality of online and offline education, what are the performance factors they used to evaluate theses metrics?}}{46}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}\textbf {RQ-3 What is the impact of AI on the education quality for both online and offline teaching formats?}}{52}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}SYNOPTIC SUMMARY AND SIGNIFICANCE OF RESEARCH}{54}{section.3.4}%
+\contentsline {section}{\numberline {3.5}LIMITATIONS, THREATS TO VALIDITY, AND REVIEW ASSESSMENT}{57}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Limitations}{57}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Threats to Validity}{58}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Review Assessment}{59}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}conclusion}{60}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Appendix}{61}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Prisma checklist}{61}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Quality Assessment}{61}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}Ahadith AI: Navigating Authenticity and Classification}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{65}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Objective of the Research}{65}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}What is Hadith}{67}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}What is the Riyadh Al-Salihin Book?}{67}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Why Choose Riyadh Al-Salihin}{68}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}What is Semantic search}{68}{subsection.4.1.5}%
+\contentsline {section}{\numberline {4.2}Methodology}{69}{section.4.2}%
+\contentsline {section}{\numberline {4.3} Getting the Data}{69}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Generating Titles}{70}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Arabic Titles}{70}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Generating English Titles}{71}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Semantic Search}{72}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Creating Embeddings for Hadith Dataset}{72}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Performing Semantic Search}{72}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Comparison}{74}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Results Interpretation}{75}{subsection.4.5.4}%
+\contentsline {subsubsection}{Similarity Results Interpretation}{75}{subsection.4.5.4}%
+\contentsline {subsubsection}{MMR Results Interpretation}{75}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Expert Opinion}{75}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}App / API Development}{76}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Conclusion}{77}{section.4.7}%
+\contentsline {section}{\numberline {.1}Appendix A}{78}{section.Alph0.1}%
+\contentsline {section}{\numberline {.2}Figures}{78}{section.Alph0.2}%
+\contentsline {section}{\numberline {.3}System Prompts, Purpose, Model}{81}{section.Alph0.3}%
+\contentsline {chapter}{\numberline {A}Fatawa AI: Identifying the Hallucination Deficit in LLMs}{82}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Introduction}{82}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Context and Prior Work}{83}{section.A.2}%
+\contentsline {subsection}{\numberline {A.2.1}Ahadeeth.AI and Islamic Information Retrieval}{83}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.2}LLMs in Fatawa Generation}{84}{subsection.A.2.2}%
+\contentsline {section}{\numberline {A.3}Fatawa AI: Dataset and Methodology}{85}{section.A.3}%
+\contentsline {subsection}{\numberline {A.3.1}Dataset Construction and Validation}{85}{subsection.A.3.1}%
+\contentsline {subsection}{\numberline {A.3.2}Evaluation Methodology: The LLM-as-a-Judge Paradigm}{86}{subsection.A.3.2}%
+\contentsline {section}{\numberline {A.4}Results and Analytical Discussion}{87}{section.A.4}%
+\contentsline {subsection}{\numberline {A.4.1}Overall Baseline Accuracy}{88}{subsection.A.4.1}%
+\contentsline {subsection}{\numberline {A.4.2}Cross-Category Performance and Logic Breakdown}{88}{subsection.A.4.2}%
+\contentsline {section}{\numberline {A.5}Discussion and Ethical Implications}{90}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Conclusion and Future Work}{91}{section.A.6}%
+\contentsline {section}{\numberline {.1}Appendix: Evaluation Prompt Template}{92}{section.Alph0.1}%
+\contentsline {chapter}{\numberline {A}Agentix Islam: Architecting the Zero-Hallucination Framework}{94}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Technical Implementation of the Agentic Islamic Fatwa (RAG) Framework}{94}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}1. Data Ingestion & Structured Parsing}{94}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}2. Hierarchical Metadata & Table of Contents (TOC) Engineering}{95}{subsection.A.1.2}%
+\contentsline {subsection}{\numberline {A.1.3}3. Vectorization and Database Construction}{95}{subsection.A.1.3}%
+\contentsline {subsection}{\numberline {A.1.4}4. Agentic Orchestration and Backend Logic (FastAPI)}{96}{subsection.A.1.4}%
+\contentsline {chapter}{\numberline {B}Discussion and Synthesized Validation}{98}{appendix.B}%
+\contentsline {section}{\numberline {B.1}The Evolution from Extraction to Generation}{98}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Dataset Contributions and Hallucination Reduction}{99}{section.B.2}%
+\contentsline {section}{\numberline {B.3}Validating the RAG Architectural Superiority}{99}{section.B.3}%
+\contentsline {chapter}{\numberline {C}Conclusion}{100}{appendix.C}%

@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis_Master.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 14520 items from 5000.
+Database file #1: Thesis_Master-blx.bib
+Database file #2: thesis_master.bib
+Repeated entry---line 271 of file thesis_master.bib
+ : @inproceedings{Evaluation_Model_of_PE_Teaching_Quality_Based_on_Active_Learning_Support_Vector_Machine
+ :                                                                                                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 634 of file thesis_master.bib
+ : @inproceedings{Research_on_the_Application_of_BP_Neural_Network_in_the_Evaluation_of_College_Teaching_Quality
+ :                                                                                                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 908 of file thesis_master.bib
+ : @inproceedings{An_Evaluation_Model_of_Moral_Education_Teaching_Quality_in_Universities_Based_on_System_Control_Theory
+ :                                                                                                                      ,
+I'm skipping whatever remains of this entry
+Biblatex version: 3.21
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 68 entries,
+            6402 wiz_defined-function locations,
+            1718 strings with 48148 characters,
+and the built_in function-call counts, 626324 in all, are:
+= -- 53234
+> -- 7952
+< -- 2107
++ -- 19318
+- -- 3123
+* -- 44831
+:= -- 73658
+add.period$ -- 0
+call.type$ -- 68
+change.case$ -- 1141
+chr.to.int$ -- 72
+cite$ -- 134
+duplicate$ -- 65956
+empty$ -- 52954
+format.name$ -- 5030
+if$ -- 124980
+int.to.chr$ -- 0
+int.to.str$ -- 169
+missing$ -- 0
+newline$ -- 2588
+num.names$ -- 3293
+pop$ -- 25166
+preamble$ -- 1
+purify$ -- 1648
+quote$ -- 0
+skip$ -- 13054
+stack$ -- 0
+substring$ -- 99492
+swap$ -- 10844
+text.length$ -- 1688
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 2299
+warning$ -- 0
+while$ -- 9002
+width$ -- 0
+write$ -- 2521
+(There were 3 error messages)

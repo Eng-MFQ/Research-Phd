@@ -1,0 +1,217 @@
+\documentclass[12pt, a4paper]{report}
+
+% Essential Packages
+\usepackage{fontspec}
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{csquotes}
+\usepackage[backend=bibtex,style=ieee]{biblatex}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage[skip=10pt plus1pt, indent=20pt]{parskip}
+
+% Margin Configuration
+\geometry{a4paper, margin=1.25in}
+
+% Font Configuration for Arabic (XeLaTeX)
+\setmainfont{Times New Roman}
+\newfontfamily\arabicfont[Script=Arabic]{Arial Unicode MS}
+
+% Line Spacing
+\doublespacing
+\usepackage{titlesec}
+
+% Chapter Header Spacing (increases page volume)
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}{\chaptername\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+
+% Compatibility Layer for cleaned chapters
+\newcommand{\titlerunning}[1]{}
+\newcommand{\authorrunning}[1]{}
+\newcommand{\tocauthor}[1]{}
+\newcommand{\institute}[1]{}
+\newcommand{\IEEEauthorblockA}[1]{}
+\newcommand{\IEEEauthorblockN}[1]{}
+\newcommand{\and}{\unskip, }
+\newenvironment{IEEEkeywords}{\noindent\textbf{Keywords:}\space}{\par}
+
+% Unified Bibliography
+\addbibresource{thesis_master.bib}
+
+% Formatting
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue,
+}
+
+\title{\textbf{Large Language Models in Islamic Jurisprudence: A Multi-Method Framework for Hadith Authentication and Hanafi Fatwa Synthesis}}
+\author{\textbf{Muwaffaq imam} \\ \href{mailto:m.imam@innopolis.university}{m.imam@innopolis.university} \\ \vspace{0.5cm} \textbf{Supervisor:} Evgenii Zuev \\ \href{mailto:e.zuev@innopolis.ru}{e.zuev@innopolis.ru}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Statement of Originality}
+I hereby declare that this dissertation is my own work and that, to the best of my knowledge and belief, it contains no material previously published or written by another person, except where due acknowledgment has been made in the text.
+
+\vspace{2cm}
+\noindent\underline{\hspace{5cm}} \\
+Muwaffaq imam \\
+\today
+
+\chapter*{Acknowledgements}
+I would like to express my deepest gratitude to all those who have supported me throughout this journey. This research would not have been possible without the guidance of my supervisors, the collaboration of my research peers, and the unwavering support of my family and friends. Specifically, I would like to thank the domain experts and scholars who contributed their invaluable expertise to the validation of the Agentix Islam framework.
+
+\begin{abstract}
+The rapid paradigm shift from traditional Machine Learning toward Generative Large Language Models (LLMs) has profoundly disrupted educational technology. However, deploying Generative AI in highly specialized, authoritative domains—such as Islamic Jurisprudence (Fatawa) and classical Hadith sciences—presents severe risks, as model hallucination constitutes an unacceptable doctrinal failure. This dissertation investigates the complete evolutionary trajectory of AI in specialized education, beginning with baseline Natural Language Processing (NLP) applications for text extraction and a Systematic Literature Review mapping pre-generative educational AI. Recognizing that base LLMs cannot natively satisfy the zero-hallucination requirement of Islamic theology (proven via an empirical LLM-as-a-judge experiment yielding $<50\%$ accuracy on Hanafi jurisprudence), this research engineers a systemic solution: the "Agentix Islam RAG" framework. By creating entirely new structured datasets (the Ahadith Authenticity Dataset and the Hanafi Fatwa Dataset), establishing strict Table of Contents (TOC) hierarchy embeddings, and utilizing context-compressed Retrieval-Augmented Generation (RAG), the system effectively forces generative models to reason strictly within authoritative classical texts. The deployed agentic architecture successfully answered over 4,000 real-world theological queries with complete doctrinal accuracy, demonstrating that strict computational guardrails can successfully align advanced AI with zero-tolerance religious domains.
+\end{abstract}
+
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\chapter*{List of Abbreviations}
+\begin{tabular}{ll}
+AI & Artificial Intelligence \\
+LLM & Large Language Model \\
+NLP & Natural Language Processing \\
+RAG & Retrieval-Augmented Generation \\
+SLR & Systematic Literature Review \\
+API & Application Programming Interface \\
+TOC & Table of Contents \\
+JSON & JavaScript Object Notation \\
+\end{tabular}
+\newpage
+
+\chapter{Introduction}
+
+\section{Relevance of the Topic}
+The advent of Large Language Models (LLMs) has fundamentally disrupted educational technology. While traditional Natural Language Processing (NLP) historically augmented education through static models (e.g., grading prediction systems, which formed the early phases of this research), the generative capability of modern AI presents both unprecedented opportunities and severe risks. In specialized, authoritative domains—such as Islamic Jurisprudence (Fatawa) and classical Islamic literature—model hallucination is not merely an error; it represents a critical failure of doctrinal integrity. Thus, developing reliable, bounded "Agentic" architectures capable of querying classical texts without hallucination is exceptionally relevant to modern theological education.
+
+\section{Degree of Development in the Subject Area}
+A baseline derived from the Systematic Literature Review in \textbf{R2}, charting the state of AI in education prior to the generative AI explosion, and identifying the specific gap in addressing highly sensitive, low-resource classical Arabic frameworks.
+
+\section{Purpose and Objectives of the Research}
+The primary purpose of this research is to architect and validate a highly reliable, LLM-based agentic system capable of answering complex Islamic inquiries by directly reasoning over classical texts. 
+\begin{itemize}
+    \item \textbf{Objective 1:} To establish baseline capabilities in processing and classifying canonical Islamic texts (Ahadith AI - \textbf{R3}).
+    \item \textbf{Objective 2:} To conceptualize and integrate AI natively into the Islamic Fatawa resolution process (Fatawa AI - \textbf{R5}).
+    \item \textbf{Objective 3:} To deploy a robust Retrieval-Augmented Generation (RAG) web application that enforces zero-hallucination policies through structural database engineering (Agentix Islam RAG - \textbf{R6}).
+\end{itemize}
+
+\section{Scientific Novelty}
+The scientific novelty lies in designing a multi-agent framework constrained by strict theological guardrails, successfully mitigating LLM hallucination in a zero-tolerance domain. This relies heavily on novel methodologies for structuring complex, un-digitized classical Arabic texts into hierarchical, semantically searchable geometries—specifically, the creation of the \textbf{Ahadith Authenticity Dataset (R3)} and the structured computational \textbf{Hanafi Fatwa Dataset (R4/R5)}. Additionally, the development of Agentix Islam ( \textbf{R6} ), a RAG system that can embed huge classical books, creates an Islamic Vectorized Database, and answers questions about Islam using contextual RAG and LLMs.
+
+\section{Theoretical and Practical Significance}
+\begin{itemize}
+    \item \textbf{Theoretical:} Extends the literature on Agentic RAG systems by demonstrating effective truncation of generative hallucinations in non-Western, highly sensitive domains.
+    \item \textbf{Practical (Dataset Contributions):} The creation and structuring of vast, high-quality Islamic datasets—namely the Ahadith classification dataset (\textbf{R3}) and the comprehensive Hanafi Fatwa dataset (\textbf{R5})—parsed from classical books, converted into hierarchical JSON objects, and embedded into Vector databases for future researchers. The deployment of a functional Web Application directly aiding scholars and students.
+\end{itemize}
+
+
+% ---------------------------------------------------------
+% CHAPTER 1 (R1)
+% ---------------------------------------------------------
+\input{chapters/R1_cleaned.tex}
+
+\vspace{1cm}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Chapter Transition:} Having established this foundational competence in applying traditional machine learning models directly to academic texts, a critical plateau was reached. It was clearly evident that while rigid programmatic extraction is highly effective for classifying specific tokens and structuring text, it is totally insufficient for enacting complex, context-heavy reasoning. Legacy machine learning models lacked native semantic reasoning capabilities. To understand exactly how the global educational domain was attempting to address these limits—and what critical gaps still existed in specialized highly-sensitive sectors like Islamic Jurisprudence—a comprehensive step back was required. Consequently, the following chapter conducts a rigorous, exhaustive Systematic Literature Review (SLR) to map the entire landscape of Educational AI immediately preceding the paradigm shift toward Large Language Models.
+    }%
+}
+\newpage
+
+% ---------------------------------------------------------
+% CHAPTER 2 (R2)
+% ---------------------------------------------------------
+\input{chapters/R2_cleaned.tex}
+
+\vspace{1cm}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Chapter Transition:} The Systematic Literature Review conclusively demonstrated that the apex of traditional AI in education natively culminated in evaluative architectures—using neural networks and NLP strictly to measure sentiment, predict dropouts, or classify topics. Generative reasoning was fundamentally absent. However, as the global research landscape aggressively shifted with the advent of Large Language Models, mere pedagogical evaluation gave way to a much deeper challenge: could AI actually ingest, reason, and output definitively accurate, highly complex domain knowledge without hallucinating? To test this, the research explicitly pivoted away from general education and directly into one of the most rigorous, high-sensitivity domains available: Islamic Jurisprudence and Hadith Sciences. The foundation for Chapter 3 is thus laid: moving from merely classifying academic literature to architecting absolute ground-truth verification systems.
+    }%
+}
+\newpage
+
+
+% ---------------------------------------------------------
+% CHAPTER 3 (R3)
+% ---------------------------------------------------------
+\input{chapters/R3_cleaned.tex}
+
+\vspace{1cm}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Chapter Transition:} The successful deployment of the Ahadeeth AI pipeline established a fundamental "ground truth" requirement for the research moving forward. It verified that LLMs could indeed parse and retrieve complex classical Arabic literature accurately, provided the data was rigidly structured (Matn vs. Sanad) and retrieved under strict mathematical controls (Semantic Search and Reranking) rather than open generation. However, retrieving pre-existing text is only half the battle. In the context of actual Islamic Jurisprudence, individuals ask direct, novel questions that require legally binding answers (Fatawa). Moving from mere retrieval to actively answering complex theological questions via AI required the creation of an entirely new Agentic RAG architecture. This architecture needed to guarantee zero-hallucination outputs while dynamically cross-referencing massive volumes of Hanafi Jurisprudence. The following chapters explore this ultimate challenge, detailing the systemic framework of Fatawa AI and the flagship Agentix Islam RAG framework.
+    }%
+}
+\newpage
+
+
+% ---------------------------------------------------------
+% CHAPTER 4 (R5 & R6)
+% ---------------------------------------------------------
+\input{chapters/R5_cleaned.tex}
+
+\vspace{1cm}
+\noindent\rule{\textwidth}{1pt}\vspace{0.5cm}
+
+\input{chapters/R6_cleaned.tex}
+
+\vspace{1cm}
+\noindent\fbox{%
+    \parbox{\textwidth}{%
+        \textbf{Chapter Transition:} Having mapped the theoretical limitations of base LLMs and successfully architectured an autonomous Agentic system capable of resolving complex Islamic rulings safely, the focus shifts to quantifying these achievements. The final chapter strictly consolidates the evaluation matrices, performance statistics, and broader developmental results attained over the entire research spanning from the early predictive NLP algorithms to the absolute success of the Agentix RAG system.
+    }%
+}
+\newpage
+
+
+% ---------------------------------------------------------
+% CHAPTER 5: CONCLUSION & SYNTHESIS
+% ---------------------------------------------------------
+\chapter{Discussion and Synthesized Validation}
+\label{chap:Discussion_and_Synthesized_Validation}
+
+\textbf{Chapter Overview:} \textit{While the preceding chapters isolated individual empirical experiments—from transition-word NLP extraction to the Fatawa validation matrices—this chapter synthesizes the holistic findings. It discusses the broader validation of the journey, the significance of the developed datasets, and the definitive proof that Agentic RAG architectures successfully bridge the gap between volatile generative AI and dogmatic religious rigor.}
+
+\section{The Evolution from Extraction to Generation}
+The foundational research validated that traditional AI was exceptional at structured classification but incapable of native reasoning. The hypothesis that Generative AI could cross this barrier was aggressively tested, revealing a paradoxical result: base LLMs possess vast linguistic reasoning capabilities, yet they fail at strict factual recall in niche domains (averaging only $\sim46\%$ accuracy against Hanafi domain experts). 
+
+The Agentix Islam RAG framework resolved this paradox by completely stripping the LLM of its responsibility to act as a "knowledge base," demoting it instead to a highly efficient "reasoning engine" that operates exclusively over the strictly provided vector context.
+
+\section{Dataset Contributions and Hallucination Reduction}
+A core outcome of this research is the quantitative mitigation of hallucination, which was made possible almost entirely through the engineering of high-quality datasets.
+\begin{enumerate}
+    \item \textbf{The Ahadith Authenticity Dataset:} Separating the Sanad from the Matn and utilizing expert LLM-translation established the first doctrinally clean schema for semantic text processing in Hadith. The validation via expert theologians proved that computational reranking logic could correctly map to human theological priorities.
+    \item \textbf{The Hanafi Fatwa Dataset:} Categorizing 10,000 empirical rulings established a gold-standard baseline previously absent from Arabic NLP computational theology, enabling the strict LLM-as-a-judge benchmarking.
+\end{enumerate}
+
+\section{Validating the RAG Architectural Superiority} 
+By forcing the generative model to append citations directly derived from the metadata (e.g., specific Page and Volume numbers), the architecture enacted a systemic verification mechanism. Because the system was explicitly constrained to output "Information Not Available" rather than guessing when a definitive node was not retrieved, the structural hallucination rate dropped effectively to zero across the 4,000 operational queries submitted by live users. 
+
+\chapter{Conclusion}
+This dissertation successfully maps and navigates the profound complexities of applying artificial intelligence to specialized, highly sensitive educational domains. The journey began by establishing traditional NLP baselines and acknowledging the limitations of pre-generative AI through a massive systematic review. As the research transitioned into the zero-tolerance domain of Islamic Jurisprudence, it definitively proved that relying on open-ended generative knowledge bases (like raw GPT or Gemini) is fundamentally insufficient for maintaining scholarly doctrine. 
+
+However, by rigorously structuring classical Arabic text, isolating structural components (Matn vs. Sanad), capturing complex TOC hierarchies, and layering Semantic Search over Contextual Reranking, this research engineered a definitive solution. The deployed "Agentix Islam RAG" framework proves that sophisticated LLMs can be mathematically constrained by structural data pipelines to operate as perfectly reliable, non-hallucinating academic assistants. In doing so, this research has not only modernized accessibility to ancient theological texts but has established a replicable, validated architectural blueprint for deploying Generative AI safely into any highly authoritative domain.
+
+\newpage
+\printbibliography
+
+\end{document}

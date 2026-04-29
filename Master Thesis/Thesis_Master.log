@@ -1,0 +1,2294 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.26)  25 APR 2026 21:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Thesis_Master.tex
+(./Thesis_Master.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(/Users/mac/Library/texmf/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/l3backend/l3backend-xetex.de
+f
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count267
+\l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count268
+\g__pdf_backend_link_int=\count269
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+ (/Users/mac/Library/texmf/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count270
+\l__fontspec_language_int=\count271
+\l__fontspec_strnum_int=\count272
+\l__fontspec_tmp_int=\count273
+\l__fontspec_tmpa_int=\count274
+\l__fontspec_tmpb_int=\count275
+\l__fontspec_tmpc_int=\count276
+\l__fontspec_em_int=\count277
+\l__fontspec_emdef_int=\count278
+\l__fontspec_strong_int=\count279
+\l__fontspec_strongdef_int=\count280
+\l__fontspec_tmpa_dim=\dimen142
+\l__fontspec_tmpb_dim=\dimen143
+\l__fontspec_tmpc_dim=\dimen144
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/Users/mac/Library/texmf/tex/latex/fontspec/fontspec.cfg)))
+(/Users/mac/Library/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box53
+\extrarowheight=\dimen146
+\NC@list=\toks17
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box54
+)
+\everycr=\toks18
+\minrowclearance=\skip53
+\rownum=\count281
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip54
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen147
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count282
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count283
+\leftroot@=\count284
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count285
+\DOTSCASE@=\count286
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box55
+\strutbox@=\box56
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count287
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count288
+\dotsspace@=\muskip17
+\c@parentequation=\count289
+\dspbrk@lvl=\count290
+\tag@help=\toks20
+\row@=\count291
+\column@=\count292
+\maxfields@=\count293
+\andhelp@=\toks21
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks22
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen156
+\Gin@req@width=\dimen157
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen158
+\lightrulewidth=\dimen159
+\cmidrulewidth=\dimen160
+\belowrulesep=\dimen161
+\belowbottomsep=\dimen162
+\aboverulesep=\dimen163
+\abovetopsep=\dimen164
+\cmidrulesep=\dimen165
+\cmidrulekern=\dimen166
+\defaultaddspace=\dimen167
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen168
+\@belowrulesep=\dimen169
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen170
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen171
+\TX@old@table=\dimen172
+\TX@old@col=\dimen173
+\TX@target=\dimen174
+\TX@delta=\dimen175
+\TX@cols=\count298
+\TX@ftn=\toks25
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count299
+\float@exts=\toks26
+\float@box=\box57
+\@float@everytoks=\toks27
+\@floatcapt=\box58
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count300
+)
+(/Users/mac/Library/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen176
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count304
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count305
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen177
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count306
+\Field@Width=\dimen178
+\Fld@charsize=\dimen179
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box59
+\c@Hy@AnnotLevel=\count310
+\HyField@AnnotCount=\count311
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip57
+) (/Users/mac/Library/texmf/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count314
+\csq@gtype=\count315
+\csq@glevel=\count316
+\csq@qlevel=\count317
+\csq@maxlvl=\count318
+\csq@tshold=\count319
+\csq@ltx@everypar=\toks28
+
+(/Users/mac/Library/texmf/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/Users/mac/Library/texmf/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 
+))
+(/Users/mac/Library/texmf/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+
+(/Users/mac/Library/texmf/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count320
+
+(/Users/mac/Library/texmf/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count321
+\c@listtotal=\count322
+\c@listcount=\count323
+\c@liststart=\count324
+\c@liststop=\count325
+\c@citecount=\count326
+\c@citetotal=\count327
+\c@multicitecount=\count328
+\c@multicitetotal=\count329
+\c@instcount=\count330
+\c@maxnames=\count331
+\c@minnames=\count332
+\c@maxitems=\count333
+\c@minitems=\count334
+\c@citecounter=\count335
+\c@maxcitecounter=\count336
+\c@savedcitecounter=\count337
+\c@uniquelist=\count338
+\c@uniquename=\count339
+\c@refsection=\count340
+\c@refsegment=\count341
+\c@maxextratitle=\count342
+\c@maxextratitleyear=\count343
+\c@maxextraname=\count344
+\c@maxextradate=\count345
+\c@maxextraalpha=\count346
+\c@abbrvpenalty=\count347
+\c@highnamepenalty=\count348
+\c@lownamepenalty=\count349
+\c@maxparens=\count350
+\c@parenlevel=\count351
+\blx@tempcnta=\count352
+\blx@tempcntb=\count353
+\blx@tempcntc=\count354
+\c@blx@maxsection=\count355
+\blx@maxsegment@0=\count356
+\blx@notetype=\count357
+\blx@parenlevel@text=\count358
+\blx@parenlevel@foot=\count359
+\blx@sectionciteorder@0=\count360
+\blx@sectionciteorderinternal@0=\count361
+\blx@entrysetcounter=\count362
+\blx@biblioinstance=\count363
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language23
+\c@mincomprange=\count364
+\c@maxcomprange=\count365
+\c@mincompwidth=\count366
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count367
+\c@savedafterword=\count368
+\c@annotator=\count369
+\c@savedannotator=\count370
+\c@author=\count371
+\c@savedauthor=\count372
+\c@bookauthor=\count373
+\c@savedbookauthor=\count374
+\c@commentator=\count375
+\c@savedcommentator=\count376
+\c@editor=\count377
+\c@savededitor=\count378
+\c@editora=\count379
+\c@savededitora=\count380
+\c@editorb=\count381
+\c@savededitorb=\count382
+\c@editorc=\count383
+\c@savededitorc=\count384
+\c@foreword=\count385
+\c@savedforeword=\count386
+\c@holder=\count387
+\c@savedholder=\count388
+\c@introduction=\count389
+\c@savedintroduction=\count390
+\c@namea=\count391
+\c@savednamea=\count392
+\c@nameb=\count393
+\c@savednameb=\count394
+\c@namec=\count395
+\c@savednamec=\count396
+\c@translator=\count397
+\c@savedtranslator=\count398
+\c@shortauthor=\count399
+\c@savedshortauthor=\count400
+\c@shorteditor=\count401
+\c@savedshorteditor=\count402
+\c@labelname=\count403
+\c@savedlabelname=\count404
+\c@institution=\count405
+\c@savedinstitution=\count406
+\c@lista=\count407
+\c@savedlista=\count408
+\c@listb=\count409
+\c@savedlistb=\count410
+\c@listc=\count411
+\c@savedlistc=\count412
+\c@listd=\count413
+\c@savedlistd=\count414
+\c@liste=\count415
+\c@savedliste=\count416
+\c@listf=\count417
+\c@savedlistf=\count418
+\c@location=\count419
+\c@savedlocation=\count420
+\c@organization=\count421
+\c@savedorganization=\count422
+\c@origlocation=\count423
+\c@savedoriglocation=\count424
+\c@origpublisher=\count425
+\c@savedorigpublisher=\count426
+\c@publisher=\count427
+\c@savedpublisher=\count428
+\c@language=\count429
+\c@savedlanguage=\count430
+\c@origlanguage=\count431
+\c@savedoriglanguage=\count432
+\c@pageref=\count433
+\c@savedpageref=\count434
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/blx-unicode.def)
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/Users/mac/Library/texmf/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count435
+\c@textcitetotal=\count436
+\c@textcitemaxnames=\count437
+\c@biburlbigbreakpenalty=\count438
+\c@biburlbreakpenalty=\count439
+\c@biburlnumpenalty=\count440
+\c@biburlucpenalty=\count441
+\c@biburllcpenalty=\count442
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count443
+)
+Package biblatex Info: Trying to load bibliography style 'ieee'...
+Package biblatex Info: ... file 'ieee.bbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex-ieee/ieee.bbx
+File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count444
+\c@bbx:relatedtotal=\count445
+))))
+Package biblatex Info: Trying to load citation style 'ieee'...
+Package biblatex Info: ... file 'ieee.cbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex-ieee/ieee.cbx
+File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-verb'...
+Package biblatex Info: ... file 'numeric-verb.cbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/cbx/numeric-verb.cbx
+File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/blx-case-expl3.sty
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+(/Users/mac/Library/texmf/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/Users/mac/Library/texmf/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count446
+\Gm@cntv=\count447
+\c@Gm@tempcnt=\count448
+\Gm@bindingoffset=\dimen180
+\Gm@wd@mp=\dimen181
+\Gm@odd@mp=\dimen182
+\Gm@even@mp=\dimen183
+\Gm@layoutwidth=\dimen184
+\Gm@layoutheight=\dimen185
+\Gm@layouthoffset=\dimen186
+\Gm@layoutvoffset=\dimen187
+\Gm@dimlist=\toks29
+)
+(/Users/mac/Library/texmf/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Unicode MS/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Unicode MS/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Arial Unicode MS/I" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'ArialUnicodeMS(0)' created for font 'Arial
+(fontspec)             Unicode MS' with options [Script=Arabic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Arial Unicode
+(fontspec)             MS/OT:script=arab;language=dflt;"
+
+
+(/Users/mac/Library/texmf/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box60
+\beforetitleunit=\skip80
+\aftertitleunit=\skip81
+\ttl@plus=\dimen188
+\ttl@minus=\dimen189
+\ttl@toksa=\toks30
+\titlewidth=\dimen190
+\titlewidthlast=\dimen191
+\titlewidthfirst=\dimen192
+)
+
+! LaTeX Error: Command \and already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 \newcommand{\and}{\unskip, }
+                                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+(./Thesis_Master.aux
+
+LaTeX Warning: Label `metricsCategories' multiply defined.
+
+
+LaTeX Warning: Label `conclusion' multiply defined.
+
+)
+\openout1 = `Thesis_Master.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 61.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 61.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 61.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 61.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 61.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 61.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 61.
+LaTeX Font Info:    Redeclaring math accent \check on input line 61.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 61.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 61.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 61.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 61.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 6
+1.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
+61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
+input line 61.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
+ 61.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
+61.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 61.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 61.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
+input line 61.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
+e 61.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 61.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 61.
+Package hyperref Info: Link coloring ON on input line 61.
+ (./Thesis_Master.out) (./Thesis_Master.out)
+\@outlinefile=\write4
+\openout4 = `Thesis_Master.out'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/Users/mac/Library/texmf/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+)
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout3 = `Thesis_Master-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Thesis_Master.bbl' found.
+
+(./Thesis_Master.bbl
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'A_Study_of_MOOC_Course_Review_Topics_Mining_Bas
+ed_on_LDA_Topic_Model':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'BP_Neural_Network-Based_Evaluation_on_Universit
+y_Teachers'_Teaching_Quality':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'An_Improved_BP_Neural_Network-Based_Quality_Eva
+luation_Model_for_Chinese_International_Education_Teaching_Courses':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Evaluation_Model_of_PE_Teaching_Quality_Based_o
+n_Active_Learning_Support_Vector_Machine':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Evaluation_System_of_Tourism_Psychology_Teachin
+g_Quality_Based_on_Convolutional_Neural_Network':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Research_on_the_Application_of_BP_Neural_Networ
+k_in_the_Evaluation_of_College_Teaching_Quality':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'The_Evaluation_and_Application_of_BP_Neural_Net
+work_in_the_Multiple_Quality_Assurance_Paths_of_Higher_Education':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Automatic_Rules_Generation_for_Teaching_Strateg
+ies_Improvement':
+(biblatex)                - Can't use 'location' + 'address'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'Exploring_Causes_for_the_Dropout_on_Massive_Ope
+n_Online_Courses':
+(biblatex)                - Can't use 'location' + 'address'.
+
+)
+Package biblatex Info: Reference section=0 on input line 61.
+Package biblatex Info: Reference segment=0 on input line 61.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
+* v-part:(T,H,B)=(90.3375pt, 664.37186pt, 90.3375pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.83289pt
+* \textheight=664.37186pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-18.9325pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+
+
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[1
+
+]
+
+[1
+
+]
+
+[2
+
+]
+
+[1] (./Thesis_Master.toc
+
+[1
+
+]
+
+[2]
+
+[3]
+! Misplaced alignment tab character &.
+<argument> ...umberline {A.1.1}1. Data Ingestion &
+                                                   Structured Parsing}\Hy@to...
+l.86 ... Structured Parsing}{94}{subsection.A.1.1}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...ne {A.1.2}2. Hierarchical Metadata &
+                                                   Table of Contents (TOC) E...
+l.87 ...s (TOC) Engineering}{95}{subsection.A.1.2}
+                                                  %
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+)
+\tf@toc=\write5
+\openout5 = `Thesis_Master.toc'.
+
+
+
+[4] (./Thesis_Master.lof)
+\tf@lof=\write6
+\openout6 = `Thesis_Master.lof'.
+
+
+
+[5
+
+]
+
+[6] (./Thesis_Master.lot)
+\tf@lot=\write7
+\openout7 = `Thesis_Master.lot'.
+
+
+
+[7
+
+]
+
+[8
+
+]
+Chapter 1.
+
+
+[9
+
+]
+Overfull \hbox (5.04407pt too wide) in paragraph at lines 111--112
+[]\TU/TimesNewRoman(0)/b/n/12 Objective 1: \TU/TimesNewRoman(0)/m/n/12 To estab
+lish baseline capabilities in processing and classifying canon-
+ []
+
+
+Overfull \hbox (4.27403pt too wide) in paragraph at lines 117--118
+\TU/TimesNewRoman(0)/m/n/12 domain. This relies heavily on novel methodologies 
+for structuring complex, un-digitized
+ []
+
+
+Overfull \hbox (5.0683pt too wide) in paragraph at lines 117--118
+\TU/TimesNewRoman(0)/m/n/12 classical Arabic texts into hierarchical, semantica
+lly searchable geometries—specifically,
+ []
+
+
+
+[10] (./chapters/R1_cleaned.tex
+
+[11]
+Chapter 2.
+
+
+[12
+
+]
+
+[13]
+
+[14]
+Overfull \hbox (2.87785pt too wide) in paragraph at lines 52--53
+\TU/TimesNewRoman(0)/m/n/12 specific datasets, and created Contract Understandi
+ng Atticus Dataset (CUAD) - a dataset
+ []
+
+
+
+[15]
+
+[16]
+
+[17]
+File: images/csv.png Graphic file (type bmp)
+<images/csv.png>
+
+
+[18]
+File: images/listing1.png Graphic file (type bmp)
+<images/listing1.png>
+
+
+[19]
+File: images/listing2.png Graphic file (type bmp)
+<images/listing2.png>
+
+
+[20]
+File: images/listing3.png Graphic file (type bmp)
+<images/listing3.png>
+
+
+[21]
+File: images/output.png Graphic file (type bmp)
+<images/output.png>
+
+
+[22]
+File: images/listing4.png Graphic file (type bmp)
+<images/listing4.png>
+
+
+[23]
+Overfull \hbox (2.38097pt too wide) in paragraph at lines 230--231
+[]\TU/TimesNewRoman(0)/m/n/12 TN (true negatives): number of non-Transition ent
+ities classified as non-Transition
+ []
+
+
+
+[24]
+
+[25]
+
+[26]
+
+[27]
+
+[28])
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 132--137
+[] 
+ []
+
+
+
+[29] (./chapters/R2_cleaned.tex
+Chapter 3.
+
+
+[30
+
+]
+
+[31]
+
+LaTeX Warning: Reference `Review_PROTOCOL' on page 32 undefined on input line 3
+0.
+
+
+LaTeX Warning: Reference `Results_and_Discussion' on page 32 undefined on input
+ line 30.
+
+
+LaTeX Warning: Reference `SYNOPTIC_SUMMARY_AND_SIGNIFICANCE_OF_RESEARCH' on pag
+e 32 undefined on input line 30.
+
+
+LaTeX Warning: Reference `LIMITATIONS,_THREATS_TO_VALIDITY,_AND_REVIEW_ASSESSME
+NT' on page 32 undefined on input line 30.
+
+
+
+[32]
+
+[33]
+Overfull \hbox (2.86047pt too wide) in paragraph at lines 67--71
+[]\TU/TimesNewRoman(0)/m/n/12 To ensure that the search results for measuring t
+he quality of higher education courses
+ []
+
+
+
+[34]
+
+[35]
+File: figs/SLR diagram.jpeg Graphic file (type bmp)
+<figs/SLR diagram.jpeg>
+
+
+[36]
+
+[37]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 137.
+
+
+
+[38]
+File: figs/cluster_digitalLibraries.png Graphic file (type bmp)
+<figs/cluster_digitalLibraries.png>
+File: figs/clusterPublishers.png Graphic file (type bmp)
+<figs/clusterPublishers.png>
+File: figs/clusterByYears.png Graphic file (type bmp)
+<figs/clusterByYears.png>
+
+
+[39]
+
+[40]
+
+[41]
+
+[42]
+
+[43]
+
+[44]
+File: figs/Ai_teqniuqes.png Graphic file (type bmp)
+<figs/Ai_teqniuqes.png>
+
+
+[45]
+File: figs/clusterEducationType.png Graphic file (type bmp)
+<figs/clusterEducationType.png>
+File: figs/Ai_algorthims.png Graphic file (type bmp)
+<figs/Ai_algorthims.png>
+
+
+[46]
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
+[]|\TU/TimesNewRoman(0)/m/n/12 Teaching
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 449--449
+\TU/TimesNewRoman(0)/m/n/12 Quality and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
+\TU/TimesNewRoman(0)/m/n/12 Effective-
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 449--449
+[]|\TU/TimesNewRoman(0)/m/n/12 Teaching quality, Teacher’s
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 449--449
+\TU/TimesNewRoman(0)/m/n/12 Teaching quality of the cur-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\TU/TimesNewRoman(0)/m/n/12 Teaching
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\TU/TimesNewRoman(0)/m/n/12 Evaluation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\TU/TimesNewRoman(0)/m/n/12 and Feed-
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 451--451
+\TU/TimesNewRoman(0)/m/n/12 dents satisfaction, Learning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\TU/TimesNewRoman(0)/m/n/12 experience, MOOC learner
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\TU/TimesNewRoman(0)/m/n/12 satisfaction, Learner sat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\TU/TimesNewRoman(0)/m/n/12 isfaction metric, Students
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]|\TU/TimesNewRoman(0)/m/n/12 Course
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+\TU/TimesNewRoman(0)/m/n/12 Completion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+\TU/TimesNewRoman(0)/m/n/12 and Reten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+[]|\TU/TimesNewRoman(0)/m/n/12 Teaching Quality
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+[]|\TU/TimesNewRoman(0)/m/n/12 Teaching quality,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+\TU/TimesNewRoman(0)/m/n/12 Teacher’s teaching
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 464--464
+\TU/TimesNewRoman(0)/m/n/12 the quality of teaching,
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 464--464
+\TU/TimesNewRoman(0)/m/n/12 Teaching quality of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--470
+[]|\TU/TimesNewRoman(0)/m/n/12 [[][]37[][]], [[][]22[][]][[][]33[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--470
+\TU/TimesNewRoman(0)/m/n/12 [[][]39[][]], [[][]47[][]], [[][]41[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--470
+\TU/TimesNewRoman(0)/m/n/12 [[][]32[][]], [[][]33[][]], [[][]36[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--470
+\TU/TimesNewRoman(0)/m/n/12 [[][]48[][]], [[][]21[][]], [[][]44[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--470
+\TU/TimesNewRoman(0)/m/n/12 [[][]45[][]], [[][]46[][]], [[][]50[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\TU/TimesNewRoman(0)/m/n/12 Teaching Evalua-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\TU/TimesNewRoman(0)/m/n/12 Student evaluations of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/TimesNewRoman(0)/m/n/12 teaching (SET), Teach-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/TimesNewRoman(0)/m/n/12 ing evaluating system,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/TimesNewRoman(0)/m/n/12 Teaching evaluation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\TU/TimesNewRoman(0)/m/n/12 system TES, Student
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 472--475
+[]|\TU/TimesNewRoman(0)/m/n/12 [[][]20[][]] , [[][]38[][]] [[][]43[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+[]|\TU/TimesNewRoman(0)/m/n/12 Learner Sat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+\TU/TimesNewRoman(0)/m/n/12 isfaction and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+\TU/TimesNewRoman(0)/m/n/12 Students satisfaction,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+\TU/TimesNewRoman(0)/m/n/12 Learning experience,
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 476--476
+\TU/TimesNewRoman(0)/m/n/12 MOOC learner satisfac-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+\TU/TimesNewRoman(0)/m/n/12 metric, Students satis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+\TU/TimesNewRoman(0)/m/n/12 faction score, Course
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--483
+[]|\TU/TimesNewRoman(0)/m/n/12 [[][]49[][]], [[][]26[][]], [[][]22[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--483
+\TU/TimesNewRoman(0)/m/n/12 [[][]31[][]], [[][]34[][]], [[][]29[][]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]|\TU/TimesNewRoman(0)/m/n/12 Course Comple-
+ []
+
+File: figs/metricsCategories.png Graphic file (type bmp)
+<figs/metricsCategories.png>
+
+
+[48]
+
+[49]
+
+[50]
+Overfull \hbox (2.63666pt too wide) in paragraph at lines 533--534
+\TU/TimesNewRoman(0)/m/n/12 behaviors and achievement, which also indirectly re
+flect the effectiveness of teach-
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 549--550
+[]|\TU/TimesNewRoman(0)/b/n/12 Course and Material Quality Metrics\TU/TimesNewR
+oman(0)/m/n/12 : Course difficulty, Course content,
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[51]
+
+[52]
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\TU/TimesNewRoman(0)/b/n/12 Improved Educational
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\TU/TimesNewRoman(0)/m/n/12 Feedback Analysis and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 Course modifications,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 teaching effectiveness,
+ []
+
+
+Underfull \hbox (badness 4229) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 ing, Faculty interaction,
+ []
+
+
+Underfull \hbox (badness 2689) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 course structure, Course
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 development, student
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\TU/TimesNewRoman(0)/m/n/12 Curriculum quality,
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 course duration and dif-
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 Teaching quality, course
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 evaluations, Teaching
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 effectiveness, course
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 quality, Chinese Interna-
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 610--610
+[]|\TU/TimesNewRoman(0)/m/n/12 Course Assessment and
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 online learning efficacy
+ []
+
+
+Underfull \hbox (badness 7256) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 during crises, Student’s
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 college experience, de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 partment reputation,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 course ratings, Course
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 assessment, instructor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 attributes, course con-
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 tent, Course assessment,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\TU/TimesNewRoman(0)/m/n/12 Course Duration, Dif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 ficulty and Completion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]|\TU/TimesNewRoman(0)/m/n/12 Curriculum quality,
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 course duration and dif-
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 Course Duration & Dif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+\TU/TimesNewRoman(0)/m/n/12 ficulty, Course dropout
+ []
+
+
+Overfull \hbox (3.52888pt too wide) in paragraph at lines 613--613
+|[]\TU/TimesNewRoman(0)/b/n/17.28 SYNOPTIC SUMMARY AND SIGNIFICANCE OF
+ []
+
+
+
+[54]
+
+[55]
+
+[56]
+
+[57]
+
+[58]
+
+[59]
+Overfull \hbox (0.66576pt too wide) in paragraph at lines 701--702
+[]\TU/TimesNewRoman(0)/m/n/12 Firstly, regarding the use-cases of AI in educati
+on (RQ1), four prominent approaches
+ []
+
+
+
+[60]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 721.
+
+
+LaTeX Warning: Reference `Abstract' on page 61 undefined on input line 726.
+
+
+LaTeX Warning: Reference `Abstract' on page 61 undefined on input line 728.
+
+
+
+[61]
+
+[62]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 784.
+
+)
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 145--150
+[] 
+ []
+
+
+
+[63]
+
+[64] (./chapters/R3_cleaned.tex
+Chapter 4.
+
+Overfull \hbox (11.71954pt too wide) in paragraph at lines 1--1
+|\TU/TimesNewRoman(0)/b/n/24.88 Ahadith AI: Navigating Authenticity and
+ []
+
+
+
+[65
+
+]
+
+[66]
+
+[67]
+Overfull \hbox (3.7113pt too wide) in paragraph at lines 50--51
+\TU/TimesNewRoman(0)/m/n/12 backbiting, slander, and similar actions, along wit
+h disliked actions, recommended deeds,
+ []
+
+
+
+[68]
+Underfull \hbox (badness 10000) in paragraph at lines 64--68
+
+ []
+
+
+
+[69]
+
+[70]
+File: figures/Sanad Vs Matn.png Graphic file (type bmp)
+<figures/Sanad Vs Matn.png>
+
+
+[71]
+Overfull \hbox (7.01152pt too wide) in paragraph at lines 133--134
+\TU/TimesNewRoman(0)/b/n/12 rerank-multilingual-v2.0 \TU/TimesNewRoman(0)/m/n/1
+2 and \TU/TimesNewRoman(0)/b/n/12 ContextualCompressionRetriever \TU/TimesNewRo
+man(0)/m/n/12 from Langchain. The
+ []
+
+
+
+[72]
+Overfull \hbox (3.94098pt too wide) in paragraph at lines 135--136
+[][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][][] [] [][] [] [
+][][] [] [][][][][][][][][][] [] [][][][][][][][] [] [][]$[][]\TU/TimesNewRoman
+(0)/m/n/12 : Riyadh al-
+ []
+
+
+
+[73]
+
+[74]
+
+[75]
+
+[76]
+
+[77]
+File: figures/Gpt3 vs Gpt 4 titles.png Graphic file (type bmp)
+<figures/Gpt3 vs Gpt 4 titles.png>
+
+Overfull \hbox (50.39041pt too wide) in paragraph at lines 234--235
+ [][] 
+ []
+
+File: figures/results_mmr_arabic.png Graphic file (type bmp)
+<figures/results_mmr_arabic.png>
+
+Overfull \hbox (55.36247pt too wide) in paragraph at lines 241--242
+ [][] 
+ []
+
+File: figures/results_mmr_english.png Graphic file (type bmp)
+<figures/results_mmr_english.png>
+
+Overfull \hbox (11.4455pt too wide) in paragraph at lines 248--249
+ [][] 
+ []
+
+File: figures/results1-similarity.png Graphic file (type bmp)
+<figures/results1-similarity.png>
+
+Overfull \hbox (11.4455pt too wide) in paragraph at lines 255--256
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]|\TU/TimesNewRoman(0)/m/n/12 gpt-3.5-turbo-
+ []
+
+
+Overfull \hbox (2.65291pt too wide) in paragraph at lines 266--280
+ [][] 
+ []
+
+File: figures/System Prompt figure.png Graphic file (type bmp)
+<figures/System Prompt figure.png>
+)
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 159--164
+[] 
+ []
+
+
+
+[78
+
+]
+
+[79]
+
+[80]
+
+[81] (./chapters/R5_cleaned.tex
+Appendix A.
+
+
+[82
+
+]
+
+[83]
+Overfull \hbox (13.58276pt too wide) in paragraph at lines 19--20
+\TU/TimesNewRoman(0)/m/n/12 tor Databases such as FAISS, Chroma, and Qdrant, al
+ongside Cohere’s rerank-multilingual-
+ []
+
+
+
+[84]
+
+[85]
+
+[86]
+
+[87]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[88]
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\TU/TimesNewRoman(0)/b/n/12 Category (Ara-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\TU/TimesNewRoman(0)/b/n/12 GPT-5.1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
+[]|\TU/TimesNewRoman(0)/b/n/12 Gemini-2.5-Flash
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\TU/TimesNewRoman(0)/m/n/12 41.67%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\TU/TimesNewRoman(0)/m/n/12 Prohibition, Dress,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\TU/TimesNewRoman(0)/m/n/12 46.67%
+ []
+
+
+Underfull \hbox (badness 5607) in paragraph at lines 95--95
+[]|\TU/TimesNewRoman(0)/m/n/12 Remembrance, Purifi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
+[]|\TU/TimesNewRoman(0)/m/n/12 40.00%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+[]|\TU/TimesNewRoman(0)/m/n/12 Gemini-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
+[]|\TU/TimesNewRoman(0)/b/n/12 55.00%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\TU/TimesNewRoman(0)/m/n/12 35.00%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[]|\TU/TimesNewRoman(0)/m/n/12 Gemini-
+ []
+
+
+Overfull \hbox (55.73204pt too wide) in paragraph at lines 89--100
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 100--100
+[]\TU/TimesNewRoman(0)/m/n/12 Table A.2: []Detailed Cross-Category Performance 
+Comparison illustrating model
+ []
+
+
+
+[90]
+
+[91])
+
+[92] (./chapters/R6_cleaned.tex
+
+[93]
+Appendix A.
+
+Overfull \hbox (25.52838pt too wide) in paragraph at lines 4--4
+|[]\TU/TimesNewRoman(0)/b/n/17.28 Technical Implementation of the Agentic Islam
+ic Fatwa
+ []
+
+! Misplaced alignment tab character &.
+<argument> 1. Data Ingestion &
+                               Structured Parsing
+l.8 ...ion{1. Data Ingestion & Structured Parsing}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 8.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13     *   `page_
+                   content`: The main text of the page.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (70.4179pt too wide) in paragraph at lines 11--16
+\OML/cmm/m/it/12 Thespecific; verifiablepagenumbertoensureaccuratecitationlater
+: \OMS/cmsy/m/n/12 ^^C []\OML/cmm/m/it/12 notes[] \OT1/cmr/m/n/12 : \OML/cmm/m/
+it/12 Aspecializedsub \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (272.59782pt too wide) in paragraph at lines 11--16
+\OML/cmm/m/it/12 objectdesignedtouniquelycaptureclassicaltextannotations; heavi
+lyseparating[]footnote[]s\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Footnotes\OT1/cmr/m/
+n/12 )\OML/cmm/m/it/12 from[]marginalia[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 Marg
+inalia\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 :$ 
+ []
+
+
+
+[94
+
+]
+! Misplaced alignment tab character &.
+<argument> 2. Hierarchical Metadata &
+                                      Table of Contents (TOC) Engineering
+l.18 ...ata & Table of Contents (TOC) Engineering}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 18.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 ...ed metadata referencing its origin: `book_
+                                                  id`, `book_name`, `book_pa...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+<argument> \bfseries Embeddings &
+                                  Storage:
+l.30 *   \textbf{Embeddings & Storage:}
+                                        Text chunks were vectorized using Go...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...tchoice@false \bfseries Embeddings &
+                                                   Storage:
+l.30 *   \textbf{Embeddings & Storage:}
+                                        Text chunks were vectorized using Go...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...tchoice@false \bfseries Embeddings &
+                                                   Storage:
+l.30 *   \textbf{Embeddings & Storage:}
+                                        Text chunks were vectorized using Go...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...tchoice@false \bfseries Embeddings &
+                                                   Storage:
+l.30 *   \textbf{Embeddings & Storage:}
+                                        Text chunks were vectorized using Go...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.34 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (0.36919pt too wide) in paragraph at lines 28--34
+\TU/TimesNewRoman(0)/m/n/12 gin: ‘book$[]\OML/cmm/m/it/12 d[]; []book[]ame[]; [
+]book[]art[]umber[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 volume\OT1/cmr/m/n/12 )\OM
+L/cmm/m/it/12 ; andtheexact[]page[]umber[]: \OMS/cmsy/m/n/12 ^^C
+ []
+
+
+Overfull \hbox (26.28253pt too wide) in paragraph at lines 28--34
+[]\OML/cmm/m/it/12 TextchunkswerevectorizedusingGoogle[]s[]gemini \OMS/cmsy/m/n
+/12 ^^@ \OML/cmm/m/it/12 embedding \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (184.7367pt too wide) in paragraph at lines 28--34
+\OT1/cmr/m/n/12 001[]\OML/cmm/m/it/12 modelandstoredimmutablyintoacloud \OMS/cm
+sy/m/n/12 ^^@ \OML/cmm/m/it/12 hosted[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 withan
+architecturalfallbacktolocalFAISSstorage\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 : \OM
+S/cmsy/m/n/12 ^^C
+ []
+
+
+Overfull \hbox (403.64856pt too wide) in paragraph at lines 28--34
+[]\OML/cmm/m/it/12 Tosolvethepervasiveissueofirrelevantfatwageneration; theretr
+ievalstrategyutilizesarigorouspipeline \OT1/cmr/m/n/12 :
+ []
+
+
+Overfull \hbox (616.2599pt too wide) in paragraph at lines 28--34
+\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :[]MaximumMarginalRelevance\OT1/cmr/m/n/12 (\
+OML/cmm/m/it/12 MMR\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 fetchesthetop[]diversebuth
+ighlyrelevantchunks:\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :[]A[]CohereRerank[]\OT1/
+cmr/m/n/12 (\OML/cmm/m/it/12 multilingualv\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 :\O
+T1/cmr/m/n/12 0)\OML/cmm/m/it/12 modelislayeredontoptore \OMS/cmsy/m/n/12 ^^@
+ []
+
+
+Overfull \hbox (262.82314pt too wide) in paragraph at lines 28--34
+\OML/cmm/m/it/12 scoreandcompressthereturnednodes; pushingthemostsemanticallyre
+levanttheologicalrulingstotheabsolutetopofthecontextwindow:$ 
+ []
+
+
+
+[95]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.47 ...heological ruling in markdown), `relevant_
+                                                  questions` (generating 3 c...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.176 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (138.26149pt too wide) in paragraph at lines 47--176
+\TU/TimesNewRoman(0)/m/n/12 keys: ‘answer‘ (the theological ruling in markdown)
+, ‘relevant$[]\OML/cmm/m/it/12 uestions[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 gene
+rating\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 contextuallyawarefollow \OMS/cmsy/m/n/1
+2 ^^@
+ []
+
+
+Overfull \hbox (265.3587pt too wide) in paragraph at lines 47--176
+\OML/cmm/m/it/12 updiscussionpointstokeeptheuserengagedinalearningloop\OT1/cmr/
+m/n/12 )\OML/cmm/m/it/12 ; and[]resources[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 an
+arraytrackingallaccessedpagenumbersandvolumes\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 
+: \OMS/cmsy/m/n/12 ^^C
+ []
+
+
+Overfull \hbox (624.10551pt too wide) in paragraph at lines 47--176
+\OML/cmm/m/it/12 AcontinuousDatabaselayer\OT1/cmr/m/n/12 ([]\OML/cmm/m/it/12 To
+cManager[]\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 quietlyinterceptstheLLM[]stoolusage
+s; storingtokencounts; searchtrajectories; andconversationhistoryasynchronously
+usingFastAPI[]s[]BackgroundTasks[]:$ 
+ []
+
+
+
+[96]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 178--183
+[] 
+ []
+
+
+
+[97]
+Appendix B.
+
+Overfull \hbox (31.45032pt too wide) in paragraph at lines 192--193
+\TU/TimesNewRoman(0)/b/n/12 Chapter Overview: \TU/TimesNewRoman(0)/m/it/12 Whil
+e the preceding chapters isolated individual empirical experiments—
+ []
+
+
+
+[98
+
+]
+Overfull \hbox (0.34525pt too wide) in paragraph at lines 199--199
+|[]\TU/TimesNewRoman(0)/b/n/17.28 Dataset Contributions and Hallucination Reduc
+tion| 
+ []
+
+
+
+[99]
+Appendix C.
+
+
+[100
+
+]
+
+[101
+
+]
+
+[102]
+
+[103]
+
+[104]
+! Misplaced alignment tab character &.
+<argument> Computers &
+                       Education
+l.216 
+      
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<argument> ...nal Conference on Computer Science &
+                                                   Education (ICCSE)
+l.216 
+      
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+
+[105]
+
+[106]
+Overfull \hbox (40.04314pt too wide) in paragraph at lines 216--216
+\TU/TimesNewRoman(0)/m/it/12 and Electrical Automation (ICSGEA)\TU/TimesNewRoma
+n(0)/m/n/12 , 2020, pp. 306–309. DOI: [][]$[][] [] [][][][] [] [][][][][][][][]
+[][][] []
+ []
+
+
+Overfull \hbox (8.70656pt too wide) in paragraph at lines 216--216
+\TU/TimesNewRoman(0)/m/n/12 Association for Computing Machinery, 2021, pp. 964–
+967, ISBN: 9781450390255.
+ []
+
+
+
+[107]
+Overfull \hbox (4.34108pt too wide) in paragraph at lines 216--216
+[][][][][][][] [] [][][][][][][]$[][] \TU/TimesNewRoman(0)/m/n/12 [Online]. Ava
+ilable: [][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][] [] [][][]
+[][][][] []
+ []
+
+
+
+[108]
+Overfull \hbox (6.04051pt too wide) in paragraph at lines 216--216
+[]\TU/TimesNewRoman(0)/m/n/12 B. Kitchenham, “  Procedures for performing syste
+matic reviews,” \TU/TimesNewRoman(0)/m/it/12 Keele, UK, Keele
+ []
+
+
+Overfull \hbox (17.3763pt too wide) in paragraph at lines 216--216
+[]\TU/TimesNewRoman(0)/m/n/12 M. Yusram, “  Al-manẓūmah al-bayqūniyyah wa-ʿināy
+at ahl al-ʿilm bihā,” \TU/TimesNewRoman(0)/m/it/12 Al-Baṣīrah:
+ []
+
+
+
+[109]
+Overfull \hbox (10.45352pt too wide) in paragraph at lines 216--216
+[]\TU/TimesNewRoman(0)/m/n/12 Y. ibn Sharaf An-Nawawi, \TU/TimesNewRoman(0)/m/i
+t/12 Riyad as-Salihin\TU/TimesNewRoman(0)/m/n/12 . n.d. Translated by [Translat
+or’s Name],
+ []
+
+
+
+[110]
+Overfull \hbox (2.64278pt too wide) in paragraph at lines 216--216
+\TU/TimesNewRoman(0)/m/n/12 1,200 years of islamic pluralist legal traditions,”
+ \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2602.21226\TU/TimesNewRoman(
+0)/m/n/12 ,
+ []
+
+
+
+[111] (./Thesis_Master.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `Thesis_Master.out' has not changed.
+(rerunfilecheck)             Checksum: 7B853E7692F4886A42D5B286EA98F51C;20422.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Thesis_Master
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Thesis_Master.run.xml'.
+\openout1 = `Thesis_Master.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 22152 strings out of 475366
+ 450219 string characters out of 5762339
+ 1178862 words of memory out of 5000000
+ 44799 multiletter control sequences out of 15000+600000
+ 566737 words of font info for 103 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 79i,16n,93p,1880b,4981s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Thesis_Master.pdf (115 pages).

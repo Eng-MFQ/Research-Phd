@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  11 MAR 2026 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.2.26)  11 MAR 2026 18:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,8 +265,8 @@ Package caption Info: End \AtBeginDocument code.
 
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 56--57
-\OT1/ptm/m/n/10 bounded by their pre-trained weights with-out ex-ter-nal
+Underfull \hbox (badness 2119) in paragraph at lines 56--57
+[]\OT1/ptm/m/n/10 Building upon these foun-da-tional ef-forts, our study
  []
 
 
@@ -282,54 +282,62 @@ Underfull \hbox (badness 1960) in paragraph at lines 66--67
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 66--67
-\OT1/ptm/m/n/10 tonomously gen-er-ate fat-was (Is-lamic le-gal rul-ings) has
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 74--75
+Underfull \hbox (badness 1242) in paragraph at lines 72--73
 \OT1/ptm/m/n/10 We rig-or-ously fo-cus our eval-u-a-tion strictly on Is-lamic
  []
 
 
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9
-2.
+0.
 (/usr/local/texlive/2025basic/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
 [2]
-Underfull \hbox (badness 1931) in paragraph at lines 106--107
-\OT1/ptm/m/n/10 set. Gemini-2.5-Flash achieved an over-all ac-cu-racy of
- []
-
-
-Overfull \hbox (32.5836pt too wide) in paragraph at lines 112--120
+Overfull \hbox (32.5836pt too wide) in paragraph at lines 110--118
  [][] 
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 127--128
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 125--126
 \OT1/ptm/m/n/10 ing su-pe-ri-or-ity in han-dling rul-ings re-lated to \OT1/ptm/
 m/it/10 Dhikr
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 137--137
+Underfull \hbox (badness 1817) in paragraph at lines 135--135
 []|\OT1/ptm/b/n/10 GPT-5.1 Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
 []|\OT1/ptm/b/n/10 Gemini-2.5-Flash Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
 []|\OT1/ptm/m/n/10 41.67%
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 138--138
+[]|\OT1/ptm/m/n/10 Prohibition, Dress, Adorn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
+[]|\OT1/ptm/m/n/10 46.67%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--139
+[]|\OT1/ptm/m/n/10 40.00%
  []
 
 
@@ -338,18 +346,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 140--140
-[]|\OT1/ptm/m/n/10 Prohibition, Dress, Adorn-
+Underfull \hbox (badness 1024) in paragraph at lines 140--140
+[]|\OT1/ptm/m/n/10 Marriage, Di-vorce, Ex-pen-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 140--140
-[]|\OT1/ptm/m/n/10 46.67%
+[]|\OT1/ptm/b/n/10 55.00%
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]|\OT1/ptm/m/n/10 39.34%
+[]|\OT1/ptm/m/n/10 35.00%
  []
 
 
@@ -358,63 +366,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 142--142
-[]|\OT1/ptm/m/n/10 Marriage, Di-vorce, Ex-pen-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--142
-[]|\OT1/ptm/b/n/10 55.00%
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--143
-[]|\OT1/ptm/m/n/10 35.00%
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
-[]|\OT1/ptm/m/n/10 Gemini-2.5-
- []
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-[3] (./main.bbl
-Underfull \hbox (badness 1533) in paragraph at lines 5--9
-[]\OT1/ptm/m/n/10 Anonymized. 2025a.  The Dan-ger of Re-ly-ing on AI
+[3]
+Underfull \hbox (badness 1158) in paragraph at lines 153--154
+\OT1/ptm/m/n/10 sively as a re-trieval and draft-ing un-der-study, re-quir-ing
  []
 
 
 
-)
+(./main.bbl)
 
-[4] (./main.aux)
+[4]
+
+
+
+[5
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4257 strings out of 474662
- 70379 string characters out of 5751109
- 481406 words of memory out of 5000000
- 27258 multiletter control sequences out of 15000+600000
+ 4258 strings out of 474662
+ 70397 string characters out of 5751109
+ 481446 words of memory out of 5000000
+ 27259 multiletter control sequences out of 15000+600000
  580090 words of font info for 74 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 57i,10n,65p,1165b,282s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,1178b,299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
 0.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmr8a.p
-fb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 99098 bytes).
+m/cmr7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/u
+tmb8a.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on main.pdf (5 pages, 114695 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

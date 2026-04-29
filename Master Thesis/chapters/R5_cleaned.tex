@@ -1,49 +1,5 @@
-%File: main.tex
-\documentclass[letterpaper]{article}
-\usepackage{aaai25}
-\usepackage{times}  
-\usepackage{helvet}  
-\usepackage{courier}  
-\usepackage[hyphens]{url}  
-\usepackage{graphicx} 
-\usepackage{tabularx} 
-\usepackage{booktabs}
-\usepackage{amsmath}
-\usepackage[utf8]{inputenc}
-
-\urlstyle{rm} 
-\def\UrlFont{\rm}  
-\usepackage{natbib}  
-\usepackage{caption} 
-\frenchspacing  
-\setlength{\pdfpagewidth}{8.5in} 
-\setlength{\pdfpageheight}{11in} 
-\pdfinfo{
-/Title (Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries)
-/Author (Muwaffaq Imam, Nursultan Askarbekuly, Evgenii Zuev)
-/TemplateVersion (2025.1)
-}
-
-\setcounter{secnumdepth}{2}
-
-\title{Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries}
-\author {
-    Muwaffaq Imam\textsuperscript{\rm 1},
-    Nursultan Askarbekuly\textsuperscript{\rm 1},
-    Evgenii Zuev\textsuperscript{\rm 1}
-}
-\affiliations {
-    \textsuperscript{\rm 1}Innopolis University\\
-    m.imam@innopolis.university, n.askarbekuly@innopolis.university, e.zuev@innopolis.ru
-}
-
-\begin{document}
-
-\maketitle
-
-\begin{abstract}
-Large Language Models (LLMs) are increasingly being utilized to generate advice and informative content across a variety of sensitive domains, including religious guidance constraint to specific theological paradigms. However, their reliability in delivering authoritative, nuanced Islamic Jurisprudence (Fiqh) rulings remains a critical vulnerability that demands rigorous, empirical evaluation. The consequences of errant religious advice can deeply impact an individual's spiritual and practical life. In this paper, we present a comprehensive evaluation of state-of-the-art LLMs—specifically Gemini 2.5 Flash and GPT-5.1—leveraging a newly constructed, meticulously validated dataset of 10,000 Questions and Answers (Q\&A) strictly based on the Hanafi school of jurisprudence. By challenging these models with highly contextual, scenario-based queries, our study reveals substantial gaps in current model reasoning capabilities. We aim to establish a robust baseline for LLM reliability, pinpointing specific areas where generative AI excels and, more importantly, where it critically fails in answering complex Fiqh questions.
-\end{abstract}
+\chapter{Fatawa AI: Identifying the Hallucination Deficit in LLMs}
+\label{chap:Fatawa_AI:_Identifying_the_Hallucination_Deficit_in_LLMs}
 
 \section{Introduction}
 
@@ -159,7 +115,8 @@ A primary limitation of our study is the reliance on Claude 3.5 Sonnet as an aut
 
 Most importantly, our future roadmap includes comparing these baseline parametric models against advanced Retrieval-Augmented Generation (RAG) systems. Given the substantial failure rates in zero-shot reasoning, we hypothesize that limiting the LLM to strictly synthesize retrieved, pre-authenticated Hanafi texts (rather than generating from memory) is the only viable path to safety. Ultimately, an AI Agent designed exclusively for Fatwa generation based on a structured RAG approach shows promising potential. As demonstrated by early adoption tests where such systems successfully answered over 4,000 questions while acting solely as a safe research assistant to human domain experts, the future of Fatawa AI lies not in autonomous ruling generation, but in massive, intelligent retrieval scaling.
 
-\bibliography{main}
+% Local bibliography removed
+
 
 \appendix
 \section{Appendix: Evaluation Prompt Template}
@@ -168,5 +125,3 @@ For exact reproducibility, the following system prompt was provided to both Gemi
 \begin{quote}
 \textit{``You are an expert Mufti and scholar in the Hanafi school of Islamic Jurisprudence (Fiqh). Your task is to provide a direct, concise, and accurate Fatwa to the user's question. Do not provide information from other schools of thought (like Shafi'i, Maliki, or Hanbali) unless explicitly asked. State the ruling clearly at the beginning.''}
 \end{quote}
-
-\end{document}

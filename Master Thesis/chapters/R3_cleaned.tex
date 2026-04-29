@@ -1,0 +1,291 @@
+\chapter{Ahadith AI: Navigating Authenticity and Classification}
+\label{chap:Ahadith_AI:_Navigating_Authenticity_and_Classification}
+
+% LLNCS template residue removed for thesis integration
+
+
+%
+\section{Introduction}\label{sec:introduction}
+
+% \<السَلامُ عَليكم ورَحمةُ الله وبَركاته  >
+
+The study of Hadith holds a significant place in Islamic scholarship, serving as a vital source of guidance and inspiration for millions worldwide \cite{what_hadith_is}. In the pursuit of understanding and enhancing this rich tradition, this research endeavors to contribute to the field of Islamic Hadith, with a particular focus on the revered compilation, \textit{Riyad al-Salihin} \cite{what_hadith_is}. Authored by Imam al-Nawawi, this compilation stands as a cornerstone in Hadith literature, offering a treasure trove of wisdom and teachings for believers.
+
+\subsection{Objective of the Research}
+
+This research aims to enhance the understanding and accessibility of Hadith literature through a series of innovative contributions. The drastic changes in life and education after the COVID-19 pandemic in 2019, along with the rise of AI \cite{Mazzara2022} and it's applications in text \cite{10062863}, have created new opportunities for leveraging technology in religious studies. This study also seeks to integrate AI into Hadith analysis to identify similarities and connections between Hadith and other religious texts \cite{Altammami2023}. The primary objectives of this research include:
+
+\begin{enumerate}
+    \item \textbf{Enhancement of Hadith Accessibility:} Adding Arabic titles to each Hadith using the capabilities of ChatGPT3 \& 4 API, thereby facilitating easier navigation and comprehension for Arabic-speaking audiences.
+    
+    \item \textbf{Globalization of Hadith:} Translating the generated Arabic titles into English using ChatGPT 3 API, broadening the accessibility of Hadith literature to English-speaking individuals worldwide.
+    
+    \item \textbf{Structural Analysis:} Separating the Sanad (chain of narration) from the Matin (text) of each Hadith, allowing for a more detailed examination of its historical context and authenticity.
+    
+    \item \textbf{Technological Integration:} Incorporating Hadith, Matin, and titles into an embedding space and vector database, enabling advanced computational analysis and categorization of Hadith literature.
+    
+    \item \textbf{Semantic Search Implementation:} Implementing semantic search techniques, including similarity search, Maximal Marginal Relevance (MMR), and contextual compression, to facilitate efficient retrieval and exploration of Hadith texts.
+    
+    \item \textbf{Practical Application:} Developing an Android application named ``Ahadeeh.ai'' to showcase the research contributions and provide users with a user-friendly interface for accessing and exploring Hadith literature.
+    
+    \item \textbf{API Development:} Creating a public API using FastAPI to provide access to the compiled Hadith texts and enabling users to conduct searches and inquiries on specific Hadith topics.
+    
+    \item \textbf{Dataset Creation:} Curating a comprehensive dataset on Kaggle containing all the Hadiths from \textit{Riyad al-Salihin}, with separated Matin and Sanad, along with Arabic titles translated into both English and Arabic languages, fostering further research and analysis within the academic community.
+\end{enumerate}
+
+Through these objectives, this research seeks to bridge the gap between traditional Islamic scholarship and modern technological advancements, thereby fostering a deeper understanding and appreciation of the timeless wisdom contained within Hadith literature.
+
+
+\subsection{What is Hadith}
+Hadith in islam is everything transmitted from the Prophet Muhammad (Salla Allahu Alayhi Wa Sallam), whether it be his sayings, actions, approvals, traits, personal habits, or biography, whether before or after his mission as profit for Islam. Hadith is the second source of Islamic law after the Qur'an, obedience to the Messenger of Allah is also obedience to Allah SWT. The Prophet's Sunnah came to strengthen, explain and add new laws to the Qur'an. The scholars have paid great attention to preserving the Sunnah.
+\subsection{What is the Riyadh Al-Salihin Book?}
+
+The book \textit{"Riyadh al-Salihin"} authored by the late Imam al-Nawawi in 676 AH is distinguished for its uniqueness in its field and subject matter. Imam al-Nawawi, may Allah grant him mercy, compiled approximately 1896 authenticated Hadiths from the most reliable sources of the Prophetic Sunnah. He structured these Hadiths into 17 chapters and further subdivided them into 362 segments. His preference was to gather Hadiths from trustworthy compilations, for example, Sahih collections. \cite{site1}
+
+
+\subsection{Why Choose Riyadh Al-Salihin}
+
+Imam al-Nawawi, may Allah have mercy on him, had a specific purpose in mind when compiling his book. He aimed to create a comprehensive guide encompassing the obligations incumbent upon every accountable person, covering aspects of worship such as prayer, fasting, charity, pilgrimage, and more. 
+
+Furthermore, he included prohibitions against vices in behavior such as arrogance, backbiting, slander, and similar actions, along with disliked actions, recommended deeds, and the virtues of deeds. This book is thus suitable for individuals at all levels and backgrounds of knowledge, proving beneficial for both the general public and students of knowledge. Its profound benefits have led to its widespread acceptance and circulation throughout the ages.
+
+In "Riyadh Al-Salihin," Imam al-Nawawi committed to mentioning only authentic Hadiths from well-known sources (Sanad or Isnad). If it weren't for the Isnad, people could attribute any statement to the Prophet as they pleased \cite{hasan1994introduction}. there are many works attempts to simply categorise Hadith as authentic or
+not such as \cite{bilal2012muhadith} and \cite{hakak2022digital}. 
+
+All the Hadith in this book are considered Sahih, n essence, Hadith are categorized into different groups based on their authenticity, ranging from completely reliable to entirely fabricated. These classifications include Sahih (authentic), Hasan (good), Da'if (weak), and Maudu (fabricated) \cite{aldhaln2012improving}.
+
+
+
+Imam al-Nawawi supplemented them with verses from the Noble Quran for relevant topics and provided explanations or clarifications where necessary. \cite{site_Tawseef_book}
+
+\subsection{What is Semantic search}
+Semantic search is “search with meaning” \cite{bast2016semantic} a search technique that aims to understand the intent and context behind a user's query rather than just matching keywords. It utilizes natural language processing (NLP) and machine learning techniques to comprehend the meaning of words, phrases, and the relationships between them. This understanding allows semantic search engines to deliver more relevant results by considering the user's query in context and understanding the underlying concepts.
+
+In contrast, lexical search, or keyword-based search, relies solely on matching keywords between the user query and the indexed content. It doesn't consider the meaning or context of the words, which can sometimes lead to irrelevant or inaccurate results.
+\\
+\\
+In the subsequent sections of this paper, we will present a detailed account of the methodology employed to add titles and implement semantic search. Then, we will discuss the results obtained and the discussions arising from our research. Additionally, we will delve into the development of the Ahadeeh.ai application and the free API to integrate Hadith semantic search.
+
+\section{Methodology}
+Two main objectives were in mind: to generate titles in both English and Arabic for every hadith, and to add semantic search capability to all ahadith.
+
+\section{ Getting the Data}
+
+Our initial goal was to find the Riyadh al-Salihin book in any digital format so that we could later work with its content. We obtained initial data for our study from the GitHub repository 'hadith-json' by Ahmed Abdul Baset. This repository provided valuable datasets on Hadith texts in JSON format. The URL for the repository is \url{https://github.com/A7med3bdulBaset/hadith-json}. We considered two JSON files from the repository: the first file contained a list of Hadiths in both Arabic and English, while the second file listed the chapter names with Ids of the Riyadh al-Salihin book.
+
+We wrote a Python script to read this JSON and combine the two lists by adding the chapter name to its corresponding Hadith. As a result, we obtained a CSV dataset containing all the Hadiths in Arabic and English text.
+
+\section{Generating Titles}
+
+\subsection{Arabic Titles}
+
+The first contribution to the book is to generate titles for every hadith using the ChatGPT API. To achieve this, the following steps were taken:
+
+Firstly, we aimed to add titles to every Hadith, as titles can help people skim through multiple Hadiths faster or find ones they prefer. To do so, we first separated the Sanad (list of narrations) from the Matn (the hadith text) (see Figure~\ref{fig:sanad_matn}). In Riyadh al-Salihin, Imam al-Nawawi had already removed the higher Sanad chain \cite{site1}. For this research, our aim was to make a complete separation of the Sanad from the Matn. Fortunately, the original data we worked with already contained a separated English Matn. We will utilize this later in the semantic search phase of the research.
+
+We wrote a Python script to separate Sanad from Matn and then checked for any errors in our separation, correcting them manually. By the end, we had compiled a list of hadith with only the Matn (just the hadith text).
+
+Secondly, we wanted to generate titles for every Hadith using the compiled list. We integrated with ChatGPT-3 (`gpt-3.5-turbo-0125`) to generate the titles, utilizing Few-shot prompting to help ChatGPT generate more suitable titles for ahadith. All prompts in detail can be found in Appendix A (see Figure~\ref{fig:prompts}).
+
+After execution, we generated Arabic titles for all 1896 Hadiths. However, upon careful review, we discovered that some of the generated titles were not accurately conveying the Hadith (see Figure~\ref{fig:titles}). As Hadith is sacred for Muslims, we cannot afford to have inaccurate titles like these, so we decided to switch to ChatGPT-4 API to generate the titles.
+
+This time, we didn't use Few-shot prompting, given that ChatGPT-4 is state-of-the-art and more proficient in generating titles than ChatGPT-3. We employed a simple prompt (see Appendix A).
+
+The results were significantly better; see Figure~\ref{fig:titles} for a comparison between titles generated by ChatGPT-3 versus ChatGPT-4.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[scale=0.7]{figures/Sanad Vs Matn.png}
+    \caption{Separation of Sanad and Matn}
+    \label{fig:sanad_matn}
+\end{figure}
+
+
+
+\subsection{Generating English Titles}
+
+This part was relatively straightforward, as we already had Arabic titles. We asked ChatGPT-3 to translate all titles into English, and the results were satisfactory (see Figure~\ref{fig:titles}).
+
+
+
+
+
+In conclusion, we now have a list containing only Matn and titles in both Arabic and English. All of this data will be used to implement semantic search.
+
+All of the generated titles, along with the separated Matn and Sanad, were later saved into a CSV file together with the original data we found. This file was uploaded in its entirety for anyone to use on the Kaggle website \url{https://www.kaggle.com/datasets/muwaffaqimam/riyad-al-saliheen-book-of-hadith}.
+
+\section{Semantic Search}
+
+\subsection{Creating Embeddings for Hadith Dataset}
+
+In order to implement a powerful search mechanism for the Hadith, we decided to employ semantic search using OpenAI embeddings and a vector database with the help of
+
+ Langchain library (\url{https://github.com/langchain-ai/langchainjs}).
+
+To generate embeddings, we first prepared our dataset by creating a CSV file containing Matn and titles in both Arabic and English. Then, we utilized the CSVLoader from the Langchain library to read this file.
+
+This process helped us divide every row into document objects, which we then used to create a vector database. We filled this database with the embeddings of our dataset. The initial database we worked with was FAISS, and the embedding model used was the OpenAI \textbf{text-embedding-3-large}.
+
+This allowed us to create a vector database, which was saved locally. This will later assist us in performing semantic search over our Hadith dataset.
+
+\subsection{Performing Semantic Search}
+
+Now that we have a vector database, thanks to Langchain library wrappers over different vector databases, we can perform semantic search using similarity search and MMR (Maximal Marginal Relevance). Firstly, we receive a query from the user, then we embed the query using the same embedding model used during vector database creation. After that, we utilize the wrapper methods over the vector databases to retrieve relevant documents either using similarity or MMR algorithms. We also employed a Reranker model to re-rank the retrieved Hadith using the Cohere Reranker model \textbf{rerank-multilingual-v2.0} and \textbf{ContextualCompressionRetriever} from Langchain. The results are explained in detail in the results section, where we compared all of the aforementioned search methods against multiple vector databases. For the sake of finding the best results, we also conducted experiments to compare the results obtained from three well-known vector databases (FAISS, Qdrant and Chroma). The findings of this comparison are explained in the results section of the research.
+
+Lastly, we have created a mobile application called \href{http://ahadeeth.ai/}{Ahadeeth.ai} \url{https://play.google.com/store/apps/details?id=com.whilelearn.ahadeeth.ai}: Riyadh al-Salihin Book, which demonstrates our results. We also developed a free API that anyone can use to search for Hadith or obtain them. Both points will be discussed in detail in the App and API development section of the research.
+
+
+\section*{Results}
+
+The main results of this research were generating titles for every Hadith in both Arabic and English languages. The second result was incorporating all of the Hadith into a semantic search ability, where users can search Hadith semantically instead of using lexical-based search, which is more powerful.
+
+We also created a mobile application on Android called \href{http://ahadeeth.ai/}{Ahadeeth.ai}, where users can utilize the results of this application by quickly skimming Hadith titles and using semantic search to find specific Ahadeeth. At the time of writing this paper, we had over 200 users and an average of 20-23 app sessions per week. More details about app creation and API development will be discussed in the app development section.
+
+To ensure the delivery of the best results regarding Hadith AI, we decided to conduct comparisons between multiple technologies and seek expert opinions to determine which set of returned Hadith will be considered most correct.
+
+\subsection{Comparison}
+
+In this research, we compared the results against vector databases, and then against a Reranker.
+
+\textbf{Comparison between vector databases}
+
+The comparison we ran was between FAISS, Chroma, Quadrant retrievers, and Cohere reranker. We chose these libraries for their popularity and the number of GitHub stars they have. The initial comparison involved using similarity search. For example, we fed the query “money” or 
+("Al-Mal" in Arabic), then used all three vector databases as retrievers using similarity search. We recorded the first 5 results and compared them with each other. To ensure a fair comparison, we sought an expert opinion (Sheikh) who knows the Hadith better and can determine which set of returned Hadith is the best. Please refer to Figure~\ref{fig:similarity} for the results. We followed the same steps for the MMR algorithm. You can check the similarity search and MMR results. Please refer to Figures~\ref{fig:results_mmr_arabic} and~\ref{fig:results_mmr_english}.
+
+The second part of the comparison is to compare the winning set of Hadith from the previous section to a Cohere reranker model search results.
+
+\subsection{Results Interpretation}
+
+\subsubsection{Similarity Results Interpretation}
+
+Since all libraries returned the same inputs, there is nothing to compare here other than looking at the execution time. The results show that FAISS was the fastest, scoring an execution time of 1.35 seconds. This is understandable since it’s free and the library files are stored locally on the server. The second one was Chroma, scoring an execution time of 2.89 seconds, and the slowest was Qdrant, scoring an execution time of 3.62 seconds. Refer to Figure \ref{fig:similarity} for details.
+
+\subsubsection{MMR Results Interpretation}
+
+As shown from the results, FAISS and Qdrant returned the same results, while Chroma changed the results slightly. Here, we asked the expert to tell us which set of Hadith will be considered more correct as a whole since both of them returned the same first value.
+
+Refer to Figures \ref{fig:results_mmr_english} and \ref{fig:results_mmr_arabic} for details.
+
+\subsection{Expert Opinion}
+Sheikh Omar, our Imam at the mosque, is a distinguished scholar in Hadith. He has extensive knowledge of Hadith Science and the book \textit{Riyad as-Salihin}.
+
+\subsection*{Analysis of Search Results}
+We presented him with the results of searching for the word ``money'' in Arabic. The results were grouped into sets based on outputs from Chroma, FAISS, and similarity/re-ranking algorithms. These were provided for analysis and discussion (\href{https://docs.google.com}{Google Docs}). The discussion and related figures can be found in the discussion section.
+
+\subsection*{Sheikh's Interpretation}
+The second group is structured in a logical order. It begins with a discussion on money, followed by its significance in people’s lives, its distribution, and finally, guidelines on spending it.
+
+In contrast, the first group lacks logical sequencing.
+
+For example, when a father passes away, inheritance cannot be spent before it is properly divided. Therefore, understanding the principles of distribution should precede learning how to spend money.
+
+From a devotional perspective, the second group is superior. It first establishes the significance of money for an individual before organizing the discussion in a structured and meaningful manner.
+
+
+% Add expert opinion here
+
+
+
+
+\section{App / API Development}
+
+As the Hadith holds sacred significance for Muslims, we have decided to connect our Hadith API to a mobile app, making it available for everyone to use.
+
+The app was developed using Flutter, a cross-platform technology that provides both Android and iOS compatibility. We initially focused on developing the Android version.
+
+The app enables users to browse all the Hadith by navigating through each chapter. Additionally, it allows them to share and add Hadith to their favorites.
+
+Furthermore, a dedicated search page is included, enabling users to conduct semantic searches across all Hadith. Users can also specify the number of returned Hadith.
+
+Lastly, we have created a free API that provides access to individual Hadith, along with the capability to load more Hadith. This is embedded into the API to ensure better latency and reduce server load.
+
+Links to both the API and the app are provided below.
+\begin{itemize}
+    \item App link: \url{https://bit.ly/waAhadeethAI}
+    \item API access: Please contact the first author via email to obtain access.
+\end{itemize}
+
+
+\section{Conclusion}
+\label{conclusion}
+In this research, we applied Semantic Search and generative AI to the Hadith from the famous book Riyadh al-Salihin. First, we explained how we utilized ChatGPT 3 and 4 API to generate titles for the Hadith. We presented a comparison between the two language models (LLMs) and decided to proceed with the results from GPT-4. Additionally, we detailed our use of ChatGPT 3 for translating the titles from Arabic to English.
+
+Subsequently, we described our application of Semantic Search to all the Hadith. We provided a comparison between different vector databases such as FAISS, Qdrant, and Chroma. Furthermore, we compared the results returned from search algorithms including similarity search, MMR, and cogere reranker.
+
+Lastly, we offered expert opinions to assist in interpreting the results of Semantic Search across all the algorithms.
+
+Finally, we explained how we created an app, API, dataset, and made them publicly available for download.
+
+
+\clearpage
+
+
+% Local bibliography removed
+
+
+\appendix
+\section{Appendix A}
+\label{appendixA}
+
+\section{Figures}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[scale=0.34]{figures/Gpt3 vs Gpt 4 titles.png}
+    \caption{Gpt3.5 vs Gpt 4 Generated titles}
+    \label{fig:titles}
+\end{figure*}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[scale=0.35]{figures/results_mmr_arabic.png}
+    \caption{MMR search Results (Arabic)}
+    \label{fig:results_mmr_arabic}
+\end{figure*}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[scale=0.35]{figures/results_mmr_english.png}
+    \caption{MMR search Results (English)}
+    \label{fig:results_mmr_english}
+\end{figure*}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[scale=0.35]{figures/results1-similarity.png}
+    \caption{similarity search Results (Arabic)}
+    \label{fig:similarity}
+\end{figure*}
+
+
+
+\begin{table}[htbp]
+    \centering
+    \renewcommand{\arraystretch}{1.2} % Adjust row height
+    \setlength{\tabcolsep}{8pt} % Adjust column spacing
+    \begin{tabular}{|p{5cm}|p{5cm}|p{3cm}|}
+        \hline
+        \multicolumn{1}{|c|}{\textbf{System Prompts}} & 
+        \multicolumn{1}{c|}{\textbf{Purpose}} & 
+        \multicolumn{1}{c|}{\textbf{Model}} \\ \hline
+        \raggedright Generate a title that can best describe the Hadeeth, be concise.  
+        Hadeeth: \{hadeeth\} & 
+        \raggedright Generating Arabic titles to Hadith & 
+        gpt-4-turbo \\ \hline
+        \raggedright Translate given title to English. Return only the translated title.  
+        Title: \{title\} & 
+        \raggedright Translating Arabic titles to English titles & 
+        gpt-3.5-turbo-0125 \\ \hline
+    \end{tabular}
+    \caption{System prompts used in research}
+    \label{tab:system-prompts}
+\end{table}
+
+
+\section{System Prompts, Purpose, Model}
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[scale=0.6]{figures/System Prompt figure.png}
+    \caption{Prompts used for title generation using GPT3}
+    \label{fig:prompts}
+\end{figure*}

@@ -1,0 +1,2887 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{intro-1}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=RKSCS}{%
+         family={Rajender Kumar\bibnamedelima Surana},
+         familyi={R\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+         given={Chetan\bibnamedelima Surana},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=S}{%
+         family={Shriya},
+         familyi={S\bibinitperiod},
+      }}%
+      {{hash=GDB}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Dipesh\bibnamedelima B.},
+         giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SSP}{%
+         family={Shankar},
+         familyi={S\bibinitperiod},
+         given={Sahana\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RKSCS+1}
+    \strng{fullhash}{RKSCSSGDBSSP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 4th International Conference on Recent Trends on
+  Electronics, Information, Communication \& Technology (RTEICT)}
+    \verb{doi}
+    \verb 10.1109/RTEICT46194.2019.9016907
+    \endverb
+    \field{pages}{866\bibrangedash 870}
+    \field{title}{Intelligent Chatbot for Requirements Elicitation and
+  Classification}
+    \field{year}{2019}
+  \endentry
+
+  \entry{intro-2}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=EL}{%
+         family={Erlenhov},
+         familyi={E\bibinitperiod},
+         given={Linda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GdONF}{%
+         prefix={Gomes\bibnamedelima de},
+         prefixi={G\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Oliveira\bibnamedelima Neto},
+         familyi={O\bibinitperiod\bibinitdelim N\bibinitperiod},
+         given={Francisco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Scandariato},
+         familyi={S\bibinitperiod},
+         given={Riccardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Leitner},
+         familyi={L\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EL+1}
+    \strng{fullhash}{ELONFGdSRLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 IEEE/ACM 1st International Workshop on Bots in
+  Software Engineering (BotSE)}
+    \verb{doi}
+    \verb 10.1109/BotSE.2019.00009
+    \endverb
+    \field{pages}{7\bibrangedash 11}
+    \field{title}{Current and Future Bots in Software Development}
+    \field{year}{2019}
+  \endentry
+
+  \entry{intro-3}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BDS}{%
+         family={Battina},
+         familyi={B\bibinitperiod},
+         given={Dhaya\bibnamedelima Sindhu},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BDS1}
+    \strng{fullhash}{BDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{2349\bibrangedash 5162}
+    \field{title}{Artificial intelligence in software test automation: a
+  systematic literature review}
+    \field{journaltitle}{International Journal of Emerging Technologies and
+  Innovative Research (www. jetir. org| UGC and issn Approved), ISSN}
+    \field{year}{2019}
+  \endentry
+
+  \entry{intro-4}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yingzi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SCH}{%
+         family={Shieh},
+         familyi={S\bibinitperiod},
+         given={Chih-Hui},
+         giveni={C\bibinithyphendelim H\bibinitperiod},
+      }}%
+      {{hash=vEP}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Esch},
+         familyi={E\bibinitperiod},
+         given={Patrick},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LIL}{%
+         family={Ling},
+         familyi={L\bibinitperiod},
+         given={I-Ling},
+         giveni={I\bibinithyphendelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage UK: London, England}%
+    }
+    \strng{namehash}{XY+1}
+    \strng{fullhash}{XYSCHEPvLIL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{4}
+    \field{pages}{189\bibrangedash 199}
+    \field{title}{AI customer service: Task complexity, problem-solving
+  ability, and usage intention}
+    \field{volume}{28}
+    \field{journaltitle}{Australasian marketing journal}
+    \field{year}{2020}
+  \endentry
+
+  \entry{intro-5}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=KD}{%
+         family={Khurana},
+         familyi={K\bibinitperiod},
+         given={Diksha},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Koli},
+         familyi={K\bibinitperiod},
+         given={Aditya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Khatter},
+         familyi={K\bibinitperiod},
+         given={Kiran},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Sukhdev},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{KD+2}
+    \strng{fullhash}{KDKAKKSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{3713\bibrangedash 3744}
+    \field{title}{Natural language processing: State of the art, current trends
+  and challenges}
+    \field{volume}{82}
+    \field{journaltitle}{Multimedia tools and applications}
+    \field{year}{2023}
+  \endentry
+
+  \entry{lr-1}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=DSA}{%
+         family={Di\bibnamedelima Sorbo},
+         familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=VCA}{%
+         family={Visaggio},
+         familyi={V\bibinitperiod},
+         given={Corrado\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=DPM}{%
+         family={Di\bibnamedelima Penta},
+         familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+         given={Massimiliano},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Canfora},
+         familyi={C\bibinitperiod},
+         given={Gerardo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Panichella},
+         familyi={P\bibinitperiod},
+         given={Sebastiano},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DSA+1}
+    \strng{fullhash}{DSAVCADPMCGPS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2021 IEEE International Conference on Software
+  Maintenance and Evolution (ICSME)}
+    \verb{doi}
+    \verb 10.1109/ICSME52107.2021.00058
+    \endverb
+    \field{pages}{569\bibrangedash 573}
+    \field{title}{An NLP-based Tool for Software Artifacts Analysis}
+    \field{year}{2021}
+  \endentry
+
+  \entry{lr-2}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=AOFNA}{%
+         family={Al\bibnamedelima Omran},
+         familyi={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+         given={Fouad Nasser\bibnamedelima A},
+         giveni={F\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim
+  A\bibinitperiod},
+      }}%
+      {{hash=TC}{%
+         family={Treude},
+         familyi={T\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AOFNATC1}
+    \strng{fullhash}{AOFNATC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 IEEE/ACM 14th International Conference on Mining
+  Software Repositories (MSR)}
+    \verb{doi}
+    \verb 10.1109/MSR.2017.42
+    \endverb
+    \field{pages}{187\bibrangedash 197}
+    \field{title}{Choosing an NLP Library for Analyzing Software Documentation:
+  A Systematic Literature Review and a Series of Experiments}
+    \field{year}{2017}
+  \endentry
+
+  \entry{lr-3}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=FA}{%
+         family={Ferrari},
+         familyi={F\bibinitperiod},
+         given={Alessio},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EA}{%
+         family={Esuli},
+         familyi={E\bibinitperiod},
+         given={Andrea},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FAEA1}
+    \strng{fullhash}{FAEA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10515-019-00261-7
+    \endverb
+    \field{pages}{559–598}
+    \field{title}{An NLP approach for cross-domain ambiguity detection in
+  requirements engineering}
+    \field{volume}{26}
+    \field{journaltitle}{Automated Software Engineering}
+    \field{month}{09}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lr-4}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=JS}{%
+         family={Joshi},
+         familyi={J\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Deshpande},
+         familyi={D\bibinitperiod},
+         given={Dhanraj},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JSDD1}
+    \strng{fullhash}{JSDD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.5120/7795-0906
+    \endverb
+    \field{pages}{42\bibrangedash 46}
+    \field{title}{Textual Requirement Analysis for UML Diagram Extraction by
+  using NLP}
+    \field{volume}{50}
+    \field{journaltitle}{International Journal of Computer Applications}
+    \field{month}{07}
+    \field{year}{2012}
+  \endentry
+
+  \entry{lr-5}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=RCJ}{%
+         family={Rameshbhai},
+         familyi={R\bibinitperiod},
+         given={Chaudhary\bibnamedelima Jashubhai},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Paulose},
+         familyi={P\bibinitperiod},
+         given={Joy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RCJPJ1}
+    \strng{fullhash}{RCJPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{3}
+    \field{pages}{2152\bibrangedash 2163}
+    \field{title}{Opinion mining on newspaper headlines using SVM and NLP}
+    \field{volume}{9}
+    \field{journaltitle}{International Journal of Electrical and Computer
+  Engineering (IJECE)}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lr-6}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=HMR}{%
+         family={Hasan},
+         familyi={H\bibinitperiod},
+         given={Md.\bibnamedelima Rakibul},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Maliha},
+         familyi={M\bibinitperiod},
+         given={Maisha},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AM}{%
+         family={Arifuzzaman},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HMR+1}
+    \strng{fullhash}{HMRMMAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 International Conference on Computer, Communication,
+  Chemical, Materials and Electronic Engineering (IC4ME2)}
+    \verb{doi}
+    \verb 10.1109/IC4ME247184.2019.9036670
+    \endverb
+    \field{pages}{1\bibrangedash 4}
+    \field{title}{Sentiment Analysis with NLP on Twitter Data}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lr-7}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=HD}{%
+         family={Hendrycks},
+         familyi={H\bibinitperiod},
+         given={Dan},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Burns},
+         familyi={B\bibinitperiod},
+         given={Collin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Anya},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BS}{%
+         family={Ball},
+         familyi={B\bibinitperiod},
+         given={Spencer},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HD+1}
+    \strng{fullhash}{HDBCCABS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Cuad: An expert-annotated nlp dataset for legal contract
+  review}
+    \field{journaltitle}{arXiv preprint arXiv:2103.06268}
+    \field{year}{2021}
+  \endentry
+
+  \entry{lr-8}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=CV}{%
+         family={Carchiolo},
+         familyi={C\bibinitperiod},
+         given={Viincenza},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Longheu},
+         familyi={L\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Reitano},
+         familyi={R\bibinitperiod},
+         given={Giuseppa},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zagarella},
+         familyi={Z\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CV+1}
+    \strng{fullhash}{CVLARGZL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 Federated Conference on Computer Science and
+  Information Systems (FedCSIS)}
+    \verb{doi}
+    \verb 10.15439/2019F197
+    \endverb
+    \field{pages}{605\bibrangedash 609}
+    \field{title}{Medical prescription classification: a NLP-based approach}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lr-9}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=SS}{%
+         family={Sarica},
+         familyi={S\bibinitperiod},
+         given={Serhad},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Binyang},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LE}{%
+         family={Low},
+         familyi={L\bibinitperiod},
+         given={En},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Luo},
+         familyi={L\bibinitperiod},
+         given={Jianxi},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSSBLELJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1017/dsi.2019.231
+    \endverb
+    \field{number}{1}
+    \field{pages}{2249–2258}
+    \field{title}{Engineering Knowledge Graph for Keyword Discovery in Patent
+  Search}
+    \field{volume}{1}
+    \field{journaltitle}{Proceedings of the Design Society: International
+  Conference on Engineering Design}
+    \field{year}{2019}
+  \endentry
+
+  \entry{lr-10}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=KD}{%
+         family={Kauchak},
+         familyi={K\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Leroy},
+         familyi={L\bibinitperiod},
+         given={Gondy},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pei},
+         familyi={P\bibinitperiod},
+         given={Menglu},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Colina},
+         familyi={C\bibinitperiod},
+         given={Sonia},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {American Medical Informatics Association}%
+    }
+    \strng{namehash}{KD+1}
+    \strng{fullhash}{KDLGPMCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{AMIA Annual Symposium Proceedings}
+    \field{pages}{523}
+    \field{title}{Predicting transition words between sentence for English and
+  Spanish medical text}
+    \field{volume}{2019}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Artificial_intelligence_in_online_higher_education:_A_systematic_review_of_empirical}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=OF}{%
+         family={Ouyang},
+         familyi={O\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jiao},
+         familyi={J\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{OF+1}
+    \strng{fullhash}{OFZLJP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s10639-022-10925-9
+    \endverb
+    \field{pages}{7893\bibrangedash 7925}
+    \field{title}{Artificial intelligence in online higher education: A
+  systematic review of empirical research from 2011 to 2020}
+    \verb{url}
+    \verb https://doi.org/10.1007/s10639-022-10925-9
+    \endverb
+    \field{volume}{27}
+    \field{journaltitle}{Educational Information Technology}
+    \field{year}{2022}
+  \endentry
+
+  \entry{AI_IN_Education_SLR}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=TF}{%
+         family={Tahiru},
+         familyi={T\bibinitperiod},
+         given={Fati},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TF1}
+    \strng{fullhash}{TF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.4018/JCIT.2021010101
+    \endverb
+    \field{pages}{1\bibrangedash 20}
+    \field{title}{AI in Education: A Systematic Literature Review}
+    \field{volume}{23}
+    \field{journaltitle}{Journal of Cases on Information Technology}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Systematic_literature_review_on_opportunities_challenges_and_future_research_recommendations_of_artificial_intelligence_in_education}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=CTK}{%
+         family={Chiu},
+         familyi={C\bibinitperiod},
+         given={Thomas\bibnamedelima K.F.},
+         giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=XQ}{%
+         family={Xia},
+         familyi={X\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Xinyan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=CCS}{%
+         family={Chai},
+         familyi={C\bibinitperiod},
+         given={Ching\bibnamedelima Sing},
+         giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Miaoting},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \keyw{Artificial intelligence, Artificial intelligence in education,
+  Systematic review, Learning, Teaching, Assessment}
+    \strng{namehash}{CTK+1}
+    \strng{fullhash}{CTKXQZXCCSCM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Applications of artificial intelligence in education (AIEd) are emerging
+  and are new to researchers and practitioners alike. Reviews of the relevant
+  literature have not examined how AI technologies have been integrated into
+  each of the four key educational domains of learning, teaching, assessment,
+  and administration. The relationships between the technologies and learning
+  outcomes for students and teachers have also been neglected. This systematic
+  review study aims to understand the opportunities and challenges of AIEd by
+  examining the literature from the last 10 years (2012–2021) using matrix
+  coding and content analysis approaches. The results present the current focus
+  of AIEd research by identifying 13 roles of AI technologies in the key
+  educational domains, 7 learning outcomes of AIEd, and 10 major challenges.
+  The review also provides suggestions for future directions of AIEd research.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.caeai.2022.100118
+    \endverb
+    \field{issn}{2666-920X}
+    \field{pages}{100118}
+    \field{title}{Systematic literature review on opportunities, challenges,
+  and future research recommendations of artificial intelligence in education}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S2666920X2200073X
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{Computers and Education: Artificial Intelligence}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Technologies_for_GQM_Based_Metrics_Recommender_Systems_A_Systematic_Literature_Review}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=FM}{%
+         family={Farina},
+         familyi={F\bibinitperiod},
+         given={Mirko},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gorb},
+         familyi={G\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kruglov},
+         familyi={K\bibinitperiod},
+         given={Artem},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Succi},
+         familyi={S\bibinitperiod},
+         given={Giancarlo},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FM+1}
+    \strng{fullhash}{FMGAKASG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2022.3152397
+    \endverb
+    \field{pages}{23098\bibrangedash 23111}
+    \field{title}{Technologies for GQM-Based Metrics Recommender Systems: A
+  Systematic Literature Review}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Palaute:_An_Online_Text_Mining_Tool_for_Analyzing_Written_Student_Course_Feedback}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=GN}{%
+         family={Grönberg},
+         familyi={G\bibinitperiod},
+         given={Niku},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Knutas},
+         familyi={K\bibinitperiod},
+         given={Antti},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hynninen},
+         familyi={H\bibinitperiod},
+         given={Timo},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Hujala},
+         familyi={H\bibinitperiod},
+         given={Maija},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GN+1}
+    \strng{fullhash}{GNKAHTHM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2021.3116425
+    \endverb
+    \field{pages}{134518\bibrangedash 134529}
+    \field{title}{Palaute: An Online Text Mining Tool for Analyzing Written
+  Student Course Feedback}
+    \field{volume}{9}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Analyzing_educational_comments_for_topics_and_sentiments:_A_text_analytics_approach}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=NGI}{%
+         family={Nitin},
+         familyi={N\bibinitperiod},
+         given={Gokarn\bibnamedelima Ila},
+         giveni={G\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Swapna},
+         familyi={S\bibinitperiod},
+         given={Gottipati},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Shankararaman},
+         familyi={S\bibinitperiod},
+         given={Venky},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NGI+1}
+    \strng{fullhash}{NGISGSV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2015 IEEE Frontiers in Education Conference (FIE)}
+    \verb{doi}
+    \verb 10.1109/FIE.2015.7344296
+    \endverb
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Analyzing educational comments for topics and sentiments: A
+  text analytics approach}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Visualizing_Student_Opinion_Through_Text_Analysis}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=CNS}{%
+         family={Cunningham-Nelson},
+         familyi={C\bibinithyphendelim N\bibinitperiod},
+         given={Samuel},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Baktashmotlagh},
+         familyi={B\bibinitperiod},
+         given={Mahsa},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Boles},
+         familyi={B\bibinitperiod},
+         given={Wageeh},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CNS+1}
+    \strng{fullhash}{CNSBMBW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/TE.2019.2924385
+    \endverb
+    \field{number}{4}
+    \field{pages}{305\bibrangedash 311}
+    \field{title}{Visualizing Student Opinion Through Text Analysis}
+    \field{volume}{62}
+    \field{journaltitle}{IEEE Transactions on Education}
+    \field{year}{2019}
+  \endentry
+
+  \entry{A_Study_of_MOOC_Course_Review_Topics_Mining_Based_on_LDA_Topic_Model}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=YcX}{%
+         family={Yang-cai},
+         familyi={Y\bibinithyphendelim c\bibinitperiod},
+         given={Xiao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=RW}{%
+         family={Rui},
+         familyi={R\bibinitperiod},
+         given={Wang},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{MOOC online courses, LDA topic model, online comments}
+    \strng{namehash}{YcXRW1}
+    \strng{fullhash}{YcXRW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In order to dig deeper into the implied thematic information about online
+  course review data on MOOC learning platforms and obtain the topic concerns
+  of course learners in the process of participating in online courses, as a
+  demand guide to improve the quality level of online classes. This study
+  analyzes the course review data in the form of word cloud map for word
+  frequency, and at the same time, uses LDA topic model for semantic analysis
+  of online course review data to extract learners' topic concerns. The results
+  show that learners focus on course content, lecture style, course discussion,
+  learning resources, architecture, teacher quality, exercise explanation and
+  sound effect in the learning process of MOOC online education platform . By
+  mining online course review data for underlying themes, it is possible to
+  understand learners' demand tendencies, which is meaningful and valuable for
+  improving teaching quality.%
+    }
+    \field{booktitle}{Proceedings of the 3rd Africa-Asia Dialogue Network
+  (AADN) International Conference on Advances in Business Management and
+  Electronic Commerce Research}
+    \verb{doi}
+    \verb 10.1145/3503491.3503498
+    \endverb
+    \field{isbn}{9781450390415}
+    \field{pages}{44–48}
+    \field{series}{AADNIC-ABMECR '21}
+    \field{title}{A Study of MOOC Course Review Topics Mining Based on LDA
+  Topic Model}
+    \verb{url}
+    \verb https://doi.org/10.1145/3503491.3503498
+    \endverb
+    \list{location}{1}{%
+      {Ganzhou, China}%
+    }
+    \field{year}{2022}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{BP_Neural_Network-Based_Evaluation_on_University_Teachers'_Teaching_Quality}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=GC}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Chujian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Yicai},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{BP neural network, Teaching quality, Evaluation model}
+    \strng{namehash}{GCLY1}
+    \strng{fullhash}{GCLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Because of the one-sidedness in most universities by using the single
+  teaching evaluation mechanism to evaluate the teachers' teaching quality,
+  this paper presents a comprehensive teaching quality evaluation system. 7
+  indicators under the 2 level systems were constructed. Furtherly 2-level
+  neural network is established. The training results show that the network can
+  fit the training data well and the effect is significant, which indicates
+  that the teaching quality evaluation model based on neural network is
+  reasonable and feasible.%
+    }
+    \field{booktitle}{Proceedings of the 2020 3rd International Conference on
+  E-Business, Information Management and Computer Science}
+    \verb{doi}
+    \verb 10.1145/3453187.3453348
+    \endverb
+    \field{isbn}{9781450389099}
+    \field{pages}{285–289}
+    \field{series}{EBIMCS '20}
+    \field{title}{BP Neural Network-Based Evaluation on University Teachers'
+  Teaching Quality}
+    \verb{url}
+    \verb https://doi.org/10.1145/3453187.3453348
+    \endverb
+    \list{location}{1}{%
+      {Wuhan, China}%
+    }
+    \field{year}{2021}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{SUFAT_An_Analytics_Tool_for_Gaining_Insights_from_Student_Feedback_Comments}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=PS}{%
+         family={Pyasi},
+         familyi={P\bibinitperiod},
+         given={Siddhant},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gottipati},
+         familyi={G\bibinitperiod},
+         given={Swapna},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SV}{%
+         family={Shankararaman},
+         familyi={S\bibinitperiod},
+         given={Venky},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS+1}
+    \strng{fullhash}{PSGSSV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 IEEE Frontiers in Education Conference (FIE)}
+    \verb{doi}
+    \verb 10.1109/FIE.2018.8658457
+    \endverb
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{SUFAT - An Analytics Tool for Gaining Insights from Student
+  Feedback Comments}
+    \field{year}{2018}
+  \endentry
+
+  \entry{An_Efficient_Data_Mining_Technique_for_Assessing_Satisfaction_Level_With_Online_Learning_for_Higher_Education_Students_During_the_COVID-19}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=AHE}{%
+         family={Abdelkader},
+         familyi={A\bibinitperiod},
+         given={Hanan\bibnamedelima E.},
+         giveni={H\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GAG}{%
+         family={Gad},
+         familyi={G\bibinitperiod},
+         given={Ahmed\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=AAA}{%
+         family={Abohany},
+         familyi={A\bibinitperiod},
+         given={Amr\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SSE}{%
+         family={Sorour},
+         familyi={S\bibinitperiod},
+         given={Shaymaa\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AHE+1}
+    \strng{fullhash}{AHEGAGAAASSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1109/ACCESS.2022.3143035
+    \endverb
+    \field{pages}{6286\bibrangedash 6303}
+    \field{title}{An Efficient Data Mining Technique for Assessing Satisfaction
+  Level With Online Learning for Higher Education Students During the COVID-19}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Access}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Experience_in_learners_review_to_determine_attribute_relation_for_course_completion}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=LFF}{%
+         family={Lubis},
+         familyi={L\bibinitperiod},
+         given={Fetty\bibnamedelima Fitriyanti},
+         giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=RY}{%
+         family={Rosmansyah},
+         familyi={R\bibinitperiod},
+         given={Yusep},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=SSH}{%
+         family={Supangkat},
+         familyi={S\bibinitperiod},
+         given={Suhono\bibnamedelima Harso},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LFF+1}
+    \strng{fullhash}{LFFRYSSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 International Conference on ICT For Smart Society
+  (ICISS)}
+    \verb{doi}
+    \verb 10.1109/ICTSS.2016.7792865
+    \endverb
+    \field{pages}{32\bibrangedash 36}
+    \field{title}{Experience in learners review to determine attribute relation
+  for course completion}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Understanding_Students_Online_Reviews_to_Improve_College_Experience_and_Graduation_Rates_of_STEM_Programs_at_the_Largest_Post-Secondary_Institution_A_Learner-Centered_Study}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=MK}{%
+         family={Muollo},
+         familyi={M\bibinitperiod},
+         given={Killian},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Basavaraj},
+         familyi={B\bibinitperiod},
+         given={Prateek},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Garibay},
+         familyi={G\bibinitperiod},
+         given={Ivan},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MK+1}
+    \strng{fullhash}{MKBPGI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2018 IEEE Frontiers in Education Conference (FIE)}
+    \verb{doi}
+    \verb 10.1109/FIE.2018.8658450
+    \endverb
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{Understanding Students’ Online Reviews to Improve College
+  Experience and Graduation Rates of STEM Programs at the Largest
+  Post-Secondary Institution: A Learner-Centered Study}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Assessing_learners_satisfaction_in_collaborative_online_courses_through_a_big_data_approach}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=EG}{%
+         family={Elia},
+         familyi={E\bibinitperiod},
+         given={Gianluca},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Solazzo},
+         familyi={S\bibinitperiod},
+         given={Gianluca},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LG}{%
+         family={Lorenzo},
+         familyi={L\bibinitperiod},
+         given={Gianluca},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Passiante},
+         familyi={P\bibinitperiod},
+         given={Giuseppina},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \keyw{Big data, Clustering, Collaborative learning, Learning analytics,
+  Learning satisfaction, Sentiment analysis}
+    \strng{namehash}{EG+1}
+    \strng{fullhash}{EGSGLGPG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Monitoring learners' satisfaction (LS) is a vital action for collecting
+  precious information and design valuable online collaborative learning (CL)
+  experiences. Today's CL platforms allow students for performing many online
+  activities, thus generating a huge mass of data that can be processed to
+  provide insights about the level of satisfaction on contents, services,
+  community interactions, and effort. Big Data is a suitable paradigm for
+  real-time processing of large data sets concerning the LS, in the final aim
+  to provide valuable information that may improve the CL experience. Besides,
+  the adoption of Big Data offers the opportunity to implement a non-intrusive
+  and in-process evaluation strategy of online courses that complements the
+  traditional and time-consuming ways to collect feedback (e.g. questionnaires
+  or surveys). Although the application of Big Data in the CL domain is a
+  recent explored research area with limited applications, it may have an
+  important role in the future of online education. By adopting the design
+  science research methodology, this article describes a novel method and
+  approach to analyse individual students' contributions in online learning
+  activities and assess the level of their satisfaction towards the course. A
+  software artefact is also presented, which leverages Learning Analytics in a
+  Big Data context, with the goal to provide in real-time valuable insights
+  that people and systems can use to intervene properly in the program. The
+  contribution of this paper can be of value for both researchers and
+  practitioners: the former can be interested in the approach and method used
+  for LS assessment; the latter can find of interest the system implemented and
+  how it has been tested in a real online course.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.chb.2018.04.033
+    \endverb
+    \field{issn}{0747-5632}
+    \field{pages}{589\bibrangedash 599}
+    \field{title}{Assessing learners’ satisfaction in collaborative online
+  courses through a big data approach}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0747563218301973
+    \endverb
+    \field{volume}{92}
+    \field{journaltitle}{Computers in Human Behavior}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Sentiment_analysis_of_student_feedback_using_machine_learning_and_lexicon-based_approaches}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=NZ}{%
+         family={Nasim},
+         familyi={N\bibinitperiod},
+         given={Zarmeen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=RQ}{%
+         family={Rajput},
+         familyi={R\bibinitperiod},
+         given={Quratulain},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Haider},
+         familyi={H\bibinitperiod},
+         given={Sajjad},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NZ+1}
+    \strng{fullhash}{NZRQHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 International Conference on Research and Innovation
+  in Information Systems (ICRIIS)}
+    \verb{doi}
+    \verb 10.1109/ICRIIS.2017.8002475
+    \endverb
+    \field{pages}{1\bibrangedash 6}
+    \field{title}{Sentiment analysis of student feedback using machine learning
+  and lexicon based approaches}
+    \field{year}{2017}
+  \endentry
+
+  \entry{What_predicts_student_satisfaction_with_MOOCs:_A_gradient_boosting_trees_supervised_machine_learning_and_sentiment_analysis_approach}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=HKF}{%
+         family={Hew},
+         familyi={H\bibinitperiod},
+         given={Khe\bibnamedelima Foon},
+         giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=HX}{%
+         family={Hu},
+         familyi={H\bibinitperiod},
+         given={Xiang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=QC}{%
+         family={Qiao},
+         familyi={Q\bibinitperiod},
+         given={Chen},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{Moocs, Machine learning, Sentiment analysis, Learner satisfaction,
+  Online learning}
+    \strng{namehash}{HKF+1}
+    \strng{fullhash}{HKFHXQCTY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This study defines MOOC success as the extent of student satisfaction with
+  the course. Having more satisfied MOOC students can extend the reach of an
+  institution to more people, build the brand name of the institution, and even
+  help the institution use MOOCs as a source of revenue. Traditionally, student
+  completion rate is frequently used to define MOOC success, which however, is
+  often inaccurate because many students have no intention of finishing a MOOC.
+  Informed by Moore's theory of transactional distance, this study adopted
+  supervised machine learning algorithm, sentiment analysis and hierarchical
+  linear modelling to analyze the course features of 249 randomly sampled MOOCs
+  and 6393 students' perceptions of these MOOCs. The results showed that course
+  instructor, content, assessment, and schedule play significant roles in
+  explaining student satisfaction, while course structure, major, duration,
+  video, interaction, perceived course workload and perceived difficulty play
+  no significant roles. This study adds to the extant literature by examining
+  specific learner-level and course-level factors that can predict MOOC learner
+  satisfaction and estimating their relative effects. Implications for MOOC
+  instructors and practitioners are also provided.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.compedu.2019.103724
+    \endverb
+    \field{issn}{0360-1315}
+    \field{pages}{103724}
+    \field{title}{What predicts student satisfaction with MOOCs: A gradient
+  boosting trees supervised machine learning and sentiment analysis approach}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0360131519302775
+    \endverb
+    \field{volume}{145}
+    \field{journaltitle}{Computers & Education}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Research_on_Project-Based_Teaching_Quality_Evaluation_Based_on_Fuzzy_Cluster_Analysis}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=GP}{%
+         family={Gou},
+         familyi={G\bibinitperiod},
+         given={Pingzhang},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Shanshan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GPSS1}
+    \strng{fullhash}{GPSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 14th International Conference on Computer Science &
+  Education (ICCSE)}
+    \verb{doi}
+    \verb 10.1109/ICCSE.2019.8845364
+    \endverb
+    \field{pages}{826\bibrangedash 829}
+    \field{title}{Research on Project-Based Teaching Quality Evaluation Based
+  on Fuzzy Cluster Analysis}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Improving_MOOC_quality_using_learning_analytics_and_tools}{inproceedings}{}{}
+    \name{author}{6}{}{%
+      {{hash=CJS}{%
+         family={Cross},
+         familyi={C\bibinitperiod},
+         given={Jeffrey\bibnamedelima S.},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KN}{%
+         family={Keerativoranan},
+         familyi={K\bibinitperiod},
+         given={Nopphon},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=CMKJ}{%
+         family={Carlon},
+         familyi={C\bibinitperiod},
+         given={May Kristine\bibnamedelima Jonson},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  J\bibinitperiod},
+      }}%
+      {{hash=TYH}{%
+         family={Tan},
+         familyi={T\bibinitperiod},
+         given={Yong\bibnamedelima Hong},
+         giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RZ}{%
+         family={Rakhimberdina},
+         familyi={R\bibinitperiod},
+         given={Zarina},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mori},
+         familyi={M\bibinitperiod},
+         given={Hideki},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CJS+1}
+    \strng{fullhash}{CJSKNCMKJTYHRZMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2019 IEEE Learning With MOOCS (LWMOOCS)}
+    \verb{doi}
+    \verb 10.1109/LWMOOCS47620.2019.8939617
+    \endverb
+    \field{pages}{174\bibrangedash 179}
+    \field{title}{Improving MOOC quality using learning analytics and tools}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Course_Satisfaction_in_Engineering_Education_Through_the_Lens_of_Student_Agency_Analytics}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=HV}{%
+         family={Heilala},
+         familyi={H\bibinitperiod},
+         given={Ville},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Saarela},
+         familyi={S\bibinitperiod},
+         given={Mirka},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=JP}{%
+         family={Jääskelä},
+         familyi={J\bibinitperiod},
+         given={Päivikki},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kärkkäinen},
+         familyi={K\bibinitperiod},
+         given={Tommi},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HV+1}
+    \strng{fullhash}{HVSMJPKT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2020 IEEE Frontiers in Education Conference (FIE)}
+    \verb{doi}
+    \verb 10.1109/FIE44824.2020.9274141
+    \endverb
+    \field{pages}{1\bibrangedash 9}
+    \field{title}{Course Satisfaction in Engineering Education Through the Lens
+  of Student Agency Analytics}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Personalized_Learning_Model_based_on_Deep_Learning_Algorithm_for_Student_Behaviour_Analytic}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=FAB}{%
+         family={{Firdausiah Mansur}},
+         familyi={F\bibinitperiod},
+         given={Andi\bibnamedelima Besse},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=YN}{%
+         family={Yusof},
+         familyi={Y\bibinitperiod},
+         given={Norazah},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=BAH}{%
+         family={Basori},
+         familyi={B\bibinitperiod},
+         given={Ahmad\bibnamedelima Hoirul},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \keyw{Personalized based learning, Deep Learning, e-learning, student
+  achievement}
+    \strng{namehash}{FAB+1}
+    \strng{fullhash}{FABYNBAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The learning processes are unique for each individual. Thus, the
+  appropriate learning methods are essential to boost the student performance
+  and success in their study. The current e-learning system is focusing on
+  producing tools for collaborative study or facilitating the course for the
+  discussion forum and direct communication such as chat service. However, the
+  problem of boosting up individual achievements remains challenging. This
+  paper proposed a personalized learning model to find suitable learning
+  methods based on a deep learning algorithm. The factors of personalized
+  learning such as adaptive, individualized, differentiated and
+  competence-based learning have been taken into account when build and tested
+  the model. These factors will act as a feeder for the network then it will be
+  processed to identify which model of learning has the biggest chance on
+  augmenting student achievement. The testing result has shown that the
+  proposed model with deep learning approach has overcome other classifier with
+  72\% success rate The model is believed to bring a great benefit for student
+  and the teacher as well to manage the studying process more convenient for
+  both parties.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.procs.2019.12.094
+    \endverb
+    \field{issn}{1877-0509}
+    \field{note}{16th Learning and Technology Conference 2019Artificial
+  Intelligence and Machine Learning: Embedding the Intelligence}
+    \field{pages}{125\bibrangedash 133}
+    \field{title}{Personalized Learning Model based on Deep Learning Algorithm
+  for Student Behaviour Analytic}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S1877050919321337
+    \endverb
+    \field{volume}{163}
+    \field{journaltitle}{Procedia Computer Science}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Online_reviews_evaluation_system_for_higher_education_institution:_An_aspect_based_sentiment_analysis_tool}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=BL}{%
+         family={Balachandran},
+         familyi={B\bibinitperiod},
+         given={Luxchippiriya},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kirupananda},
+         familyi={K\bibinitperiod},
+         given={Abarnah},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BLKA1}
+    \strng{fullhash}{BLKA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 11th International Conference on Software,
+  Knowledge, Information Management and Applications (SKIMA)}
+    \verb{doi}
+    \verb 10.1109/SKIMA.2017.8294118
+    \endverb
+    \field{pages}{1\bibrangedash 7}
+    \field{title}{Online reviews evaluation system for higher education
+  institution: An aspect based sentiment analysis tool}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Competition_Neural_Network_Model_Application_in_the_Bilingual_Teaching_Quality_Evaluation_of_Universities}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=WC}{%
+         family={Wan},
+         familyi={W\bibinitperiod},
+         given={Chao},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KH}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Hua},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=JF}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Feng},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZXL}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Xin\bibnamedelima Long},
+         giveni={X\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WC+1}
+    \strng{fullhash}{WCKHJFZXL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2020 5th International Conference on Mechanical, Control
+  and Computer Engineering (ICMCCE)}
+    \verb{doi}
+    \verb 10.1109/ICMCCE51767.2020.00282
+    \endverb
+    \field{pages}{1289\bibrangedash 1292}
+    \field{title}{Competition Neural Network Model Application in the Bilingual
+  Teaching Quality Evaluation of Universities}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Romanov}{inproceedings}{}{}
+    \name{author}{8}{}{%
+      {{hash=RA}{%
+         family={Romanov},
+         familyi={R\bibinitperiod},
+         given={Andrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Salimzhanov},
+         familyi={S\bibinitperiod},
+         given={Iskander},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imam},
+         familyi={I\bibinitperiod},
+         given={Muwaffaq},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Askarbekuly},
+         familyi={A\bibinitperiod},
+         given={Nursultan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mazzara},
+         familyi={M\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Succi},
+         familyi={S\bibinitperiod},
+         given={Giancarlo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhdanov},
+         familyi={Z\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Bobrov},
+         familyi={B\bibinitperiod},
+         given={Evgeny},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Support vector machines;Education;Memory;Companies;Manuals;Machine
+  learning;Predictive models;Education;Software engineering}
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RASIIMANMMSGZPBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2022 International Conference on Frontiers of
+  Communications, Information System and Data Science (CISDS)}
+    \verb{doi}
+    \verb 10.1109/CISDS57597.2022.00021
+    \endverb
+    \field{pages}{84\bibrangedash 93}
+    \field{title}{Applying AI in Education Creating a Grading Prediction System
+  and Digitalizing Student Profiles}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Research_on_the_Application_of_BP_Neural_Network_in_Vocal_Music_Teaching_Quality_Evaluation}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=WJ}{%
+         family={Wanyin},
+         familyi={W\bibinitperiod},
+         given={Jia},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WJ1}
+    \strng{fullhash}{WJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2020 5th International Conference on Smart Grid and
+  Electrical Automation (ICSGEA)}
+    \verb{doi}
+    \verb 10.1109/ICSGEA51094.2020.00072
+    \endverb
+    \field{pages}{306\bibrangedash 309}
+    \field{title}{Research on the Application of BP Neural Network in Vocal
+  Music Teaching Quality Evaluation}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Design_of_online_teaching_quality_evaluation_system_for_Private_University_Research_based_on_deep_learning_algorithm}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=BC}{%
+         family={Beiqing},
+         familyi={B\bibinitperiod},
+         given={Cui},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CZ}{%
+         family={Chunrong},
+         familyi={C\bibinitperiod},
+         given={Zhou},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BCCZ1}
+    \strng{fullhash}{BCCZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2020 International Conference on Modern Education and
+  Information Management (ICMEIM)}
+    \verb{doi}
+    \verb 10.1109/ICMEIM51375.2020.00015
+    \endverb
+    \field{pages}{29\bibrangedash 32}
+    \field{title}{Design of online teaching quality evaluation system for
+  Private University: —Research based on deep learning algorithm}
+    \field{year}{2020}
+  \endentry
+
+  \entry{An_Improved_BP_Neural_Network-Based_Quality_Evaluation_Model_for_Chinese_International_Education_Teaching_Courses}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=HB}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Binxian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ke},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{BP neural network, Beetle antennae search algorithm, Chinese
+  international education, Teaching quality evaluation model}
+    \strng{namehash}{HBWK1}
+    \strng{fullhash}{HBWK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    For learners of Chinese as a second language, it is difficult to learn
+  Chinese in the target language environment. With the large-scale applications
+  of intelligent technology in Chinese international education, Chinese
+  teaching is moving towards digitalization, networking and informatization,
+  and computer technology is promoting the development of Chinese international
+  education in a more convenient way. In order to effectively improve the
+  teaching quality of Chinese international education, a scientific and
+  reasonable evaluation system of course teaching quality needs to be
+  formulated. This paper addresses the shortcomings of the traditional course
+  teaching quality evaluation methods, introduces BP neural network to
+  establish the teaching evaluation base model, and sets the corresponding
+  course evaluation indicatores as the input quantity. Considering the problems
+  of local optimum and low convergence efficiency of BP neural network, an
+  improved BP neural network is proposed to optimize the initial weights and
+  thresholds of BP neural network using the beetle antennae search algorithm,
+  so as to obtain the improved teaching quality evaluation model of Chinese
+  international education courses. Then, the performance test of the model is
+  conducted in this paper. The test results show that the proposed teaching
+  quality evaluation model can accurately evaluate the teaching quality of the
+  curriculum and help improve the teaching courses of Chinese international
+  education, which is an innovative attempt to combine computer technology with
+  Chinese international education. Finally, this paper puts forward
+  corresponding suggestions for the combination of Chinese international
+  education and computer technology, in order to promote the further
+  development of Chinese international education.%
+    }
+    \field{booktitle}{2022 The 6th International Conference on Compute and Data
+  Analysis}
+    \verb{doi}
+    \verb 10.1145/3523089.3523109
+    \endverb
+    \field{isbn}{9781450395472}
+    \field{pages}{122–127}
+    \field{series}{ICCDA 2022}
+    \field{title}{An Improved BP Neural Network-Based Quality Evaluation Model
+  for Chinese International Education Teaching Courses}
+    \verb{url}
+    \verb https://doi.org/10.1145/3523089.3523109
+    \endverb
+    \list{location}{1}{%
+      {Shanghai, China}%
+    }
+    \field{year}{2022}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{Evaluation_Model_of_PE_Teaching_Quality_Based_on_Active_Learning_Support_Vector_Machine}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=ZF}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Fan},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JQ}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Qinhua},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=JC}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Changzhi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Bo},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{PE teaching Quality, Support Vector Machine, Active Learning,
+  Evaluation Model, PE teaching}
+    \strng{namehash}{ZF+1}
+    \strng{fullhash}{ZFJQJCZB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Traditional methods of Physical Education (PE) teaching quality assessment
+  in Colleges and universities have been unable to meet the needs of
+  information and modern PE teaching mode in terms of accuracy and efficiency.
+  Therefore, aiming at the problem of classroom PE teaching quality evaluation
+  in Colleges and universities, this paper proposes an assistant PE teaching
+  quality evaluation model based on active learning support vector machine.
+  Considering the actual situation in many aspects, the evaluation index system
+  of classroom PE teaching quality is constructed. The active learning support
+  vector machine (AL-SVM) is used to establish the evaluation model of
+  classroom PE teaching quality. The collected data sets of PE teaching quality
+  in a university are experimented and the results are analyzed. The
+  experimental results show that, compared with other evaluation models, the
+  proposed evaluation model has certain advantages in accuracy and efficiency,
+  and can obtain better evaluation results of PE teaching quality in Colleges
+  and universities.%
+    }
+    \field{booktitle}{Proceedings of the 5th International Conference on
+  Frontiers of Educational Technologies}
+    \verb{doi}
+    \verb 10.1145/3338188.3338202
+    \endverb
+    \field{isbn}{9781450362931}
+    \field{pages}{101–104}
+    \field{series}{ICFET 2019}
+    \field{title}{Evaluation Model of PE Teaching Quality Based on Active
+  Learning Support Vector Machine}
+    \verb{url}
+    \verb https://doi.org/10.1145/3338188.3338202
+    \endverb
+    \list{location}{1}{%
+      {Beijing, China}%
+    }
+    \field{year}{2019}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{Evaluation_System_of_Tourism_Psychology_Teaching_Quality_Based_on_Convolutional_Neural_Network}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=CP}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Peilin},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \strng{namehash}{CP1}
+    \strng{fullhash}{CP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    How to improve the teaching quality (TQ) of tourism psychology in higher
+  education has become the focus of current higher education. Teaching
+  evaluation is a key measure to improve TQ. Therefore, it is particularly
+  important to formulate a scientific and reasonable ES for college classroom
+  TQ. As a new technology, neural network (NN) has been widely used in various
+  evaluation problems by virtue of its non-linear processing, adaptive
+  learning, high fault tolerance and other characteristics. The purpose of this
+  article is to study the ES of tourism psychology TQ based on convolutional
+  NN. This article takes the school's internal talent training quality ES as
+  the research object, and introduces the optimized convolutional NN theory
+  into the college tourism psychology TQ evaluation. The mathematical model is
+  established using the NN model structure, and the convolutional NN algorithm
+  is introduced in detail. The realization of the optimized system is divided
+  into two parts, one is to collect the scoring data of students, teachers and
+  experts through the online ES. The second is to process the collected data
+  through the ES to achieve sample maintenance, optimized NN training and NN
+  evaluation functions to obtain the teacher's final evaluation results.
+  Experimental results show that not only the accuracy of training and
+  prediction is completely within the acceptable range, but the error of the
+  test sample is more than 90\% similar to the error of the test sample. It can
+  be seen that the student evaluation model based on NN proposed in this paper
+  is a reasonable and feasible evaluation model.%
+    }
+    \field{booktitle}{2021 4th International Conference on Information Systems
+  and Computer Aided Education}
+    \verb{doi}
+    \verb 10.1145/3482632.3483062
+    \endverb
+    \field{isbn}{9781450390255}
+    \field{pages}{964–967}
+    \field{series}{ICISCAE 2021}
+    \field{title}{Evaluation System of Tourism Psychology Teaching Quality
+  Based on Convolutional Neural Network}
+    \verb{url}
+    \verb https://doi.org/10.1145/3482632.3483062
+    \endverb
+    \list{location}{1}{%
+      {Dalian, China}%
+    }
+    \field{year}{2021}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{An_Evaluation_Model_of_Moral_Education_Teaching_Quality_in_Universities_Based_on_System_Control_Theory}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=MZ}{%
+         family={Ming},
+         familyi={M\bibinitperiod},
+         given={Zheng},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MZ1}
+    \strng{fullhash}{MZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2021 13th International Conference on Measuring
+  Technology and Mechatronics Automation (ICMTMA)}
+    \verb{doi}
+    \verb 10.1109/ICMTMA52658.2021.00123
+    \endverb
+    \field{pages}{535\bibrangedash 538}
+    \field{title}{An Evaluation Model of Moral Education Teaching Quality in
+  Universities Based on System Control Theory}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Research_on_the_Application_of_BP_Neural_Network_in_the_Evaluation_of_College_Teaching_Quality}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=SX}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Xin},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bian},
+         familyi={B\bibinitperiod},
+         given={Tao},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{College teaching quality evaluation, BP neural network}
+    \strng{namehash}{SXBT1}
+    \strng{fullhash}{SXBT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    With the expansion of colleges and universities, the society and public are
+  more and more concerned about the quality of students' learning. For colleges
+  and universities, how to improve the teaching quality of teachers is a
+  problem that needs to be considered. Because of the diversity of teaching and
+  students and the supervisory factors of the educational affairs department,
+  it is difficult to be objective and fair in teaching quality evaluation. In
+  order to improve the accuracy of the current college teaching quality
+  evaluation, this paper applies the BP neural network to the college teaching
+  quality evaluation. This paper constructs a BP (Back Propagation) neural
+  network model for college teaching quality evaluation and verifies the
+  accuracy of the BP neural network through experiments. The results show that
+  the BP neural network established in this paper can evaluate the college
+  teaching quality well.%
+    }
+    \field{booktitle}{Proceedings of the 2022 6th International Conference on
+  E-Education, E-Business and E-Technology}
+    \verb{doi}
+    \verb 10.1145/3549843.3549854
+    \endverb
+    \field{isbn}{9781450397216}
+    \field{pages}{73–77}
+    \field{series}{ICEBT '22}
+    \field{title}{Research on the Application of BP Neural Network in the
+  Evaluation of College Teaching Quality}
+    \verb{url}
+    \verb https://doi.org/10.1145/3549843.3549854
+    \endverb
+    \list{location}{1}{%
+      {Beijing, China}%
+    }
+    \field{year}{2022}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{The_Evaluation_and_Application_of_BP_Neural_Network_in_the_Multiple_Quality_Assurance_Paths_of_Higher_Education}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=MzH}{%
+         family={Mei-zhong},
+         familyi={M\bibinithyphendelim z\bibinitperiod},
+         given={HUANG},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{higher education, evaluation model, evaluation index, BP neural
+  network, teaching evaluation}
+    \strng{namehash}{MzH1}
+    \strng{fullhash}{MzH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 2021 4th International Conference on
+  E-Business, Information Management and Computer Science}
+    \verb{doi}
+    \verb 10.1145/3511716.3511786
+    \endverb
+    \field{isbn}{9781450395687}
+    \field{pages}{467–474}
+    \field{series}{EBIMCS '21}
+    \field{title}{The Evaluation and Application of BP Neural Network in the
+  Multiple Quality Assurance Paths of Higher Education}
+    \verb{url}
+    \verb https://doi.org/10.1145/3511716.3511786
+    \endverb
+    \list{location}{1}{%
+      {Hong Kong, China}%
+    }
+    \field{year}{2022}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{Evaluating_the_quality_of_teaching_in_higher_education_institutes_using_clustering_approach_and_set_pair_analysis}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=IM}{%
+         family={Imtiyaz},
+         familyi={I\bibinitperiod},
+         given={Mansha},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Singhal},
+         familyi={S\bibinitperiod},
+         given={Abhishek},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IMSA1}
+    \strng{fullhash}{IMSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2015 1st International Conference on Next Generation
+  Computing Technologies (NGCT)}
+    \verb{doi}
+    \verb 10.1109/NGCT.2015.7375189
+    \endverb
+    \field{pages}{588\bibrangedash 592}
+    \field{title}{Evaluating the quality of teaching in higher education
+  institutes using clustering approach and set pair analysis}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Automatic_Rules_Generation_for_Teaching_Strategies_Improvement}{inproceedings}{}{}
+    \name{author}{3}{}{%
+      {{hash=ZJ}{%
+         family={Zhan},
+         familyi={Z\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FX}{%
+         family={Fan},
+         familyi={F\bibinitperiod},
+         given={Xue},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Yong},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Improved Apriori algorithm, Analysis from both teacher and students'
+  sides, Teaching strategies improvement, Fine-grained teaching data mining}
+    \strng{namehash}{ZJ+1}
+    \strng{fullhash}{ZJFXZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Data mining of students' scores can optimize teaching strategies and
+  improve the teaching quality continuously. However, there are two problems in
+  the current researches of teaching data mining. Firstly, most researchers
+  focus on students' performance among multiple courses, but these data are
+  relatively rough, and with little help for improving specific teaching
+  strategies (e.g., using different teaching and assessment methods) of a
+  single course. Secondly, students' performance not only depends on their
+  efforts, but also is affected by the effectiveness of the assessment methods
+  made by teachers, so it is impossible to have accurate improvement without
+  considering factors from both teacher and students' sides. This paper takes
+  the students' scores of computer network course as the sample, uses k-means
+  to cluster students' scores from different assessment methods based on fine
+  grained teaching contents, in order to get more accurate teaching improvement
+  strategies later. In addition, an improved Apriori algorithm is proposed with
+  the quality of assessment methods taken into consideration, for association
+  rules selection and teaching strategies improvement. According to the
+  experiments, our method can take into account the diversity of course
+  assessment methods and the influence of both teaching and learning factors,
+  and the accuracy of the improved rules is 18.8\% higher than that current
+  Apriori algorithm based on interest.%
+    }
+    \field{booktitle}{Proceedings of the 4th International Conference on
+  Computer Science and Application Engineering}
+    \verb{doi}
+    \verb 10.1145/3424978.3425079
+    \endverb
+    \field{isbn}{9781450377720}
+    \field{series}{CSAE '20}
+    \field{title}{Automatic Rules Generation for Teaching Strategies
+  Improvement}
+    \verb{url}
+    \verb https://doi.org/10.1145/3424978.3425079
+    \endverb
+    \list{location}{1}{%
+      {Sanya, China}%
+    }
+    \field{year}{2020}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{Exploring_Causes_for_the_Dropout_on_Massive_Open_Online_Courses}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=NZ}{%
+         family={Niu},
+         familyi={N\bibinitperiod},
+         given={Zhiyao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wangjie},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yan},
+         familyi={Y\bibinitperiod},
+         given={Xiangguo},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=WN}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Ning},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{MOOC, machine learning, causes evaluation, feature selection,
+  XGBoost}
+    \strng{namehash}{NZ+2}
+    \strng{fullhash}{NZLWYXWN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    With the booming of massive open online courses (MOOCs) in recent years,
+  high drop-out rate and low completion rate remain major impediments.
+  Analyzing the behavior of learners and exploring the reasons of dropout of
+  course are of great significance for evaluating the teaching quality and
+  improving the teaching effect. As educational data mining and machine
+  learning rise, it is possible to explore the causes of high dropout rate and
+  low completion rate on MOOCs. Here, we conducted analysis on data from five
+  multi-disciplinary courses on icourse 163 platform and extracted more than 50
+  features for evaluating causes of withdrawing on MOOCs. A cause exploration
+  method based on gradient boosting decision tree was implemented to extract
+  the essential features that influence the learner's performance with the
+  importance of each feature calculated. To get the best performed
+  classification model, Cross-Validation was used in modeling and Grid Search
+  was employed in parameter optimization. According to the importance of each
+  feature, different subsets of features were selected and tested in turn. The
+  results indicated nine features being the main factors affecting dropout. It
+  could be expected to provide a guideline for a basis for evidence-based
+  improvement of online education.%
+    }
+    \field{booktitle}{Proceedings of ACM Turing Celebration Conference - China}
+    \verb{doi}
+    \verb 10.1145/3210713.3210727
+    \endverb
+    \field{isbn}{9781450364157}
+    \field{pages}{47–52}
+    \field{series}{TURC '18}
+    \field{title}{Exploring Causes for the Dropout on Massive Open Online
+  Courses}
+    \verb{url}
+    \verb https://doi.org/10.1145/3210713.3210727
+    \endverb
+    \list{location}{1}{%
+      {Shanghai, China}%
+    }
+    \field{year}{2018}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{Research_on_Evaluation_of_Online_Teaching_Effect_based_on_Deep_Learning_Technology}{inproceedings}{}{}
+    \name{author}{5}{}{%
+      {{hash=ZZ}{%
+         family={Zhan},
+         familyi={Z\bibinitperiod},
+         given={Zhonghua},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Tongping},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=JL}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Fangliang},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=XH}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Huanqing},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZZ+1}
+    \strng{fullhash}{ZZSTJLHFXH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2021 IEEE 5th Advanced Information Technology, Electronic
+  and Automation Control Conference (IAEAC)}
+    \verb{doi}
+    \verb 10.1109/IAEAC50856.2021.9390652
+    \endverb
+    \field{pages}{249\bibrangedash 253}
+    \field{title}{Research on Evaluation of Online Teaching Effect based on
+  Deep Learning Technology}
+    \field{year}{2021}
+  \endentry
+
+  \entry{A_NewParadigm_for_SystematicLiteratureReviews}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=DC}{%
+         family={Durach},
+         familyi={D\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kembro},
+         familyi={K\bibinitperiod},
+         given={Joakim},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WA}{%
+         family={Wieland},
+         familyi={W\bibinitperiod},
+         given={Andreas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DC+1}
+    \strng{fullhash}{DCKJWA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1111/jscm.12145
+    \endverb
+    \field{title}{A New Paradigm for Systematic Literature Reviews in Supply
+  Chain Management}
+    \field{volume}{53}
+    \field{journaltitle}{Journal of Supply Chain Management}
+    \field{month}{10}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Procedures_for_PerformingSystematicReviews}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=KB}{%
+         family={Kitchenham},
+         familyi={K\bibinitperiod},
+         given={Barbara},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KB1}
+    \strng{fullhash}{KB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Procedures for Performing Systematic Reviews}
+    \field{volume}{33}
+    \field{journaltitle}{Keele, UK, Keele Univ.}
+    \field{month}{08}
+    \field{year}{2004}
+  \endentry
+
+  \entry{what_hadith_is}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=YM}{%
+         family={Yusram},
+         familyi={Y\bibinitperiod},
+         given={Muhammad},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YM1}
+    \strng{fullhash}{YM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.36701/bashirah.v2i1.333
+    \endverb
+    \field{number}{1}
+    \field{pages}{127\bibrangedash 167}
+    \field{title}{Al-Manẓūmah al-Bayqūniyyah wa-ʿināyat ahl al-ʿilm
+  bihā}
+    \verb{url}
+    \verb https://journal.stiba.ac.id/index.php/bashirah/article/view/333
+    \endverb
+    \field{volume}{2}
+    \field{journaltitle}{Al-Baṣīrah: Majallat al-Dirāsāt al-Islāmiyyah}
+    \field{year}{2021}
+  \endentry
+
+  \entry{Mazzara2022}{inbook}{}{}
+    \name{author}{9}{}{%
+      {{hash=MM}{%
+         family={Mazzara},
+         familyi={M\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhdanov},
+         familyi={Z\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BMR}{%
+         family={Bahrami},
+         familyi={B\bibinitperiod},
+         given={Mohammad\bibnamedelima Reza},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Aslam},
+         familyi={A\bibinitperiod},
+         given={Hamna},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=KI}{%
+         family={Kotorov},
+         familyi={K\bibinitperiod},
+         given={Iouri},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imam},
+         familyi={I\bibinitperiod},
+         given={Muwaffaq},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Salem},
+         familyi={S\bibinitperiod},
+         given={Hamza},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BJA}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Joseph\bibnamedelima Alexander},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pletnev},
+         familyi={P\bibinitperiod},
+         given={Ruslan},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{4}{}{%
+      {{hash=HRJ}{%
+         family={Howlett},
+         familyi={H\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=JLC}{%
+         family={Jain},
+         familyi={J\bibinitperiod},
+         given={Lakhmi\bibnamedelima C.},
+         giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LJR}{%
+         family={Littlewood},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima R.},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BMM}{%
+         family={Balas},
+         familyi={B\bibinitperiod},
+         given={Marius\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer Nature Singapore}%
+    }
+    \strng{namehash}{MM+1}
+    \strng{fullhash}{MMZPBMRAHKIIMSHBJAPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Smart and Sustainable Technology for Resilient Cities and
+  Communities}
+    \verb{doi}
+    \verb 10.1007/978-981-16-9101-0_14
+    \endverb
+    \field{isbn}{978-981-16-9101-0}
+    \field{pages}{193\bibrangedash 207}
+    \field{title}{Education After COVID-19}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-981-16-9101-0_14
+    \endverb
+    \list{location}{1}{%
+      {Singapore}%
+    }
+    \field{year}{2022}
+  \endentry
+
+  \entry{10062863}{inproceedings}{}{}
+    \name{author}{8}{}{%
+      {{hash=RA}{%
+         family={Romanov},
+         familyi={R\bibinitperiod},
+         given={Andrey},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Salimzhanov},
+         familyi={S\bibinitperiod},
+         given={Iskander},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imam},
+         familyi={I\bibinitperiod},
+         given={Muwaffaq},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AN}{%
+         family={Askarbekuly},
+         familyi={A\bibinitperiod},
+         given={Nursultan},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mazzara},
+         familyi={M\bibinitperiod},
+         given={Manuel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Succi},
+         familyi={S\bibinitperiod},
+         given={Giancarlo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=ZP}{%
+         family={Zhdanov},
+         familyi={Z\bibinitperiod},
+         given={Petr},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Bobrov},
+         familyi={B\bibinitperiod},
+         given={Evgeny},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Support vector machines;Education;Memory;Companies;Manuals;Machine
+  learning;Predictive models;Education;Software engineering}
+    \strng{namehash}{RA+1}
+    \strng{fullhash}{RASIIMANMMSGZPBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2022 International Conference on Frontiers of
+  Communications, Information System and Data Science (CISDS)}
+    \verb{doi}
+    \verb 10.1109/CISDS57597.2022.00021
+    \endverb
+    \field{pages}{84\bibrangedash 93}
+    \field{title}{Applying AI in Education Creating a Grading Prediction System
+  and Digitalizing Student Profiles}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Altammami2023}{thesis}{}{}
+    \name{author}{1}{}{%
+      {{hash=ASH}{%
+         family={Altammami},
+         familyi={A\bibinitperiod},
+         given={Shatha\bibnamedelima Hamad},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ASH1}
+    \strng{fullhash}{ASH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Artificial intelligence for understanding the Hadith}
+    \verb{url}
+    \verb https://etheses.whiterose.ac.uk/id/eprint/32802
+    \endverb
+    \list{institution}{1}{%
+      {University of Leeds}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2023}
+  \endentry
+
+  \entry{site1}{misc}{}{}
+    \name{author}{2}{}{%
+      {{hash=TIMDM}{%
+         family={Tahir\bibnamedelima Ismail},
+         familyi={T\bibinitperiod\bibinitdelim I\bibinitperiod},
+         given={M.\bibnamedelima D.\bibnamedelima Maher},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=FMA}{%
+         family={Faisal},
+         familyi={F\bibinitperiod},
+         given={M.\bibnamedelima Aziz},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TIMDMFMA1}
+    \strng{fullhash}{TIMDMFMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Imam Al-Nawawi and His Approach in His Book (Riyad
+  al-Salihin)}
+    \verb{url}
+    \verb https://jcois.uobaghdad.edu.iq/index.php/2075_8626/article/view/251
+    \endverb
+    \field{journaltitle}{Journal of the College of Islamic Sciences}
+  \endentry
+
+  \entry{hasan1994introduction}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=HS}{%
+         family={Hasan},
+         familyi={H\bibinitperiod},
+         given={Suhaib},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Al-Quran Society}%
+    }
+    \strng{namehash}{HS1}
+    \strng{fullhash}{HS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{An Introduction to the Science of Hadith}
+    \field{year}{1994}
+  \endentry
+
+  \entry{bilal2012muhadith}{inproceedings}{}{}
+    \name{author}{2}{}{%
+      {{hash=BK}{%
+         family={Bilal},
+         familyi={B\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mohsin},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{BKMS1}
+    \strng{fullhash}{BKMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2012 10th International Conference on Frontiers of
+  Information Technology}
+    \field{pages}{73\bibrangedash 78}
+    \field{title}{Muhadith: A cloud based distributed expert system for
+  classification of Ahadith}
+    \field{year}{2012}
+  \endentry
+
+  \entry{hakak2022digital}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=HS}{%
+         family={Hakak},
+         familyi={H\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kamsin},
+         familyi={K\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KWZ}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={W.\bibnamedelima Zada},
+         giveni={W\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zakari},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IM}{%
+         family={Imran},
+         familyi={I\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=bAK}{%
+         prefix={bin},
+         prefixi={b\bibinitperiod},
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=GGA}{%
+         family={Gilkar},
+         familyi={G\bibinitperiod},
+         given={G.\bibnamedelima Amin},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HS+1}
+    \strng{fullhash}{HSKAKWZZAIMAKbGGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{3977}
+    \field{title}{Digital Hadith authentication: Recent advances, open
+  challenges, and future directions}
+    \field{volume}{33}
+    \field{journaltitle}{Transactions on Emerging Telecommunications
+  Technologies}
+    \field{year}{2022}
+  \endentry
+
+  \entry{aldhaln2012improving}{inproceedings}{}{}
+    \name{author}{4}{}{%
+      {{hash=AK}{%
+         family={Aldhaln},
+         familyi={A\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zeki},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zeki},
+         familyi={Z\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AH}{%
+         family={Alreshidi},
+         familyi={A\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE}%
+    }
+    \strng{namehash}{AK+1}
+    \strng{fullhash}{AKZAZAAH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{International Conference on Information Retrieval \&
+  Knowledge Management}
+    \field{pages}{148\bibrangedash 152}
+    \field{title}{Improving knowledge extraction of Hadith classifier using
+  decision-tree algorithm}
+    \field{year}{2012}
+  \endentry
+
+  \entry{site_Tawseef_book}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=iSANY}{%
+         prefix={ibn},
+         prefixi={i\bibinitperiod},
+         family={Sharaf An-Nawawi},
+         familyi={S\bibinitperiod\bibinitdelim A\bibinithyphendelim
+  N\bibinitperiod},
+         given={Yahya},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SANYi1}
+    \strng{fullhash}{SANYi1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{Translated by [Translator's Name], Publisher: [Publisher's
+  Name], [Year of Publication]}
+    \field{title}{Riyad as-Salihin}
+    \field{year}{n.d.}
+  \endentry
+
+  \entry{bast2016semantic}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=BH}{%
+         family={Bast},
+         familyi={B\bibinitperiod},
+         given={Hannah},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Buchhold},
+         familyi={B\bibinitperiod},
+         given={Bj{\"o}rn},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HE}{%
+         family={Haussmann},
+         familyi={H\bibinitperiod},
+         given={Elmar},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BH+1}
+    \strng{fullhash}{BHBBHE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1561/1500000032
+    \endverb
+    \field{number}{2-3}
+    \field{pages}{119\bibrangedash 271}
+    \field{title}{Semantic Search on Text and Knowledge Bases}
+    \verb{url}
+    \verb http://dx.doi.org/10.1561/1500000032
+    \endverb
+    \field{volume}{10}
+    \field{journaltitle}{Foundations and Trends\textregistered{} in Information
+  Retrieval}
+    \field{year}{2016}
+  \endentry
+
+  \entry{islamicEval2025}{inproceedings}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{3}{}{%
+      {{hash=MH}{%
+         family={Mubarak},
+         familyi={M\bibinitperiod},
+         given={Hamdy},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Malhas},
+         familyi={M\bibinitperiod},
+         given={Rana},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Mansour},
+         familyi={M\bibinitperiod},
+         given={Watheq},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACL Anthology}%
+    }
+    \strng{namehash}{MH+1}
+    \strng{fullhash}{MHMRMW+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of ArabicNLP 2025}
+    \field{title}{IslamicEval 2025: The First Shared Task of Capturing LLMs
+  Hallucination in Islamic Content}
+    \field{year}{2025}
+  \endentry
+
+  \entry{elmahjub2026islamiclegalbench}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=EE}{%
+         family={Elmahjub},
+         familyi={E\bibinitperiod},
+         given={Ezieddin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=QJ}{%
+         family={Qadir},
+         familyi={Q\bibinitperiod},
+         given={Junaid},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mushtaq},
+         familyi={M\bibinitperiod},
+         given={Abdullah},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NR}{%
+         family={Naeem},
+         familyi={N\bibinitperiod},
+         given={Rafay},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Ghaznavi},
+         familyi={G\bibinitperiod},
+         given={Ibrahim},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=IW}{%
+         family={Iqbal},
+         familyi={I\bibinitperiod},
+         given={Waleed},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EE+1}
+    \strng{fullhash}{EEQJMANRGIIW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{IslamicLegalBench: Evaluating LLMs Knowledge and Reasoning of
+  Islamic Law Across 1,200 Years of Islamic Pluralist Legal Traditions}
+    \field{journaltitle}{arXiv preprint arXiv:2602.21226}
+    \field{year}{2026}
+  \endentry
+
+  \entry{atif2025fiqhqa}{article}{}{}
+    \true{moreauthor}
+    \true{morelabelname}
+    \name{author}{1}{}{%
+      {{hash=AM}{%
+         family={Atif},
+         familyi={A\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AM+1}
+    \strng{fullhash}{AM+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{FiqhQA: A Benchmark for Evaluating LLMs on Islamic
+  Jurisprudence}
+    \field{journaltitle}{ResearchGate preprints}
+    \field{year}{2025}
+  \endentry
+
+  \entry{dangerai2025}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={{Whitethread Institute}},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://whitethread.org/}}
+    \field{title}{The Danger of Relying on AI for Fatwa Writing: A Caution for
+  Scholars and Muftis}
+    \field{year}{2025}
+  \endentry
+\enddatalist
+\endinput
