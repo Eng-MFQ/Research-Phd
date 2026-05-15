@@ -1,0 +1,23 @@
+{
+  "n": 60,
+  "judge_name": "Grok low",
+  "judge_score_column": "grok_score",
+  "linear_weighted_cohens_kappa": 0.5700636942675159,
+  "exact_agreement": 0.7666666666666667,
+  "human_score_counts": {
+    "-1": 8,
+    "0": 8,
+    "1": 44
+  },
+  "judge_score_counts": {
+    "-1": 11,
+    "0": 10,
+    "1": 39
+  },
+  "krippendorff_alpha": {
+    "nominal": 0.5118663932024612,
+    "ordinal": 0.6513164154253264,
+    "interval": 0.6200884086444007
+  },
+  "confusion_matrix_csv": "data/judge_validation/judge_validation_grok_low_confusion_matrix.csv"
+}

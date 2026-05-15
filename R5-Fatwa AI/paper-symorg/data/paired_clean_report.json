@@ -1,0 +1,61 @@
+{
+  "source": "/Users/nursultan/Downloads/Telegram Desktop/results_final_llm_answers_judge_FINAL.json",
+  "output": "/Users/nursultan/Developer/Research/projects/fatwa-ai/R5-Fatwa AI/paper-symorg/data/results_final_llm_answers_judge_FINAL_paired_clean.json",
+  "source_rows": 600,
+  "source_unique_questions": 300,
+  "removed_questions": [
+    {
+      "question": "هل يجوز للمرأة أن تأخذ شيئًا من حاجات البيت مثل طعام وما شابه لبيت أهلها دون إذن زوجها؟",
+      "row_indices": [
+        284,
+        285,
+        286
+      ],
+      "llms": [
+        "gpt-5.1",
+        "gpt-5.1",
+        "gemini-2.5-flash"
+      ],
+      "ids": [
+        4016,
+        4016,
+        4016
+      ],
+      "category": "الذكر والتزكية والأخلاق"
+    },
+    {
+      "question": "شخص يريد العمل في شركة تقوم على نشر منتجاتها بطريقة الإعلانات مثل الهواتف والأدوات الكهربائية وغيرها ، وأخذ نسبة من الربح ويضيف هو أشخاص آخرين للعمل بنسبة أخرى لكن بدون أن يُنقص من أرباحهم، أي أن كل واحد يأخذ الربح حسب تعبه هو وليس على حساب عمل الآخرين، هل يأثم بهذا العمل ؟",
+      "row_indices": [
+        599
+      ],
+      "llms": [
+        "gpt-5.1"
+      ],
+      "ids": [
+        5075
+      ],
+      "category": "المعاملات والأمانات"
+    }
+  ],
+  "removed_row_count": 4,
+  "clean_rows": 596,
+  "clean_unique_questions": 298,
+  "clean_llm_counts": {
+    "gpt-5.1": 298,
+    "gemini-2.5-flash": 298
+  },
+  "clean_category_row_counts": {
+    "المعاملات والأمانات": 118,
+    "الحظر والإباحة واللباس والزينة": 120,
+    "الذكر والتزكية والأخلاق": 118,
+    "الزواج والطلاق والنفقات": 120,
+    "العبادات": 120
+  },
+  "clean_category_question_counts": {
+    "المعاملات والأمانات": 59,
+    "الحظر والإباحة واللباس والزينة": 60,
+    "الذكر والتزكية والأخلاق": 59,
+    "الزواج والطلاق والنفقات": 60,
+    "العبادات": 60
+  }
+}
