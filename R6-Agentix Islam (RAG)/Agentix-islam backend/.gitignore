@@ -1,0 +1,29 @@
+# Virtual environments (regenerable — never commit)
+.venv/
+env/
+venv/
+ENV/
+
+# Python compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# IDE / editor
+.idea/
+.DS_Store
+
+# Logs / temp
+*.log
+
+# --- Secrets / credentials (NEVER commit) ---
+*service_account*.json
+*service-account*.json
+*credential*.json
+*credintials*.json
+**/firebase/**
+**/gcloud/**
+*.pem
+*.key

@@ -1,0 +1,28 @@
+version: '3.8'
+
+networks:
+  coolify:
+    external: true
+
+services:
+  app:
+    container_name: agentix-islam-api
+    build: .
+    ports:
+      - "8002:80"
+    volumes:
+      - ./.env:/code/.env
+      - ./whilearn/firebase/service_account_key.json:/code/whilearn/firebase/service_account_key.json
+    restart: always
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/code/whilearn/firebase/service_account_key.json
+    networks:
+      - coolify
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.agentix-islam-api.rule=Host(`api.agentixislam.com`)"
+      - "traefik.http.routers.agentix-islam-api.entrypoints=https"
+      - "traefik.http.routers.agentix-islam-api.tls=true"
+      - "traefik.http.routers.agentix-islam-api.tls.certresolver=letsencrypt"
+      - "traefik.http.services.agentix-islam-api.loadbalancer.server.port=80"
+      - "traefik.docker.network=coolify"

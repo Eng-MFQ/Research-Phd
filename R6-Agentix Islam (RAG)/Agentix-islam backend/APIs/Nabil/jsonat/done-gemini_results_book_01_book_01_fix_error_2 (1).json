@@ -1,0 +1,1692 @@
+[
+    {
+        "results": {
+            "chunks": [
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "يكره فعله في الأظهر وفاقاً للأئمة الثلاثة، والدعاء السابق عند الشافعية) عقب فراغه من الوضوء بعد رفع بصره إلى السماء (۱) ، وكذا يدعو به بعد الغسل.",
+                    "metadata": {
+                        "keywords": [
+                            "مكروه",
+                            "وضوء",
+                            "دعاء",
+                            "بعد الوضوء",
+                            "أئمة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الشافعية",
+                                "type": "School"
+                            },
+                            {
+                                "value": "الأئمة الثلاثة",
+                                "type": "Group of Scholars"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 113,
+                                "width": 787,
+                                "height": 73
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "المطلب السادس - مكروهات الوضوء: المكروه عند الحنفية نوعان : مكروه تحريماً : وهو ما كان إلى الحرام أقرب، وتركه واجب. وهو المراد عندهم حالة الإطلاق. ومكروه تنزيها وهو ما كان تركه أولى من فعله أي خلاف الأولى. وكثيراً ما يطلقونه.",
+                    "metadata": {
+                        "keywords": [
+                            "مكروه",
+                            "حنفية",
+                            "مكروه تحريماً",
+                            "مكروه تنزيها",
+                            "حكم شرعي"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الحنفية",
+                                "type": "School"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 204,
+                                "width": 787,
+                                "height": 130
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وعلى هذا إذا ذكروا مكروهاً فلا بد من النظر في دليله، فإن كان نهياً ظنياً يحكم بكراهة التحريم إلا لصارف عن التحريم إلى الندب. وإن لم يكن الدليل نهياً بل كان مفيداً للترك غير الجازم، فهي تنزيهية.",
+                    "metadata": {
+                        "keywords": [
+                            "كراهة",
+                            "دليل شرعي",
+                            "نهي ظني",
+                            "تحريم",
+                            "تنزيه"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 343,
+                                "width": 787,
+                                "height": 90
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "ولم يفرق الجمهور غير الحنفية بين نوعي الكراهة، ويراد بها عندهم التنزيهية. ويكره للمتوضئ (٢). ١) ضد ما يستحب من الآداب (۳) وأهمها ما يأتي : 1- الإسراف في صب الماء بأن يستعمل منه فوق الحاجة الشرعية أو ما يزيد عن الكفاية. وهذا إذا كان الماء مباحاً أو مملوكاً للمتوضئ فإن كان موقوفاً على الوضوء منه كالماء المعد للوضوء في المساجد، فالإسراف فيه حرام.",
+                    "metadata": {
+                        "keywords": [
+                            "كراهة",
+                            "تنزيه",
+                            "إسراف في الماء",
+                            "وضوء",
+                            "آداب"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الجمهور",
+                                "type": "Group of Scholars"
+                            },
+                            {
+                                "value": "الحنفية",
+                                "type": "School"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 435,
+                                "width": 787,
+                                "height": 190
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "ودليل الكراهة : ما أخرج ابن ماجه وغيره عن عبد الله بن عمرو بن العاص أن رسول الله ﷺ مر بسعد، وهو يتوضأ، فقال: ما هذا السَّرَف؟ فقال: أفي الوضوء إسراف؟ فقال : نعم، وإن كنت على نهر جار ومن الإسراف : الزيادة على الثلاث في الغسلات وعلى المرة الواحدة في المسح عند الجمهور غير",
+                    "metadata": {
+                        "keywords": [
+                            "دليل الكراهة",
+                            "حديث نبوي",
+                            "إسراف الماء",
+                            "وضوء",
+                            "عبد الله بن عمرو"
+                        ],
+                        "entities": [
+                            {
+                                "value": "ابن ماجه",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "عبد الله بن عمرو بن العاص",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "رسول الله",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "سعد",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "الجمهور",
+                                "type": "Group of Scholars"
+                            }
+                        ],
+                        "is_cutoff": true
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 625,
+                                "width": 787,
+                                "height": 135
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۱) روى حديث الدعاء أحمد وأبو داود، كما تقدم، وفي بعض رواياته : «فأحسن الوضوء، ثم رفع نظره إلى السماء",
+                    "metadata": {
+                        "keywords": [
+                            "حديث الدعاء",
+                            "وضوء",
+                            "رفع نظر",
+                            "أحمد",
+                            "أبو داود"
+                        ],
+                        "entities": [
+                            {
+                                "value": "أحمد",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "أبو داود",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 784,
+                                "width": 787,
+                                "height": 55
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۲) الدر المختار : ۱ / ۱۲۱ - ۱۲۳ ، مراقي الفلاح : ص ۱۳ ، الشرح الصغير : ١٢٦/١ - ١٢٩، الشرح الكبير : ١ / ١٢٦ ، الحضرمية : ص ١٤ ، كشاف القناع : ١/ ١١٨-١٢٠.",
+                    "metadata": {
+                        "keywords": [
+                            "مراجع",
+                            "فقه",
+                            "حنفية",
+                            "شافعية",
+                            "كتب فقهية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الدر المختار",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "مراقي الفلاح",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الشرح الصغير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الشرح الكبير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الحضرمية",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "كشاف القناع",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 840,
+                                "width": 787,
+                                "height": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۳) حصر الشافعية المكروه في ترك السنة المؤكدة والمختلف فيها ، أما ترك غيرهما فخلاف الأولى.",
+                    "metadata": {
+                        "keywords": [
+                            "شافعية",
+                            "مكروه",
+                            "سنة مؤكدة",
+                            "خلاف الأولى",
+                            "أحكام شرعية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الشافعية",
+                                "type": "School"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 356,
+                        "bounding_box": [
+                            {
+                                "x": 109,
+                                "y": 925,
+                                "width": 787,
+                                "height": 40
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "prompt_token_count": 1417,
+            "candidates_token_count": 2273,
+            "total_token_count": 6422,
+            "thoughts_token_count": 2732
+        },
+        "filename": "/content/pdfs/Fiqh01_page_357.pdf"
+    },
+    {
+        "results": {
+            "chunks": [
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "٣- مس المصحف كله أو بعضه ولو آية والمحرم هو لمس الآية ولو بغير أعضاء الطهارة لقوله تعالى : ﴿لا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ ﴾ [الواقعة: ٧٩/٥٦]، أي المتطهرون، وهو خبر بمعنى النهي ، ولقوله : «لا يمس القرآن إلا طاهر» (١) ، ولأن تعظيم القرآن واجب، وليس من التعظيم مس المصحف بيد حلها الحدث. واتفق الفقهاء على أن غير المتوضئ يجوز له تلاوة القرآن أو النظر إليه دون لمسه، كما أجازوا للصبي لمس القرآن للتعلم ؛ لأنه غير مكلف، والأفضل التوضؤ.",
+                    "metadata": {
+                        "keywords": [
+                            "مس المصحف",
+                            "الطهارة",
+                            "تلاوة القرآن",
+                            "المطهرون",
+                            "تعظيم القرآن"
+                        ],
+                        "entities": [
+                            {
+                                "value": "المصحف",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "القرآن",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الواقعة",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الفقهاء",
+                                "type": "Profession"
+                            },
+                            {
+                                "value": "الصبي",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 386,
+                        "bounding_box": [
+                            {
+                                "x": 100,
+                                "y": 128,
+                                "width": 810,
+                                "height": 200
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وقد حرم المالكية والشافعية مس القرآن بالحدث الأصغر ولو بحائل أو عود، وأجاز الحنفية والحنابلة مسه بحائل أو عود طاهرين.",
+                    "metadata": {
+                        "keywords": [
+                            "مس القرآن",
+                            "الحدث الأصغر",
+                            "المالكية",
+                            "الشافعية",
+                            "الحنفية والحنابلة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "المالكية",
+                                "type": "SchoolOfThought"
+                            },
+                            {
+                                "value": "الشافعية",
+                                "type": "SchoolOfThought"
+                            },
+                            {
+                                "value": "القرآن",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الحنفية",
+                                "type": "SchoolOfThought"
+                            },
+                            {
+                                "value": "الحنابلة",
+                                "type": "SchoolOfThought"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 386,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 345,
+                                "width": 790,
+                                "height": 60
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وهذه عبارات الفقهاء: قال الحنفية يحرم مس المصحف كله أو بعضه أي مس المكتوب منه، ولو آية على نقود (درهم ونحوه) أو جدار، كما يحرم مس غلاف المصحف المتصل به، لأنه تبع له، فكان مسه مساً للقرآن، ولا يحرم مس الغلاف المنفصل عن القرآن كالكيس والصندوق، ويجوز مسه بنحو عود أو قلم أو غلاف منفصل عنه، ويكره لمسه بالكم تحريماً لتبعيته للابس، والحائل كالخريطة في الصحيح، والمقصود بالخريطة : هو الوعاء من جلد أو غيره تشرج على ما فيها.",
+                    "metadata": {
+                        "keywords": [
+                            "الحنفية",
+                            "مس المصحف",
+                            "غلاف المصحف",
+                            "نقود",
+                            "الخريطة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الفقهاء",
+                                "type": "Profession"
+                            },
+                            {
+                                "value": "الحنفية",
+                                "type": "SchoolOfThought"
+                            },
+                            {
+                                "value": "المصحف",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "القرآن",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 386,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 420,
+                                "width": 790,
+                                "height": 180
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "ولا يجوز لغير المسلم مس المصحف ويجوز له تعلمه وتعلم الفقه ونحوه، ويجوز للصبي مس القرآن أو لوح منه للضرورة من أجل التعلم والحفظ. ولا تحرم كتابة آية على ورقة، لأن المحرم هو مس المكتوب باليد، أما القلم فهو واسطة منفصلة، كالثوب المنفصل الذي يمس به القرآن؛ لأن المفتى به جواز مس المصحف بغلاف منفصل أو بصرة.",
+                    "metadata": {
+                        "keywords": [
+                            "مس المصحف",
+                            "غير المسلم",
+                            "الصبي",
+                            "تعلم الفقه",
+                            "كتابة آية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "المصحف",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "القرآن",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الصبي",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 386,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 620,
+                                "width": 790,
+                                "height": 150
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۱) روي من حديث عمرو بن حزم عند الأثرم وأبي داود والنسائي، وعن ابن عمر عند الدارقطني والطبراني والبيهقي، وعن عثمان بن أبي العاص عند الطبراني، وعن ثوبان إلا أن الأخير في غاية الضعف عنه، والأحاديث الأخرى ضعيفة، ورواه مالك مرسلاً عن عمرو ابن حزم (نيل الأوطار : ٢٠٥/١ ، نصب الراية : ١٩٦/١).",
+                    "metadata": {
+                        "keywords": [
+                            "عمرو بن حزم",
+                            "الأحاديث الضعيفة",
+                            "نيل الأوطار",
+                            "نصب الراية",
+                            "رواة الحديث"
+                        ],
+                        "entities": [
+                            {
+                                "value": "عمرو بن حزم",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "الأثرم",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "أبي داود",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "النسائي",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "ابن عمر",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "الدارقطني",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "الطبراني",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "البيهقي",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "عثمان بن أبي العاص",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "ثوبان",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "مالك",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "نيل الأوطار",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "نصب الراية",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 386,
+                        "bounding_box": [
+                            {
+                                "x": 100,
+                                "y": 800,
+                                "width": 810,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "prompt_token_count": 1417,
+            "candidates_token_count": 2195,
+            "total_token_count": 6824,
+            "thoughts_token_count": 3212
+        },
+        "filename": "/content/pdfs/Fiqh01_page_387.pdf"
+    },
+    {
+        "results": {
+            "chunks": [
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "٨ - أن يجتهد في القبلة قبل التيمم، فلو تيمم قبل الاجتهاد فيها، لم يصح على الأوجه.",
+                    "metadata": {
+                        "keywords": [
+                            "التيمم",
+                            "القبلة",
+                            "الاجتهاد",
+                            "صحة التيمم",
+                            "شروط التيمم"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 100,
+                                "width": 800,
+                                "height": 50
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "٩ - أن يقع التيمم بعد دخول الوقت، لأنه طهارة ضرورة، ولا ضرورة قبله، فيتيمم للنافلة المطلقة فيما عدا وقت الكراهة وللصلاة على الميت بعد طهره، وللاستسقاء بعد تجمع الناس، وللفائتة بعد تذكرها.",
+                    "metadata": {
+                        "keywords": [
+                            "التيمم",
+                            "دخول الوقت",
+                            "طهارة ضرورة",
+                            "نافلة",
+                            "صلاة الميت",
+                            "الاستسقاء"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 150,
+                                "width": 800,
+                                "height": 100
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "١٠ - أن يتيمم لكل فرض عيني ؛ لأن التيمم طهارة ضرورة، فيقدر بقدرها.",
+                    "metadata": {
+                        "keywords": [
+                            "التيمم",
+                            "فرض عيني",
+                            "طهارة ضرورة"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 250,
+                                "width": 800,
+                                "height": 50
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "المطلب السادس . سنن التيمم ومكروهاته:",
+                    "metadata": {
+                        "keywords": [
+                            "التيمم",
+                            "سنن التيمم",
+                            "مكروهات التيمم"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 320,
+                                "width": 800,
+                                "height": 40
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "يسن في التيمم الأمور التالية (١) علماً بأنها سبع عند الحنفية، وتسع عند المالكية، وخمس عشرة عند الشافعية واثنتان عند الحنابلة.",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "المذاهب الفقهية",
+                            "الحنفية",
+                            "المالكية",
+                            "الشافعية",
+                            "الحنابلة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الحنفية",
+                                "type": "School of Thought"
+                            },
+                            {
+                                "value": "المالكية",
+                                "type": "School of Thought"
+                            },
+                            {
+                                "value": "الشافعية",
+                                "type": "School of Thought"
+                            },
+                            {
+                                "value": "الحنابلة",
+                                "type": "School of Thought"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 360,
+                                "width": 800,
+                                "height": 70
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "أما سننه عند الحنفية فهي ما يأتي : أ - التسمية في أوله، كالوضوء، بأن يقول: بسم الله ، وقيل : الأفضل : بسم الله الرحمن الرحيم.",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "الحنفية",
+                            "التسمية",
+                            "بسم الله"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الحنفية",
+                                "type": "School of Thought"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 430,
+                                "width": 800,
+                                "height": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "٢ - ٤ - الضرب بباطن الكفين وإقبال اليدين بعد وضعهما في التراب، وإدبارهما مبالغة في الاستيعاب، ثم نفضهما، اتقاء عن تلويث الوجه، نقل ذلك عن أبي حنيفة.",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "الحنفية",
+                            "الضرب بالكفين",
+                            "نفض اليدين",
+                            "أبي حنيفة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "أبي حنيفة",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 510,
+                                "width": 800,
+                                "height": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "ة - تفريج الأصابع، ليصل التراب إلى ما بينهما.",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "الحنفية",
+                            "تفريج الأصابع"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 590,
+                                "width": 800,
+                                "height": 40
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "٦ ، ٧ - الترتيب والموالاة (الولاء) أي مسح المتأخر عقب المتقدم، بحيث لو كان الاستعمال بالماء لا يجف المتقدم، كما فعل النبي ﷺ .",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "الحنفية",
+                            "الترتيب",
+                            "الموالاة",
+                            "النبي ﷺ"
+                        ],
+                        "entities": [
+                            {
+                                "value": "النبي ﷺ",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 630,
+                                "width": 800,
+                                "height": 70
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وسنن التيمم عند المالكية أربع:",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "المالكية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "المالكية",
+                                "type": "School of Thought"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 720,
+                                "width": 800,
+                                "height": 40
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "1 - الترتيب : بأن يمسح الوجه أولاً، ثم اليدين، فإن نكس أعاد المنكس",
+                    "metadata": {
+                        "keywords": [
+                            "سنن التيمم",
+                            "المالكية",
+                            "الترتيب",
+                            "مسح الوجه",
+                            "مسح اليدين"
+                        ],
+                        "entities": [],
+                        "is_cutoff": true
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 120,
+                                "y": 760,
+                                "width": 800,
+                                "height": 40
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۱) الدر المختار : ۱/ ۲۱۳ ، مراقي الفلاح : ص ۲۰ ، الشرح الصغير : ١٩٨/١، الشرح الكبير : ١٥٧/١ وما بعدها القوانين الفقهية : ص۳۸، بجيرمي الخطيب: ٢٥٦/١، المهذب : ٣٣/١، مغني المحتاج : ۹۹/۱ ، كشاف القناع : ١/ ٢٠٤.",
+                    "metadata": {
+                        "keywords": [
+                            "مراجع",
+                            "فقه",
+                            "التيمم",
+                            "كتب فقهية",
+                            "الحنفية",
+                            "المالكية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الدر المختار",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "مراقي الفلاح",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الشرح الصغير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الشرح الكبير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "القوانين الفقهية",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "بجيرمي الخطيب",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "المهذب",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "مغني المحتاج",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "كشاف القناع",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 515,
+                        "bounding_box": [
+                            {
+                                "x": 100,
+                                "y": 820,
+                                "width": 850,
+                                "height": 100
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "prompt_token_count": 1417,
+            "candidates_token_count": 2784,
+            "total_token_count": 8111,
+            "thoughts_token_count": 3910
+        },
+        "filename": "/content/pdfs/Fiqh01_page_516.pdf"
+    },
+    {
+        "results": {
+            "chunks": [
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "الخمسة، وعند المالكية في الأوقات الثلاثة، والكراهة التنزيهية في الوقتين الآخرين. والكراهة التحريمية عند الحنفية في الأوقات الخمسة، وهو المعتمد عند الشافعية (١) في الأوقات الثلاثة، والكراهة التنزيهية في مشهور مذهب الشافعية في الوقتين الآخرين.",
+                    "metadata": {
+                        "keywords": [
+                            "أوقات الصلاة",
+                            "كراهة الصلاة",
+                            "مذاهب فقهية",
+                            "مالكية",
+                            "حنفية",
+                            "شافعية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "المالكية",
+                                "type": "School"
+                            },
+                            {
+                                "value": "الحنفية",
+                                "type": "School"
+                            },
+                            {
+                                "value": "الشافعية",
+                                "type": "School"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 90,
+                                "width": 840,
+                                "height": 100
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "والحرمة أو الكراهة التحريمية (٢) تقتضي عدم انعقاد الصلاة على الخلاف الآتي. وأما نوع الصلاة المكروهة ففيها خلاف بين الفقهاء.",
+                    "metadata": {
+                        "keywords": [
+                            "كراهة تحريمية",
+                            "انعقاد الصلاة",
+                            "خلاف الفقهاء",
+                            "الصلاة المكروهة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الفقهاء",
+                                "type": "Group"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 195,
+                                "width": 840,
+                                "height": 55
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "أولاً - الأوقات الثلاثة ( الشروق والغروب والاستواء ( قال الحنفية (۳): يكره تحريماً فيها كل صلاة مطلقاً، فرضاً أو نفلاً، أو واجباً ، ولو قضاء لشيء واجب في الذمة، أو صلاة جنازة أو سجدة تلاوة أو سهو، إلا يوم الجمعة على المعتمد المصحح، وإلا فرض عصر اليوم أداء.",
+                    "metadata": {
+                        "keywords": [
+                            "الأوقات الثلاثة",
+                            "صلاة مكروهة",
+                            "كراهة تحريم",
+                            "فقه حنفي",
+                            "استثناءات الصلاة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الحنفية",
+                                "type": "School"
+                            },
+                            {
+                                "value": "يوم الجمعة",
+                                "type": "Event"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 250,
+                                "width": 840,
+                                "height": 100
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "والكراهة تقتضي عدم انعقاد الفرض وما يلحق به من الواجب كالوتر، وينعقد النفل بالشروع فيه مع كراهة التحريم، فإن طرأ الوقت المكروه على صلاة شرع فيها فتبطل إلا صلاة جنازة حضرت فيها ، وسجدة تليت آيتها فيها ، وعصر يومه، والنفل والنذر المقيد بها، وقضاء ما شرع به فيها ثم أفسده، فتنعقد هذه الستة بلا كراهة أصلاً، في الأولى منها، ومع الكراهة التنزيهية في الثانية، والتحريمية في البواقي. ودليلهم عموم النهي عن الصلاة في هذه الأوقات. وأما عدم صحة القضاء؛ فلأن الفريضة وجبت كاملة فلا تتأدى بالناقص.",
+                    "metadata": {
+                        "keywords": [
+                            "انعقاد الصلاة",
+                            "فقه حنفي",
+                            "أوقات مكروهة",
+                            "صلاة الفرض",
+                            "صلاة النفل",
+                            "دلائل النهي",
+                            "قضاء الصلاة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الوتر",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "صلاة جنازة",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "سجدة تلاوة",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "النذر",
+                                "type": "Concept"
+                            }
+                        ],
+                        "is_cutoff": true
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 355,
+                                "width": 840,
+                                "height": 210
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "ولا يصح أداء فجر اليوم عند الشروق، لوجوبه في وقت كامل فيبطل في وقت",
+                    "metadata": {
+                        "keywords": [
+                            "صلاة الفجر",
+                            "وقت الشروق",
+                            "بطلان الصلاة",
+                            "أداء الصلاة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "فجر",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "الشروق",
+                                "type": "Concept"
+                            }
+                        ],
+                        "is_cutoff": true
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 570,
+                                "width": 840,
+                                "height": 30
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(١) مراقي الفلاح : ص ۳۱، الدر المختار : ٣٤٣/١ ، الشرح الصغير: ٢٤١/١، مغني المحتاج : ۱۲۸/۱، حاشية الباجوري : ١٩٦/١، كشاف القناع : ٥٢٨/١، المغني : ١/ ١٠٧ وما بعدها.",
+                    "metadata": {
+                        "keywords": [
+                            "مصادر فقهية",
+                            "مراجع",
+                            "كتب إسلامية",
+                            "فقه",
+                            "مراقي الفلاح"
+                        ],
+                        "entities": [
+                            {
+                                "value": "مراقي الفلاح",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الدر المختار",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الشرح الصغير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "مغني المحتاج",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "حاشية الباجوري",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "كشاف القناع",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "المغني",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 645,
+                                "width": 840,
+                                "height": 70
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۲) بالرغم من أن كلاً من الحرام والمكروه تحريماً يقتضي الإثم، إلا أن الحرام: هو ما ثبت بدليل قطعي لا يحتمل التأويل من كتاب أو سنة أو إجماع أو قياس. وكراهة التحريم: ما ثبتت بدليل يحتمل التأويل.",
+                    "metadata": {
+                        "keywords": [
+                            "حرام",
+                            "مكروه تحريماً",
+                            "إثم",
+                            "دليل قطعي",
+                            "تأويل",
+                            "أصول الفقه"
+                        ],
+                        "entities": [
+                            {
+                                "value": "كتاب",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "سنة",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "إجماع",
+                                "type": "Concept"
+                            },
+                            {
+                                "value": "قياس",
+                                "type": "Concept"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 720,
+                                "width": 840,
+                                "height": 80
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۳) فتح القدير مع العناية : ١٦١/١-١٦٦، مراقي الفلاح : ص ۳۱، الدر المختار : ٣٤٣/١- .٣٤٩",
+                    "metadata": {
+                        "keywords": [
+                            "مصادر فقهية",
+                            "فقه حنفي",
+                            "مراجع",
+                            "فتح القدير",
+                            "الدر المختار"
+                        ],
+                        "entities": [
+                            {
+                                "value": "فتح القدير مع العناية",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "مراقي الفلاح",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الدر المختار",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 581,
+                        "bounding_box": [
+                            {
+                                "x": 88,
+                                "y": 805,
+                                "width": 840,
+                                "height": 50
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "prompt_token_count": 1417,
+            "candidates_token_count": 2560,
+            "total_token_count": 6387,
+            "thoughts_token_count": 2410
+        },
+        "filename": "/content/pdfs/Fiqh01_page_582.pdf"
+    },
+    {
+        "results": {
+            "chunks": [
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وإن عجز عن الاستقبال سقط بغير خلاف، كما يسقط الاستقبال لأعذار أخرى كالتحام حرب وهرب من سيل أو نار أو سبع ونحوه، ولو كان العذر نادراً كمريض عجز عن الاستقبال، وكمقعد عجز عمن يديره إلى القبلة وكمربوط ونحوه. وإن عجز عن الاستقبال في ابتداء صلاته كراكب راحلة لا تطيعه، أو كان في قافلة (قطار) فليس عليه استقبال القبلة في شيء من الصلاة. ولا يلزم الملاح في سفينة الاتجاه إلى القبلة ولو في الفرض، لحاجته إلى تسيير السفينة وإن أمكنه افتتاح الصلاة إلى القبلة، كراكب راحلة منفردة تطيعه، ففي إلزامه التوجه إلى القبلة روايتان عن أحمد :",
+                    "metadata": {
+                        "keywords": [
+                            "الاستقبال",
+                            "القبلة",
+                            "أعذار الصلاة",
+                            "صلاة المسافر",
+                            "صلاة السفينة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "أحمد",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 659,
+                        "bounding_box": [
+                            {
+                                "x": 90,
+                                "y": 100,
+                                "width": 850,
+                                "height": 170
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "إحداهما وهي الراجحة يلزمه، لحديث أنس السابق في مذهب الشافعية، وعلى هذا يلزم الراكب إذا تنفل على راحلته افتتاح النافلة إلى القبلة بالدابة، بأن يديرها إلى القبلة إن أمكنه بلا مشقة، أو يدور بنفسه إلى القبلة إن أمكنه ذلك بلا مشقة. والثانية : لا يلزمه، لأنه جزء من أجزاء الصلاة، فأشبه سائر أجزائها، ولأن ذلك لا يخلو من مشقة، فسقط، وخبر أنس السابق يحمل على الفضيلة والندب.",
+                    "metadata": {
+                        "keywords": [
+                            "صلاة النافلة",
+                            "القبلة",
+                            "مذهب الشافعية",
+                            "حديث أنس",
+                            "صلاة الراكب"
+                        ],
+                        "entities": [
+                            {
+                                "value": "أنس",
+                                "type": "Person"
+                            },
+                            {
+                                "value": "الشافعية",
+                                "type": "School of Thought"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 659,
+                        "bounding_box": [
+                            {
+                                "x": 90,
+                                "y": 280,
+                                "width": 850,
+                                "height": 150
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "ويجوز للمسافر التنفل على الراحلة ولو كانت النافلة وتراً أو غيره من سنن الرواتب وسجود التلاوة والماشي في السفر لا تباح له الصلاة في حال مشيه، بل يلزمه افتتاح النافلة إلى القبلة، كما يلزمه الركوع والسجود إلى القبلة على الأرض لتيسر ذلك عليه مع متابعة سيره، ويفعل باقي الصلاة إلى جهة سيره.",
+                    "metadata": {
+                        "keywords": [
+                            "صلاة المسافر",
+                            "صلاة النافلة",
+                            "سجود التلاوة",
+                            "القبلة",
+                            "سنن الرواتب"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 659,
+                        "bounding_box": [
+                            {
+                                "x": 90,
+                                "y": 440,
+                                "width": 850,
+                                "height": 140
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وأما الصلاة على الراحلة لأجل المرض، ففيه روايتان : إحداهما : يجوز؛ لأن المشقة بالنزول في المرض أشد منها بالنزول في المطر. ومن صلى على الراحلة لمرض أو مطر ، فليس له ترك الاستقبال. والثانية : لا يجوز ذلك؛ لأن ابن عمر كان يُنزل مرضاه) ولأنه قادر على الصلاة أو على السجود، فلم يجز تركه كغير المريض.",
+                    "metadata": {
+                        "keywords": [
+                            "صلاة المريض",
+                            "الصلاة على الراحلة",
+                            "ترك الاستقبال",
+                            "ابن عمر",
+                            "مشقة المرض"
+                        ],
+                        "entities": [
+                            {
+                                "value": "ابن عمر",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 659,
+                        "bounding_box": [
+                            {
+                                "x": 90,
+                                "y": 590,
+                                "width": 850,
+                                "height": 160
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "والخلاصة : أن الفقهاء اتفقوا على جواز الصلاة على الراحلة في السفر الطويل، وعلى كون الصلاة بالإيماء، واختلفوا في السفر القصير، فأجازها الشافعية والحنابلة، ومنعها المالكية والحنفية.",
+                    "metadata": {
+                        "keywords": [
+                            "صلاة المسافر",
+                            "الصلاة على الراحلة",
+                            "إيماء",
+                            "السفر الطويل",
+                            "المذاهب الفقهية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الشافعية",
+                                "type": "School of Thought"
+                            },
+                            {
+                                "value": "الحنابلة",
+                                "type": "School of Thought"
+                            },
+                            {
+                                "value": "المالكية",
+                                "type": "School of Thought"
+                            },
+                            {
+                                "value": "الحنفية",
+                                "type": "School of Thought"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 659,
+                        "bounding_box": [
+                            {
+                                "x": 90,
+                                "y": 760,
+                                "width": 850,
+                                "height": 80
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "prompt_token_count": 1417,
+            "candidates_token_count": 1671,
+            "total_token_count": 6026,
+            "thoughts_token_count": 2938
+        },
+        "filename": "/content/pdfs/Fiqh01_page_660.pdf"
+    },
+    {
+        "results": {
+            "chunks": [
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "مرتين ، ولم يواظب عليه، كزيادة التسبيحات في الركوع والسجود على الثلاثة، والزيادة على القراءة المسنونة، وقد شرع لإكمال السنة. والسنة أو الأدب عندهم دون الواجب، لأن الواجب في الصلاة: ما تجوز الصلاة بدونه، ويجب بتركه ساهياً سجدتا السهو. وذكروا للصلاة إحدى وخمسين سنة، وسبعة آداب.",
+                    "metadata": {
+                        "keywords": [
+                            "الصلاة",
+                            "السنة",
+                            "الواجب",
+                            "سجود السهو",
+                            "آداب الصلاة"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 720,
+                        "bounding_box": [
+                            {
+                                "x": 97,
+                                "y": 110,
+                                "width": 800,
+                                "height": 128
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وذكر المالكية(١) للصلاة أربع عشرة سنة، وثمانية وأربعين أدباً. والسنة عندهم : ما طلبه الشرع وأكد أمره وعظم قدره وأظهره في الجماعة. ويثاب فاعله ولا يعاقب تاركه کالوتر وصلاة العيدين. والمندوب عندهم : ما طلبه الشرع طلباً غير جازم، وخفف أمره، ويثاب فاعله ولا يعاقب تاركه كصلاة أربع ركعات قبل الظهر. ويسجد سجود السهو لثمان من السنن وهي السورة، والجهر، والإسرار، والتكبير والتحميد، والتشهدان ، والجلوس لهما.",
+                    "metadata": {
+                        "keywords": [
+                            "المذهب المالكي",
+                            "سنن الصلاة",
+                            "مندوبات الصلاة",
+                            "سجود السهو",
+                            "صلاة العيدين"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 720,
+                        "bounding_box": [
+                            {
+                                "x": 97,
+                                "y": 247,
+                                "width": 800,
+                                "height": 215
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "normal",
+                    "semantic_chunk": "وسنن الصلاة عند الشافعية (۲) نوعان : أبعاض وهيئات. والأبعاض : هي التي يجبر تركها بسجود السهو وهي ثمانية (۳) : التشهد الأول، والقعود له، والصلاة على النبي ، بعده، وعلى آله بعد التشهد الأخير، والقنوت في الصبح ووتر النصف الأخير من رمضان، والقيام للقنوت، والصلاة على النبي ، وعلى آله بعد القنوت. والهيئات هي أربعون كالتسبيحات ونحوها لا يجبر تركها بسجود السهو. والسنة أو المستحب عندهم إن تركها المصلي لا يعود إليها بعد التلبس بفرض",
+                    "metadata": {
+                        "keywords": [
+                            "المذهب الشافعي",
+                            "أبعاض الصلاة",
+                            "هيئات الصلاة",
+                            "التشهد",
+                            "القنوت",
+                            "سنن الصلاة"
+                        ],
+                        "entities": [
+                            {
+                                "value": "النبي",
+                                "type": "Person"
+                            }
+                        ],
+                        "is_cutoff": true
+                    },
+                    "source_location": {
+                        "page_number": 720,
+                        "bounding_box": [
+                            {
+                                "x": 97,
+                                "y": 472,
+                                "width": 800,
+                                "height": 258
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(1) الشرح الصغير : ۳۱٧/١-۳۳۷ ، الشرح الكبير : ٢٤٢/١ ، القوانين الفقهية : ص ٥٠ وما بعدها ، ٥٨ ، ٦٠ .",
+                    "metadata": {
+                        "keywords": [
+                            "مراجع فقه",
+                            "الشرح الصغير",
+                            "الشرح الكبير",
+                            "القوانين الفقهية"
+                        ],
+                        "entities": [
+                            {
+                                "value": "الشرح الصغير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "الشرح الكبير",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "القوانين الفقهية",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 720,
+                        "bounding_box": [
+                            {
+                                "x": 100,
+                                "y": 780,
+                                "width": 780,
+                                "height": 18
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۲) تحفة الطلاب مع حاشية الشرقاوي، ١٩٥/١-٢١٦ ، حاشية الباجوري : ١ / ١٦٧ - ١٨١، ١٩٣ وما بعدها، مغني المحتاج : ١ / ١٥٢ - ١٨٤ ، المهذب : ١/ ٧١-٨٢، المجموع : ٣٥٦/٣.",
+                    "metadata": {
+                        "keywords": [
+                            "مراجع فقه",
+                            "تحفة الطلاب",
+                            "حاشية الشرقاوي",
+                            "حاشية الباجوري",
+                            "مغني المحتاج",
+                            "المهذب"
+                        ],
+                        "entities": [
+                            {
+                                "value": "تحفة الطلاب",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "حاشية الشرقاوي",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "حاشية الباجوري",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "مغني المحتاج",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "المهذب",
+                                "type": "Book"
+                            },
+                            {
+                                "value": "المجموع",
+                                "type": "Book"
+                            }
+                        ],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 720,
+                        "bounding_box": [
+                            {
+                                "x": 100,
+                                "y": 815,
+                                "width": 780,
+                                "height": 45
+                            }
+                        ]
+                    }
+                },
+                {
+                    "text_type": "footnote",
+                    "semantic_chunk": "(۳) بل أوصلها الشافعية إلى عشرين بعضاً سنذكرها في بحث سجود السهو، وسميت أبعاضاً تشبيهاً لها بالأبعاض الحقيقية أي الأركان، في مطلق الجبر.",
+                    "metadata": {
+                        "keywords": [
+                            "سجود السهو",
+                            "أبعاض",
+                            "الأركان",
+                            "المذهب الشافعي"
+                        ],
+                        "entities": [],
+                        "is_cutoff": false
+                    },
+                    "source_location": {
+                        "page_number": 720,
+                        "bounding_box": [
+                            {
+                                "x": 100,
+                                "y": 870,
+                                "width": 780,
+                                "height": 45
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "usage": {
+            "prompt_token_count": 1417,
+            "candidates_token_count": 1795,
+            "total_token_count": 7963,
+            "thoughts_token_count": 4751
+        },
+        "filename": "/content/pdfs/Fiqh01_page_721.pdf"
+    }
+]
