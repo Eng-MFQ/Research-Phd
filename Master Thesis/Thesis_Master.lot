@@ -1,21 +1,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Confusion matrix}}{25}{table.2.1}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Calculated metric values}}{26}{table.2.2}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Confusion matrix}}{17}{table.2.1}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Calculated metric values}}{17}{table.2.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Table 1 - Databases Pros and Cons}}{38}{table.3.1}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Use Cases and Paper References - QDP: Quantitative data prediction, SA: Sentiment analysis, TM: Topic modeling, TC: Text clustering, CV: Computer vision, UC: Use case }}{44}{table.3.2}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces Categories and Their Corresponding Metrics}}{48}{table.3.3}%
-\contentsline {table}{\numberline {3.4}{\ignorespaces Categories and Their Corresponding Metrics}}{49}{table.3.4}%
-\contentsline {table}{\numberline {3.5}{\ignorespaces Metrics Factors}}{52}{table.3.5}%
-\contentsline {table}{\numberline {3.6}{\ignorespaces AI-Enhanced Education Evaluation}}{55}{table.3.6}%
-\contentsline {table}{\numberline {3.7}{\ignorespaces Prisma checklist}}{62}{table.3.7}%
-\contentsline {table}{\numberline {3.8}{\ignorespaces Quality assessment}}{64}{table.3.8}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Table 1 - Databases Pros and Cons}}{26}{table.3.1}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Use Cases and Paper References - QDP: Quantitative data prediction, SA: Sentiment analysis, TM: Topic modeling, TC: Text clustering, CV: Computer vision, UC: Use case }}{31}{table.3.2}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Categories and Their Corresponding Metrics}}{34}{table.3.3}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Categories and Their Corresponding Metrics}}{35}{table.3.4}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Metrics Factors}}{36}{table.3.5}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces AI-Enhanced Education Evaluation}}{38}{table.3.6}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Prisma checklist}}{43}{table.3.7}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Quality assessment}}{45}{table.3.8}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces System prompts used in research}}{78}{table.Alph0.1}%
+\contentsline {table}{\numberline {1}{\ignorespaces System prompts used in research}}{56}{table.Alph0.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {A.1}{\ignorespaces Total Evaluation and Simple Accuracy across all 300 tested Hanafi Fiqh instances.}}{89}{table.A.1}%
-\contentsline {table}{\numberline {A.2}{\ignorespaces Detailed Cross-Category Performance Comparison illustrating model strength variations across fundamentally different logic domains.}}{90}{table.A.2}%
+\contentsline {table}{\numberline {A.1}{\ignorespaces Total Evaluation and Simple Accuracy across all 300 tested Hanafi Fiqh instances.}}{62}{table.A.1}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces Detailed Cross-Category Performance Comparison illustrating model strength variations across fundamentally different logic domains.}}{63}{table.A.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

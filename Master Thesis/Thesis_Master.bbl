@@ -1303,7 +1303,7 @@
     \verb https://www.sciencedirect.com/science/article/pii/S0360131519302775
     \endverb
     \field{volume}{145}
-    \field{journaltitle}{Computers & Education}
+    \field{journaltitle}{Computers \& Education}
     \field{year}{2020}
   \endentry
 
@@ -1326,7 +1326,7 @@
     \strng{fullhash}{GPSS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{booktitle}{2019 14th International Conference on Computer Science &
+    \field{booktitle}{2019 14th International Conference on Computer Science \&
   Education (ICCSE)}
     \verb{doi}
     \verb 10.1109/ICCSE.2019.8845364

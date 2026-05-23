@@ -1,27 +1,27 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Raw data in CSV format}}{18}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Code for processing data}}{19}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Code for generating training data}}{21}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Code for model training}}{22}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Model output visualized via displacy}}{23}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Code for model assessment}}{23}{figure.2.6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Raw data in CSV format}}{12}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Code for processing data}}{13}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Code for generating training data}}{14}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Code for model training}}{14}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Model output visualized via displacy}}{15}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Code for model assessment}}{16}{figure.2.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces SLR diagram}}{37}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Databases distribution}}{39}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Publishers distribution}}{40}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Years distribution}}{40}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces AI techniques used across papers}}{46}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Education type distribution}}{47}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces AI algorithms used across papers}}{47}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Metrics Categories.}}{49}{figure.3.8}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces SLR diagram}}{25}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Databases distribution}}{27}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Publishers distribution}}{28}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Years distribution}}{28}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces AI techniques used across papers}}{32}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Education type distribution}}{32}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces AI algorithms used across papers}}{33}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Metrics Categories.}}{35}{figure.3.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Separation of Sanad and Matn}}{71}{figure.4.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Gpt3.5 vs Gpt 4 Generated titles}}{78}{figure.Alph0.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces MMR search Results (Arabic)}}{79}{figure.Alph0.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces MMR search Results (English)}}{79}{figure.Alph0.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces similarity search Results (Arabic)}}{80}{figure.Alph0.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Prompts used for title generation using GPT3}}{80}{figure.Alph0.6}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Separation of Sanad and Matn}}{50}{figure.4.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Gpt3.5 vs Gpt 4 Generated titles}}{55}{figure.Alph0.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces MMR search Results (Arabic)}}{55}{figure.Alph0.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces MMR search Results (English)}}{56}{figure.Alph0.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces similarity search Results (Arabic)}}{56}{figure.Alph0.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Prompts used for title generation using GPT3}}{57}{figure.Alph0.6}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

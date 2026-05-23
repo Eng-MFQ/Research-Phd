@@ -16,15 +16,15 @@
 \usepackage{geometry}
 \usepackage[skip=10pt plus1pt, indent=20pt]{parskip}
 
-% Margin Configuration
-\geometry{a4paper, margin=1.25in}
+% Margin Configuration (GOST / Russian dissertation requirements)
+\geometry{a4paper, left=2.5cm, right=1cm, top=2cm, bottom=2cm}
 
 % Font Configuration for Arabic (XeLaTeX)
 \setmainfont{Times New Roman}
 \newfontfamily\arabicfont[Script=Arabic]{Arial Unicode MS}
 
-% Line Spacing
-\doublespacing
+% Line Spacing (1.5)
+\onehalfspacing
 \usepackage{titlesec}
 
 % Chapter Header Spacing (increases page volume)
@@ -39,19 +39,19 @@
 \newcommand{\institute}[1]{}
 \newcommand{\IEEEauthorblockA}[1]{}
 \newcommand{\IEEEauthorblockN}[1]{}
-\newcommand{\and}{\unskip, }
+\renewcommand{\and}{\unskip, }
 \newenvironment{IEEEkeywords}{\noindent\textbf{Keywords:}\space}{\par}
 
 % Unified Bibliography
 \addbibresource{thesis_master.bib}
 
-% Formatting
+% Formatting — all links rendered in black per dissertation requirements
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    citecolor=blue,
+    linkcolor=black,
+    filecolor=black,
+    urlcolor=black,
+    citecolor=black,
 }
 
 \title{\textbf{Large Language Models in Islamic Jurisprudence: A Multi-Method Framework for Hadith Authentication and Hanafi Fatwa Synthesis}}
@@ -60,41 +60,25 @@
 
 \begin{document}
 
+% Title page: no page number; numbering continues from page 2 on the next page
+\pagenumbering{arabic}
+\begin{titlepage}
+\thispagestyle{empty}
 \maketitle
-
-\chapter*{Statement of Originality}
-I hereby declare that this dissertation is my own work and that, to the best of my knowledge and belief, it contains no material previously published or written by another person, except where due acknowledgment has been made in the text.
-
-\vspace{2cm}
-\noindent\underline{\hspace{5cm}} \\
-Muwaffaq imam \\
-\today
+\end{titlepage}
+\setcounter{page}{2}
 
 \chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
 I would like to express my deepest gratitude to all those who have supported me throughout this journey. This research would not have been possible without the guidance of my supervisors, the collaboration of my research peers, and the unwavering support of my family and friends. Specifically, I would like to thank the domain experts and scholars who contributed their invaluable expertise to the validation of the Agentix Islam framework.
 
-\begin{abstract}
-The rapid paradigm shift from traditional Machine Learning toward Generative Large Language Models (LLMs) has profoundly disrupted educational technology. However, deploying Generative AI in highly specialized, authoritative domains—such as Islamic Jurisprudence (Fatawa) and classical Hadith sciences—presents severe risks, as model hallucination constitutes an unacceptable doctrinal failure. This dissertation investigates the complete evolutionary trajectory of AI in specialized education, beginning with baseline Natural Language Processing (NLP) applications for text extraction and a Systematic Literature Review mapping pre-generative educational AI. Recognizing that base LLMs cannot natively satisfy the zero-hallucination requirement of Islamic theology (proven via an empirical LLM-as-a-judge experiment yielding $<50\%$ accuracy on Hanafi jurisprudence), this research engineers a systemic solution: the "Agentix Islam RAG" framework. By creating entirely new structured datasets (the Ahadith Authenticity Dataset and the Hanafi Fatwa Dataset), establishing strict Table of Contents (TOC) hierarchy embeddings, and utilizing context-compressed Retrieval-Augmented Generation (RAG), the system effectively forces generative models to reason strictly within authoritative classical texts. The deployed agentic architecture successfully answered over 4,000 real-world theological queries with complete doctrinal accuracy, demonstrating that strict computational guardrails can successfully align advanced AI with zero-tolerance religious domains.
-\end{abstract}
-
 \tableofcontents
-\newpage
-\listoffigures
-\newpage
-\listoftables
-\newpage
-
-\chapter*{List of Abbreviations}
-\begin{tabular}{ll}
-AI & Artificial Intelligence \\
-LLM & Large Language Model \\
-NLP & Natural Language Processing \\
-RAG & Retrieval-Augmented Generation \\
-SLR & Systematic Literature Review \\
-API & Application Programming Interface \\
-TOC & Table of Contents \\
-JSON & JavaScript Object Notation \\
-\end{tabular}
+% Pre-declare the back-matter lists in the Table of Contents so the reader
+% knows they appear after the Bibliography.
+\addcontentsline{toc}{chapter}{Bibliography}
+\addcontentsline{toc}{chapter}{List of Figures}
+\addcontentsline{toc}{chapter}{List of Tables}
+\addcontentsline{toc}{chapter}{List of Abbreviations}
 \newpage
 
 \chapter{Introduction}
@@ -213,5 +197,26 @@ However, by rigorously structuring classical Arabic text, isolating structural c
 
 \newpage
 \printbibliography
+
+% ---------------------------------------------------------
+% BACK MATTER — appears after the Bibliography
+% ---------------------------------------------------------
+\newpage
+\listoffigures
+\newpage
+\listoftables
+\newpage
+
+\chapter*{List of Abbreviations}
+\begin{tabular}{ll}
+AI & Artificial Intelligence \\
+LLM & Large Language Model \\
+NLP & Natural Language Processing \\
+RAG & Retrieval-Augmented Generation \\
+SLR & Systematic Literature Review \\
+API & Application Programming Interface \\
+TOC & Table of Contents \\
+JSON & JavaScript Object Notation \\
+\end{tabular}
 
 \end{document}
