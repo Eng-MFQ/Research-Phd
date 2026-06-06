@@ -361,8 +361,6 @@ The main research results are reflected in the following publications, documenti
 
 1.  **A Hadith AI: Applying Generative AI and Semantic Search to Enhance Hadith Search Retrieval and Listings** — Accepted and presented at the 19th KES International Conference on Agent and Multi-Agent Systems (KES-AMSTA 2025), June 2025. *Scopus-indexed.*
 2.  **Artificial Intelligence for Enhancing the Quality of Higher Education in Both Online or Offline: A Systematic Literature Review** — Accepted and presented at the 19th KES International Conference on Agent and Multi-Agent Systems (KES-AMSTA 2025), June 2025. *Scopus-indexed.*
-3.  **Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries** — Currently under submission to Scopus-indexed conference proceedings.
-
-Bibliographic references in the text of the dissertation are formatted in accordance with GOST R 7.0.5-2008 (SIBID. Bibliographic reference. General requirements and rules for compilation). Bibliographic entries in the present list are formatted in accordance with GOST 7.1-2003 (SIBID. Bibliographic entry. Bibliographic description. General requirements and rules for compilation).
+3.  **Fatawa AI: Evaluating LLM Reliability and Accuracy for Islamic Jurisprudence Queries** — Currently under submission to Scopus-indexed conference proceedings. and I will chenge plan to make it a K1 with Speciliztion 1.1.2 to match the Candidate of scinece requirement.
 
 ---
