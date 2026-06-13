@@ -1,0 +1,56 @@
+{
+  "description": "Public QA-only release of the Fatawa AI Hanafi jurisprudence benchmark.",
+  "language": "ar",
+  "rows": 298,
+  "unique_source_ids": 298,
+  "files": [
+    "data/fatawa_ai_hanafi_qa_298.csv",
+    "data/fatawa_ai_hanafi_qa_298.jsonl"
+  ],
+  "public_release_includes": [
+    "benchmark_id",
+    "source_id",
+    "category_ar",
+    "category_en",
+    "subcategory_ar",
+    "title_ar",
+    "question_ar",
+    "reference_answer_ar"
+  ],
+  "excluded_from_public_release": [
+    "model-generated answers",
+    "LLM judge scores",
+    "judge prompts",
+    "API logs",
+    "usage or cost metadata",
+    "intermediate evaluation artifacts"
+  ],
+  "category_counts": [
+    {
+      "category_ar": "العبادات",
+      "category_en": "Acts of Worship",
+      "rows": 60
+    },
+    {
+      "category_ar": "الزواج والطلاق والنفقات",
+      "category_en": "Marriage, Divorce, and Expenditures",
+      "rows": 60
+    },
+    {
+      "category_ar": "الحظر والإباحة واللباس والزينة",
+      "category_en": "Prohibition, Dress, and Adornment",
+      "rows": 60
+    },
+    {
+      "category_ar": "الذكر والتزكية والأخلاق",
+      "category_en": "Remembrance, Purification, and Ethics",
+      "rows": 59
+    },
+    {
+      "category_ar": "المعاملات والأمانات",
+      "category_en": "Transactions and Trusts",
+      "rows": 59
+    }
+  ],
+  "license_status": "The dataset license must be set by the dataset owners before public release."
+}
