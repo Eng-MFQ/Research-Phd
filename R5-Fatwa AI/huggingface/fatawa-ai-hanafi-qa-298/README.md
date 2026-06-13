@@ -1,5 +1,6 @@
 ---
 pretty_name: Fatawa AI Hanafi QA Benchmark
+license: mit
 language:
 - ar
 task_categories:
@@ -85,4 +86,4 @@ This repository intentionally excludes model-generated answers, LLM judge scores
 
 ## License
 
-The dataset license must be set by the dataset owners before public release.
+This dataset is released under the MIT License. The initial Hugging Face repository may be kept private until the paper or accompanying release is ready.
