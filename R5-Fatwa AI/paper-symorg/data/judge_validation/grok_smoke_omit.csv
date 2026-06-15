@@ -1,4 +1,0 @@
-validation_pair_id,grok_model,provider_base_url,reasoning_effort,structured_output,grok_score,raw_grok_judgement,grok_usage_json
-Q001_A,x-ai/grok-4.3,https://openrouter.ai/api/v1,omit,True,0,"{
-  ""rating"": 0
-}","{""completion_tokens"": 1874, ""prompt_tokens"": 1073, ""total_tokens"": 2947, ""completion_tokens_details"": {""accepted_prediction_tokens"": null, ""audio_tokens"": 0, ""reasoning_tokens"": 1865, ""rejected_prediction_tokens"": null, ""image_tokens"": 0}, ""prompt_tokens_details"": {""audio_tokens"": 0, ""cached_tokens"": 128, ""cache_write_tokens"": 0, ""video_tokens"": 0}, ""cost"": 0.00589185, ""is_byok"": false, ""cost_details"": {""upstream_inference_cost"": 0.00589185, ""upstream_inference_prompt_cost"": 0.00120685, ""upstream_inference_completions_cost"": 0.004685}}"
